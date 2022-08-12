@@ -38,7 +38,7 @@
         
         <telerik:RadWindowManager ID="RadWindowManager1" VisibleRecordedDatebar="false"  OnClientShow="onRadWindowShow"  VisibleOnPageLoad="true" OnClientClose="RefreshParentPage" runat="server"></telerik:RadWindowManager>
         <fieldset id="Fieldset1">    
-                <asp:Label ID="lbltext" Text=" BlackMarketRate Information" runat="server"></asp:Label>
+                <asp:Label ID="lbltext" Text=" Black Market Rate Information" runat="server"></asp:Label>
         </fieldset>
     </div>
     <div class="InputPanel" >
