@@ -1,0 +1,432 @@
+body #ati-switcher-v2 {
+    background: #efefef;
+    border-left: 1px solid #ccc;
+    bottom: 0;
+    display: none;
+    position: fixed;
+    right: 0;
+    z-index: 10000000;
+}
+
+body #ati-switcher-v2 ul.apps li.root {
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    float: left;
+}
+
+body #ati-switcher-v2 ul.apps li.root a, body #ati-switcher-v2 ul.apps li.root span.name {
+    background-color: #dddddd;
+    background-image: -moz-linear-gradient(top, #f7f7f7, #dddddd);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#dddddd));
+    color: #333;
+    display: block;
+    font-size: 90%;
+    height: 13px;
+    padding: 6px 12px;
+    padding-top: 8px;
+    text-decoration: none;
+}
+
+body #ati-switcher-v2 ul.apps li.root a span.label { color: #999; }
+
+body #ati-switcher-v2 ul.apps li.root a:hover { background: #fff; }
+
+body #ati-switcher-v2 ul.apps li.root ul { display: none; }
+
+body #ati-switcher-v2 ul.apps li.support { border-right-color: #ddd; }
+
+body #ati-switcher-v2 ul.apps li.support a {
+    padding: 6px 6px;
+    padding-bottom: 8px;
+}
+
+body #ati-switcher-v2 ul.apps li.support a b {
+    background: url(../images/icons/tube.png) 0 0px;
+    display: block;
+    height: 16px;
+    text-indent: -4000000px;
+    width: 16px;
+}
+
+body #ati-switcher-v2 ul.apps li.support span {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    color: #fff;
+    display: none;
+    line-height: 1.5;
+    margin-left: -25px;
+    margin-top: -70px;
+    moz-border-radius: 4px;
+    padding: 4px 8px;
+    position: absolute;
+    webkit-border-radius: 4px;
+    width: 90px;
+    z-index: 2;
+}
+
+body #ati-switcher-v2 ul.apps li.support a:hover span { display: block; }
+
+body #ati-switcher-v2 ul.apps li.manage { border-right-color: #ddd; }
+
+body #ati-switcher-v2 ul.apps li.manage a {
+    padding: 6px 6px;
+    padding-bottom: 8px;
+}
+
+body #ati-switcher-v2 ul.apps li.manage a b {
+    background: url(../images/icons/id.png) 0 0px;
+    display: block;
+    height: 16px;
+    text-indent: -4000000px;
+    width: 16px;
+}
+
+body #ati-switcher-v2 ul.apps li.manage span {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    color: #fff;
+    display: none;
+    line-height: 1.5;
+    margin-left: -25px;
+    margin-top: -70px;
+    moz-border-radius: 4px;
+    padding: 4px 8px;
+    position: absolute;
+    webkit-border-radius: 4px;
+    width: 100px;
+    z-index: 2;
+}
+
+body #ati-switcher-v2 ul.apps li.manage a:hover span { display: block; }
+
+body #ati-switcher-v2 ul.apps li.ati {
+    background-color: #dddddd;
+    background-image: -moz-linear-gradient(top, #f7f7f7, #dddddd);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#dddddd));
+    border-right: 0;
+    padding: 6px 12px;
+    padding-left: 6px;
+}
+
+body #ati-switcher-v2 ul.apps li ul.assignments {
+    border: 1px solid #ccc;
+    border-top: 0;
+    bottom: 0;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 100%;
+    margin-left: -1px;
+    overflow: auto;
+    padding: 0;
+    position: fixed;
+    webkit-transition: all 1s ease-in-out;
+}
+
+body #ati-switcher-v2 ul.apps li ul.assignments li {
+    min-width: 180px;
+    overflow: hidden;
+}
+
+body #ati-switcher-v2 ul.apps li ul.assignments li a {
+    border-top: 1px solid #ccc;
+    color: #333;
+    display: block;
+    padding: 6px 4px;
+    text-decoration: none;
+}
+
+body #ati-switcher-v2 ul.apps li:hover ul.assignments {
+    bottom: 27px;
+    display: block;
+    margin-bottom: 0;
+}
+
+body #ati-switcher-v2 ul.apps li:hover ul.assignments:hover { display: block; }
+
+body .ati-space span.logo {
+    color: #333;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+body .ati-space span.logo b {
+    color: #54aad7;
+    font-weight: bold;
+}
+
+body #ati-login-reminder {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 12px;
+}
+
+body #ati-login-reminder a {
+    background: url(../images/icons/login.png) #ececec no-repeat 12px 12px;
+    background-color: #ececec;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    color: #333;
+    display: block;
+    padding: 12px;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+body #ati-login-reminder a:hover {
+    background-color: #ddd;
+    border-color: #bbb;
+}
+
+body #ati-login-reminder a p {
+    color: #777;
+    line-height: 1;
+    margin: 7px 0 0 0 !important;
+}
+
+body #ati-login-reminder a h4 {
+    font-size: 120%;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 0 5px 0 !important;
+}
+
+body #ati-card {
+    background: #efefef;
+    background-color: #efefef;
+    background-image: -moz-linear-gradient(top, white, #efefef);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#efefef));
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #cccccc;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 12px;
+    moz-border-radius: 5px;
+    moz-box-shadow: 0 0 5px #cccccc;
+    webkit-border-radius: 5px;
+    webkit-box-shadow: 0 0 5px #cccccc;
+}
+
+body #ati-card p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body #ati-card .start {
+    background: #dbedfa;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    moz-border-radius-topleft: 5px;
+    moz-border-radius-topright: 5px;
+    padding: 5px;
+    webkit-border-top-left-radius: 5px;
+    webkit-border-top-right-radius: 5px;
+}
+
+body #ati-card .start p {
+    color: #54aad7;
+    font-size: 90%;
+    margin: 0;
+}
+
+body #ati-card .card {
+    border-top: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+body #ati-card .card h4 span
+coloor: # 666;
+font-size: 80%
+
+;
+}
+body #ati-card .card h4 span a
+{
+	color: #666;
+}
+body #ati-card .card p.name
+{
+	color: #666;
+	font-size: 90t: 70px !important;
+}
+body #ati-card .card h4
+{
+	font-size: 140%;
+	margin-bottom: 3px;
+}
+body #ati-card .card h4 span
+{
+	color: #666;
+	font-size: 80%;
+}
+body #ati-card .card h4 span a
+{
+	color: #666;
+}
+body #ati-card .card p.name
+{
+	color: #666;
+	font-size: 90%;
+}
+body #ati-card .card .image
+{
+	float: left;
+}
+body #ati-card .card .image img
+{
+	background: #fff;
+	box-shadow: 0 0 3px #999999;
+	moz-box-shadow: 0 0 3px #999999;
+	padding: 3px;
+	webkit-box-shadow: 0 0 3px #999999;
+}
+body #ati-card .card ul
+{
+	border-top: 1px dotted #ccc;
+	font-size: 90%;
+	line-height: 1.5;+
+	margin: 0;
+	margin-left: 5px;
+	margin-top: 5px;
+	padding: 0;
+	padding-top: 4px;
+}
+body #ati-card .card ul li
+{
+	letter-spacing: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+body #ati-card .card ul li a
+{
+	background-position: 0 1px;
+	background-repeat: no-repeat;
+	color: #888;
+	padding-left: 10px;
+}
+body #ati-card .card ul li.name a
+{
+	background-image: url(../images/icons/user.png);
+}
+body #ati-card .card ul li.pw a
+{
+	background-image: url(../images/icons/password.png);
+}
+body #ati-card .card ul li.email a
+{
+	background-image: url(../images/icons/emails.png);
+}
+body #ati-card .card ul li a:hover
+{
+	color: #555;
+}
+body #ati-promote-bar
+{
+	background-color: #cccccc;
+	background-image: -moz-linear-gradient(top, white, #dadada);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#dadada));
+	border-bottom: 1px solid #aaa;
+	color: #333;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 12px;
+	overflow: hidden;
+	padding: 0 50px;
+}
+body #ati-promote-bar div.left
+{
+	float: left;
+	width: 76%;
+}
+body #ati-promote-bar div.left .inner
+{
+	background: url(../images/lock2.png) no-repeat 0 5px;
+	padding-left: 85px;
+	padding-top: 10px;
+}
+body #ati-promote-bar p
+{
+	margin: 0;
+	padding: 0;
+}
+body #ati-promote-bar p.header
+{
+	font-size: 130%;
+	font-weight: bold;
+	line-height: 1.3;
+}
+body #ati-promote-bar p.small
+{
+	color: #666;
+	font-size: 90%;
+	line-height: 1.4;
+	margin-top: 3px;
+	padding-bottom: 6px;
+}
+body #ati-promote-bar .buttons
+{
+	float: right;
+	margin-top: 13px;
+	text-align: right;
+	width: 20%;
+}
+body #ati-promote-bar .buttons a.button
+{
+	background: #1e6da0;
+	background-color: #4387b2;
+	background-image: -moz-linear-gradient(top, #4387b2, #1e6da0);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#4387b2), to(#1e6da0));
+	border: 1px solid #1e6da0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	float: right;
+	font-size: 120%;
+	font-weight: bold;
+	margin-left: 10px;
+	moz-border-radius: 5px;
+	padding: 6px 13px;
+	text-align: center;
+	text-decoration: none;
+	webkit-border-radius: 5px;
+	width: 120px;
+}
+body #ati-promote-bar .buttons a.button:hover
+{
+	background: #1e6da0;
+}
+body #ati-promote-bar .buttons p.skip
+{
+	clear: both;
+	color: #777;
+	font-size: 80%;
+	padding-right: 6px;
+	padding-top: 4px;
+}
+body #ati-promote-bar .buttons p.skip a
+{
+	color: #777;
+}
+body .ati-login-banner
+{
+	background-color: #efefef;
+	background-image: -moz-linear-gradient(left, #efefef, white);
+	background-image: -webkit-gradient(linear, left top, right top, from(#efefef), to(white));
+	border-radius: 5px;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 11px;
+	moz-border-radius: 5px;
+	padding: 7px;
+	webkit-border-radius: 5px;
+}
+body .ati-login-banner p
+{
+	background: url(../images/icons/login.png) no-repeat 0 -1px;
+	margin: 0;
+	padding: 1px 0;
+	padding-left: 22px;
+}
+body .ati-login-banner p a
+{
+	color: #777;
+	margin-left: 2px;
+}

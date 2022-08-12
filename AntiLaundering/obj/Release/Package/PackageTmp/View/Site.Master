@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CBEBirrManage.View.SiteMaster" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="/View/images/fav.ico" rel="icon" style="" />
+    <link href="/View/css/button.css" rel="stylesheet" type="text/css" />
+    <link href="/View/css/jquery-bubble-popup-v3.css" rel="stylesheet" type="text/css" />
+    <link href="/View/css/jquery-ui-1.8.10.hackarada.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/icons.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/prettify.css" />
+    <link href="css/application.css" rel="stylesheet" type="text/css" />
+    <link href="css/template.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/View/css/style.css" media="screen, print" />
+    <link href="/View/css/ui.css" rel="stylesheet" type="text/css" />
+    <%--     <script src="Calendar/KAMSI_CAL_SCRIPT.js" type="text/javascript"></script>
+    <link href="Calendar/KAMSI_CAL_STYLE.css" rel="stylesheet" type="text/css" />--%>
+    <%--<script type="text/javascript" src="~/View/Scripts/jquery-1.4.1.min.js"> </script>--%>
+    <script type="text/javascript">
+        //<!--
+        $(document).ready(function () {
+            // Textarea auto expand
+            $('textarea:not(textarea[name="theme[theme][full_css]"],.noresize)');
+
+            // Global system tooltip
+            $('.tooltip').hover(function () {
+                var tipmessage = $(this).attr('rel');
+                $('.tooltip').HideAllBubblePopups();
+
+                $(this).CreateBubblePopup({
+                    position: 'right',
+                    align: 'center',
+                    innerHtml: tipmessage,
+                    innerHtmlStyle: {
+                        color: '#000000',
+                        'text-align': 'left',
+                        'max-width': '350px'
+                    },
+                    themeName: 'clearbooks',
+                    themePath: "https://secure.clearbooks.co.uk/theme/js/jquerybubblepopup/theme",
+                    themeMargins: { total: '3px', difference: '0px' }
+                });
+            });
+
+        });
+        //-->
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="padding-left:8px">
+    <form id="Form1" runat="server">
+        <div class="page" style="width: 100%;">
+            <div class="header">
+                <div class="title">
+                    <h1>
+                        <%--   FleetMS Management System --%>
+                    </h1>
+                </div>
+
+                <div class="clear hideSkiplink">
+                    <telerik:RadScriptManager ID="RadScriptManager2" runat="server">
+                    </telerik:RadScriptManager>
+
+
+                </div>
+            </div>
+            <br />
+            <div class="main" >
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+            <div class="clear" >
+            </div>
+        </div>
+        <div class="footer" >
+        </div>
+    </form>
+</body>
+</html>

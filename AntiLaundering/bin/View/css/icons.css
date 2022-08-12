@@ -1,0 +1,383 @@
+/* Sprite Sets */
+
+.icon {
+    background-image: url('images/icons/sprites.png');
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 2px;
+    text-indent: -9999px;
+    width: 16px;
+}
+
+.icon-disabled {
+    background-image: url('images/icons/sprites-disabled.png');
+    display: block;
+    float: left;
+    height: 16px;
+    margin-right: 2px;
+    text-indent: -9999px;
+    width: 16px;
+}
+
+
+/* Enabled Icons */
+
+.icon.accept { background-position: -524px -16px; }
+
+.icon.add { background-position: -508px -16px; }
+
+.icon.ajax-loader { background-position: -492px -16px; }
+
+.icon.arrow_refresh { background-position: -428px -16px; }
+
+.icon.arrow_refresh_small { background-position: -284px -0px; }
+
+.icon.attach { background-position: -348px -0px; }
+
+.icon.book { background-position: -76px -18px; }
+
+.icon.bullet_go { background-position: -92px -0px; }
+
+.icon.cancel { background-position: -92px -16px; }
+
+.icon.cart_go { background-position: -108px -0px; }
+
+.icon.chart_bar { background-position: -108px -16px; }
+
+.icon.chart_line { background-position: -124px -0px; }
+
+.icon.clock { background-position: -124px -16px; }
+
+.icon.computer_go { background-position: -140px -0px; }
+
+.icon.control_record { background-position: -140px -16px; }
+
+.icon.control_record_stop { background-position: -156px -0px; }
+
+.icon.control_stop { background-position: -156px -16px; }
+
+.icon.credit-note { background-position: -172px -0px; }
+
+.icon.cross { background-position: -172px -16px; }
+
+.icon.database_table { background-position: -188px -0px; }
+
+.icon.doc_convert { background-position: -188px -16px; }
+
+.icon.email { background-position: -204px -0px; }
+
+.icon.email_attach { background-position: -204px -16px; }
+
+.icon.email_error { background-position: -220px -0px; }
+
+.icon.email_go { background-position: -220px -16px; }
+
+.icon.email_link { background-position: -236px -0px; }
+
+.icon.email_open { background-position: -236px -16px; }
+
+.icon.entity_add { background-position: -252px -0px; }
+
+.icon.error-png { background-position: -268px -0px; }
+
+.icon.exclamation { background-position: -524px -0px; }
+
+.icon.exclamation { background-position: -268px -16px; }
+
+.icon.film { background-position: -284px -16px; }
+
+.icon.help {
+    background-position: -588px -14px;
+    height: 11px !important;
+    width: 11px !important;
+}
+
+.icon.help { background-position: -300px -16px; }
+
+.icon.html { background-position: -316px -0px; }
+
+.icon.information { background-position: -316px -16px; }
+
+.icon.lock { background-position: -332px -0px; }
+
+.icon.lock_open { background-position: -332px -16px; }
+
+.icon.magnifier {
+    background-position: -76px -0px;
+    height: 18px !important;
+}
+
+.icon.money { background-position: -348px -16px; }
+
+.icon.money_delete { background-position: -364px -0px; }
+
+.icon.page { background-position: -364px -16px; }
+
+.icon.page-edit { background-position: -380px -0px; }
+
+.icon.page-new { background-position: -380px -16px; }
+
+.icon.page_attach { background-position: -396px -0px; }
+
+.icon.page_bill { background-position: -396px -16px; }
+
+.icon.page_copy { background-position: -412px -0px; }
+
+.icon.page_go { background-position: -412px -16px; }
+
+.icon.pdf {
+    background-position: -572px -16px;
+    width: 15px !important;
+}
+
+.icon.pdf_big {
+    background-position: -0px -0px;
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.icon.pencil_add { background-position: -444px -0px; }
+
+.icon.pencil_go { background-position: -444px -16px; }
+
+.icon.preview { background-position: -460px -0px; }
+
+.icon.printer { background-position: -460px -16px; }
+
+.icon.quote-new {
+    background-position: -588px -0px;
+    height: 14px !important;
+    width: 15px !important;
+}
+
+.icon.refund { background-position: -476px -16px; }
+
+.icon.ruler_triangle { background-position: -492px -0px; }
+
+.icon.search {
+    background-position: -40px -0px;
+    height: 18px !important;
+    width: 18px !important;
+}
+
+.icon.sort {
+    background-position: -588px -25px;
+    height: 9px !important;
+    width: 5px !important;
+}
+
+.icon.source_announcements {
+    background-position: -40px -18px;
+    height: 18px !important;
+    width: 18px !important;
+}
+
+.icon.source_blog {
+    background-position: -58px -18px;
+    height: 18px !important;
+    width: 18px !important;
+}
+
+.icon.source_devfeed {
+    background-position: -58px -0px;
+    height: 18px !important;
+    width: 18px !important;
+}
+
+.icon.table_multiple { background-position: -540px -0px; }
+
+.icon.table_save { background-position: -540px -16px; }
+
+.icon.tag { background-position: -556px -0px; }
+
+.icon.tick { background-position: -556px -16px; }
+
+.icon.time { background-position: -508px -0px; }
+
+.icon.view { background-position: -476px -0px; }
+
+.icon.void { background-position: -428px -0px; }
+
+.icon.void-copy { background-position: -300px -0px; }
+
+.icon.world { background-position: -572px -0px; }
+
+
+/* Disabled Icons */
+
+.icon-disabled.accept { background-position: -1010px -0px; }
+
+.icon-disabled.add { background-position: -370px -0px; }
+
+.icon-disabled.arrow_refresh { background-position: -34px -0px; }
+
+.icon-disabled.arrow_refresh_small { background-position: -50px -0px; }
+
+.icon-disabled.attach { background-position: -66px -0px; }
+
+.icon-disabled.attachment { background-position: -82px -0px; }
+
+.icon-disabled.book { background-position: -98px -0px; }
+
+.icon-disabled.bullet_go { background-position: -114px -0px; }
+
+.icon-disabled.cancel { background-position: -130px -0px; }
+
+.icon-disabled.cart_go { background-position: -146px -0px; }
+
+.icon-disabled.chart_bar { background-position: -162px -0px; }
+
+.icon-disabled.chart_line { background-position: -178px -0px; }
+
+.icon-disabled.clock { background-position: -194px -0px; }
+
+.icon-disabled.close { background-position: -210px -0px; }
+
+.icon-disabled.comment { background-position: -226px -0px; }
+
+.icon-disabled.companieshouse_doc { background-position: -242px -0px; }
+
+.icon-disabled.computer_go { background-position: -258px -0px; }
+
+.icon-disabled.control_record { background-position: -274px -0px; }
+
+.icon-disabled.control_record_stop { background-position: -290px -0px; }
+
+.icon-disabled.control_stop { background-position: -306px -0px; }
+
+.icon-disabled.credit-note { background-position: -322px -0px; }
+
+.icon-disabled.cross { background-position: -338px -0px; }
+
+.icon-disabled.database_table { background-position: -354px -0px; }
+
+.icon-disabled.disk { background-position: -738px -0px; }
+
+.icon-disabled.doc_convert { background-position: -386px -0px; }
+
+.icon-disabled.email_attach { background-position: -402px -0px; }
+
+.icon-disabled.email { background-position: -418px -0px; }
+
+.icon-disabled.email_go { background-position: -434px -0px; }
+
+.icon-disabled.entity_add { background-position: -450px -0px; }
+
+.icon-disabled.entity { background-position: -466px -0px; }
+
+.icon-disabled.error { background-position: -498px -0px; }
+
+.icon-disabled.error { background-position: -482px -0px; }
+
+.icon-disabled.exclamation { background-position: -514px -0px; }
+
+.icon-disabled.exclamation { background-position: -530px -0px; }
+
+.icon-disabled.film2 { background-position: -546px -0px; }
+
+.icon-disabled.film { background-position: -562px -0px; }
+
+.icon-disabled.getsatisfaction { background-position: -578px -0px; }
+
+.icon-disabled.group { background-position: -594px -0px; }
+
+.icon-disabled.help2 { background-position: -610px -0px; }
+
+.icon-disabled.help { background-position: -642px -0px; }
+
+.icon-disabled.help {
+    background-position: -1200px -0px;
+    height: 11px !important;
+    width: 11px !important;
+}
+
+.icon-disabled.html { background-position: -658px -0px; }
+
+.icon-disabled.information { background-position: -674px -0px; }
+
+.icon-disabled.key { background-position: -690px -0px; }
+
+.icon-disabled.lock { background-position: -706px -0px; }
+
+.icon-disabled.lock_open { background-position: -722px -0px; }
+
+.icon-disabled.magnifier {
+    background-position: -18px -0px;
+    height: 18px !important;
+}
+
+.icon-disabled.money_delete { background-position: -754px -0px; }
+
+.icon-disabled.money { background-position: -770px -0px; }
+
+.icon-disabled.page-edit { background-position: -786px -0px; }
+
+.icon-disabled.page-new { background-position: -802px -0px; }
+
+.icon-disabled.page_attach { background-position: -818px -0px; }
+
+.icon-disabled.page_bill { background-position: -834px -0px; }
+
+.icon-disabled.page_copy { background-position: -850px -0px; }
+
+.icon-disabled.page { background-position: -866px -0px; }
+
+.icon-disabled.page_go { background-position: -882px -0px; }
+
+.icon-disabled.page_quote { background-position: -898px -0px; }
+
+.icon-disabled.pdf {
+    background-position: -1170px -0px;
+    width: 15px !important;
+}
+
+.icon-disabled.pencil_add { background-position: -930px -0px; }
+
+.icon-disabled.preview { background-position: -946px -0px; }
+
+.icon-disabled.printer { background-position: -962px -0px; }
+
+.icon-disabled.quote-new {
+    background-position: -1185px -0px;
+    height: 14px !important;
+    width: 15px !important;
+}
+
+.icon-disabled.refund { background-position: -994px -0px; }
+
+.icon-disabled.search {
+    background-position: -0px -0px;
+    height: 18px !important;
+    width: 18px !important;
+}
+
+.icon-disabled.sort {
+    background-position: -1211px -0px;
+    height: 9px !important;
+    width: 5px !important;
+}
+
+.icon-disabled.star-half { background-position: -1042px -0px; }
+
+.icon-disabled.star-off { background-position: -1058px -0px; }
+
+.icon-disabled.star-on { background-position: -1074px -0px; }
+
+.icon-disabled.table_multiple { background-position: -1090px -0px; }
+
+.icon-disabled.table_save { background-position: -1106px -0px; }
+
+.icon-disabled.tag { background-position: -1122px -0px; }
+
+.icon-disabled.tick { background-position: -1138px -0px; }
+
+.icon-disabled.time { background-position: -1026px -0px; }
+
+.icon-disabled.view { background-position: -978px -0px; }
+
+.icon-disabled.void-copy { background-position: -914px -0px; }
+
+.icon-disabled.void { background-position: -626px -0px; }
+
+.icon-disabled.world { background-position: -1154px -0px; }

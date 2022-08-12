@@ -1,0 +1,577 @@
+﻿/*
+ * Global Font styles used throughout the site. Uses the bullet-proof smiley face hack to prevent the browser from
+ * loading a local font-style which may have the same name as the font we are loading, but may differ in style.
+ */
+
+@font-face {
+    font-family: MyriadPro;
+    src: url('fonts/myriadpro.eot');
+    src: local('☺'),
+         url("fonts/myriadpro.woff") format("woff"),
+         url("fonts/myriadpro.ttf") format("truetype"),
+         url("fonts/myriadpro.svg#MyriadPro") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: MyriadPro-Bold;
+    src: url('fonts/myriadpro-bold.eot');
+    src: local('☺'),
+         url("fonts/myriadpro-bold.woff") format("woff"),
+         url("fonts/myriadpro-bold.ttf") format("truetype"),
+         url("fonts/myriadpro-bold.svg#MyriadPro-Bold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: MyriadPro-Italic;
+    src: url('fonts/myriadpro-italic.eot');
+    src: local('☺'),
+         url("fonts/myriadpro-italic.woff") format("woff"),
+         url("fonts/myriadpro-italic.ttf") format("truetype"),
+         url("fonts/myriadpro-italic.svg#MyriadPro-Italic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+    /*
+ * The follow CSS is used for the global site structure...
+ */
+
+
+
+
+
+
+
+
+
+pre { margin-bottom: 15px; }
+
+/*
+* Create a pure CSS arrow (used by the drop_buttons and other elements)
+*
+* In Internet Explorer, The"border-style: dashed" will never be
+* rendered unless "(width * 5) >= border-width" is true.
+* Since "width" is set to "0", the "dashed-border" remains
+* invisible to the user, which renders the border just like how
+* "border-color: transparent" renders.
+*/
+
+.arrow {
+    border-color: transparent;
+    border-style: dashed;
+    border-width: 0.53em;
+    display: -moz-inline-box;
+    display: inline-block;
+    /* Use font-size to control the size of the arrow. */
+    font-size: 100px;
+    height: 0;
+    line-height: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 0;
+}
+
+
+
+
+/* Main Content */
+
+#content2 {
+    padding: 20px 0 35px;
+    /*width: 100%;*/
+    position: relative;
+}
+
+#content2 a:hover { text-decoration: underline; }
+
+#content2 p {
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+#content2 ul,
+#content2 ol { margin: 0 0 20px 25px; }
+
+#content2 dl {
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+#content2 dl dt { font-weight: bold; }
+
+#content2 dl dd { margin-left: 20px; }
+
+/* Headings */
+
+#contents h1 {
+    color: #038bd9;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#content2 h1 {
+    color: #038bd9;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#content h1 {
+    color: #038bd9;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#content2 h1.purchases { color: #CC0000; }
+
+h2 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#content2 h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#content2 h4 {
+    color: #038BD9;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#content2 p.subheading {
+    color: #828282;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 20px 20px;
+    margin-bottom: 15px;
+}
+
+form fieldset.inline-display-group ul li {
+    display: inline;
+    margin-right: 5px;
+    width: auto;
+}
+
+div.inline-form form fieldset legend { display: none; }
+
+div.inline-form form fieldset li {
+    border: none;
+    margin: 0px 0px 5px 0px;
+    padding: 0px 5px 0px 0px;
+    width: auto;
+}
+
+div.inline-form input, div.inline-form button, div.inline-form select, div.inline-form label {
+    height: 24px;
+    width: auto;
+}
+
+div.inline-form ul { margin-bottom: 5px!important; }
+
+/*div.inline-form form {
+    margin-bottom:20px;
+}*/
+
+div.section_inner div.inline-form:last-child form { margin-bottom: -12px; /* make things more compact its the last thing in the div */ }
+
+div.inline-form label {
+    max-height: 24px;
+    padding: 5px 5px 0 0;
+}
+
+div.inline-form label:after { content: ":"; }
+
+/* Inline HR Forms */
+
+form#hr_inline_form ul {
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+form#hr_inline_form button[type=submit], form#hr_inline_form li { display: inline !important; }
+
+select#filter_employee_id, select#filter_client_id, select#filter_project_id, select#filter_task_id { width: 120px; }
+
+select#filter_billed { width: 85px; }
+
+input#from, input#to { width: 85px; }
+
+/* Columns */
+
+.columns {
+    overflow: hidden;
+    width: 100%;
+}
+
+.column { width: 28%; }
+
+.column.left { float: left; }
+
+.column.right { float: right;
+    height: 174px;
+}
+
+.column.left .inner { padding-right: 30px; }
+
+.column.right .inner {
+    padding: 0 30px 0 20px;
+    text-align: left;
+}
+
+.column.narrow { width: 150px; }
+
+.column.narrow ul {
+    font-size: 14px;
+    font-weight: bold;
+    list-style: none;
+    margin: 0px !important;
+    text-align: right;
+}
+
+.column.narrow ul li {
+    float: left;
+    width: 100%;
+}
+
+.column.narrow ul li a {
+    color: #666;
+    display: block;
+    padding: 7px 20px;
+}
+
+.column.narrow ul li a:hover, .column.narrow ul li.selected a {
+    color: #333;
+    text-decoration: none;
+}
+
+.column.narrow ul li.selected a, .column.narrow ul li.selected a:hover { background: #f5f5f5 url(../images/structure/current.gif) 10px center no-repeat; }
+
+.column.wide { width: 710px; }
+
+.column.wide .wide_inner {
+    border-left: 4px solid #f5f5f5;
+    padding-left: 30px;
+}
+
+.column.wide h1 {
+    color: #333;
+    font-size: 26px;
+    margin: 0;
+}
+
+.column.wide p.subheading {
+    font-weight: normal;
+    margin-left: 0;
+}
+
+/* Sections */
+
+.section {
+    background: white url(../images/upper.gif) 0 0 no-repeat;
+    position: relative;
+}
+
+.section .section_inner {
+    background: url(../images/lower.gif) bottom left no-repeat;
+    overflow: hidden;
+    padding: 25px 25px 29px;
+    width: 790px;
+}
+
+.columns .section {
+    background-image: url(../images/upper_column.gif);
+    margin-bottom: 20px;
+}
+
+.columns .section .section_inner {
+    background-image: url(../images/lower_column.gif);
+    margin-right: 10px;
+    width: auto;
+}
+
+
+
+.section_inner h2 {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: #0099cc;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    padding: 7px 10px;
+    width: 880px;
+}
+
+h2.black { background-color: #333; }
+
+h2.red { background-color: #cc0000; }
+
+h2.yellow { background-color: #f6b61d; }
+
+h2.white {
+    background: #ffffff;
+    color: #008BD9;
+}
+
+h2.grey {
+    background: #DEDEDE;
+    color: #000000;
+}
+
+.column .section .section_content { padding: 10px; }
+
+.column.left .section { margin-right: 10px; }
+
+.column.right .section { margin-left: 10px; }
+
+/* Horizontal List */
+
+#content2 ul.horizontal {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+#content2 ul.horizontal li {
+    float: left;
+    margin-bottom: 0;
+    width: 24.5%;
+}
+
+#content2 ul.horizontal li .list_inner {
+    border-right: 5px solid #f5f5f5;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+ul.horizontal li h4 { margin-bottom: 5px; }
+
+#content2 ul.horizontal li p { margin: 5px 0; }
+
+/* Standard Form */
+
+#content2 form ol {
+    list-style: none;
+    margin: 0;
+}
+
+#content2 form ol li {
+    overflow: hidden;
+    width: 100%;
+}
+
+#content2 form ol li label {
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 7px 20px 7px 0;
+    width: 100px;
+}
+
+#content2 form ol li label.required { background: url(../images/structure/form/required.gif) right center no-repeat; }
+
+#content2 form ol li input,
+#content2 form ol li textarea {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #CCC;
+    border-color: #777 #CCC #CCC #777;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 5px;
+    width: 200px;
+}
+
+#content2 form ol li textarea {
+    height: 120px;
+    width: 280px;
+}
+
+
+
+/* Image Alignment */
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+p img {
+    max-width: 100%;
+    padding: 0;
+}
+
+img.centered,
+img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.alignright {
+    display: inline;
+    margin: 0 0 2px 7px;
+    padding: 4px;
+}
+
+img.alignleft {
+    display: inline;
+    margin: 0 7px 2px 0;
+    padding: 4px;
+}
+
+.alignright { float: right; }
+
+.alignleft { float: left }
+
+.faded { color: #999; }
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    button.blue span,
+    button.green span,
+    button.yellow span,
+    button.white span,
+    button.red span,
+    button.disabled span { margin-top: -1px; }
+}
+
+
+
+/* Data List Table */
+
+div.table {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #f5f5f5;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+div.table.report { overflow-x: scroll; }
+
+table.data {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.data th {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px;
+    text-align: center;
+}
+
+table.data td {
+    font-size: 12px;
+    padding: 4px;
+    text-align: center;
+}
+
+table.data td.forcast_input_field { padding: 4px 1px 4px 0px; }
+
+table.data td input { font-size: 11px }
+
+table.data th.left,
+table.data td.left { text-align: left; }
+
+table.data th.right,
+table.data td.right { text-align: right; }
+
+table.data thead th {
+    background: #35ACDE url(../images/header/menu/lower.gif) 0 0 repeat-x;
+    border-right: 1px solid white;
+    color: white;
+}
+
+table.data thead th a {
+    color: #e4e4e4;
+    font-weight: normal;
+}
+
+table.data thead tr.subheading th {
+    background: #f5f5f5;
+    border-bottom: 1px solid #e4e4e4;
+    color: #333;
+}
+
+table.data tbody td,
+table.data tbody th {
+    border-bottom: 1px dotted #CCC;
+    border-right: 1px solid white;
+}
+
+table.data tbody tr.alt td,
+table.data tbody tr.alt th { background-color: #fafafa; }
+
+table.data tbody tr.highlight td,
+table.data tbody tr.highlight th {
+    background-color: #E5F4FF;
+    border-bottom-color: white;
+}
+
+table.left tbody td,
+table.left th { text-align: left; }
+
+/* See money-manage. Force bank boxes to be 160px */
+
+td.money-manage-bank select { width: 160px; }
+
+
+
+/* Global tooltips */
+
+.tooltip {
+    cursor: help;
+    height: 11px;
+    margin: 0px 0px 0px 8px;
+    position: relative;
+    top: 4px;
+    width: 11px;
+}
+
+label .tooltip { top: 0px; }
+
+
+
+
+#sidebar {
+    background: white url(../images/sidebar/upper.jpg) 0 0 no-repeat;
+    float: right;
+    width: 270px;
+}
+
+#sidebar ul {
+    color: #999;
+    list-style: none;
+    margin: 0;
+}
+
+#sidebar ul h2 {
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+#sidebar ul h2 span {
+    background: #058EC8 url(../images/sidebar/heading.jpg) top right no-repeat;
+    float: left;
+    padding: 5px 20px;
+}
+
+div.autoCompleteBox { display: inline-block; }
+
+div.hide div.form_dynamic fieldset li { width: 90%; }

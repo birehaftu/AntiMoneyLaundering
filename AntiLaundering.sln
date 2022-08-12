@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUserManagement", "MyUserManagement\MyUserManagement.csproj", "{681E20A1-CA3D-4F89-BC9B-DB88461EF6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntiLaundering", "AntiLaundering\AntiLaundering.csproj", "{4AD26B3B-250F-4592-A448-775FCB4B0E74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{681E20A1-CA3D-4F89-BC9B-DB88461EF6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681E20A1-CA3D-4F89-BC9B-DB88461EF6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681E20A1-CA3D-4F89-BC9B-DB88461EF6A4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{681E20A1-CA3D-4F89-BC9B-DB88461EF6A4}.Debug|x86.Build.0 = Debug|Any CPU
+		{681E20A1-CA3D-4F89-BC9B-DB88461EF6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681E20A1-CA3D-4F89-BC9B-DB88461EF6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681E20A1-CA3D-4F89-BC9B-DB88461EF6A4}.Release|x86.ActiveCfg = Release|Any CPU
+		{681E20A1-CA3D-4F89-BC9B-DB88461EF6A4}.Release|x86.Build.0 = Release|Any CPU
+		{4AD26B3B-250F-4592-A448-775FCB4B0E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD26B3B-250F-4592-A448-775FCB4B0E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD26B3B-250F-4592-A448-775FCB4B0E74}.Debug|x86.ActiveCfg = Debug|x86
+		{4AD26B3B-250F-4592-A448-775FCB4B0E74}.Debug|x86.Build.0 = Debug|x86
+		{4AD26B3B-250F-4592-A448-775FCB4B0E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD26B3B-250F-4592-A448-775FCB4B0E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD26B3B-250F-4592-A448-775FCB4B0E74}.Release|x86.ActiveCfg = Release|x86
+		{4AD26B3B-250F-4592-A448-775FCB4B0E74}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8D77A1D-3CFD-45E9-A843-B1FA8AD268D3}
+	EndGlobalSection
+EndGlobal

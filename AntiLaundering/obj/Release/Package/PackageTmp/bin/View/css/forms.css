@@ -1,0 +1,158 @@
+﻿/*.container
+{
+	width: 600px;
+}*/
+
+.contenttitle {
+    border-bottom: 1px solid #e6e6e6;
+    border-left: 10px solid #e2e2e2;
+    margin-bottom: 5px;	
+}
+
+.contenttitle span {
+    color: #294145;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px 3px 3px 10px;
+}
+
+#panClientInfo {
+    background-color: Gray;
+    border: 1px solid black;
+    margin-top: 5px;
+    width: 40%;
+}
+
+.formPan {
+    background-color: White; /*#F8D1CB;*/
+    border: 1px Solid Gray;
+    width: 450px;
+}
+
+.propan {
+    background-color: White;
+    border: 1px solid #e7e7e7;
+    width: 450px;
+}
+
+.formHeader {
+    background: transparent url('../Images/searchFormBg.png');
+    height: 20px;
+}
+
+#panDirectorate {
+    background-color: Gray;
+    border: 1px solid black;
+    margin-top: 5px;
+    width: 35%;
+}
+
+#panMemria {
+    background-color: Gray;
+    margin-top: 5px;
+    width: 35%;
+}
+
+.leftContent {
+    height: 513px;
+    width: 100%; /*border: 1px solid black;*/
+}
+
+.controlContainer {
+    height: 30px;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+.leftControl {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30%;
+}
+
+.rightControl {
+    float: left;
+    width: 45%;
+}
+
+.middleContent {
+    border: 1px solid white;
+    height: 689px;
+    width: 100%;
+}
+
+.rightContent {
+    border: 1px solid black;
+    width: 100%;
+}
+
+#responsibleNavigation { margin-top: 10px; }
+
+.lnkButtons { background-color: #BDD3B4; }
+
+/*#ContentWraper_btnRequestClear
+{
+      background: transparent url('../Images/searchFormBg.png');
+}*/
+
+
+.buttons { background: transparent url('../Images/searchFormBg.png'); }
+
+.formClose { margin-left: 415px; }
+
+.HighZindex { z-index: 2000; }
+
+
+
+/*GENERAL FORM STYLE FOR ALL PAGES LAST DESIGN*/
+
+.mainContentArea {
+    border: 1px solid green;
+    height: 600px;
+    margin: 2px 2px 2px 2px;
+    width: 98%;
+}
+
+.mainTitlesAndBtnsArea {
+    border: 1px solid green;
+    height: 7%;
+    margin: 2px 2px 2px 2px;
+    width: 98%;
+}
+
+.mainTitleArea {
+    border: 1px solid green;
+    float: left;
+    height: 90%;
+    margin: 2px 2px 2px 2px;
+    width: 40%;
+}
+
+.mainBtnsArea {
+    border: 1px solid green;
+    float: left;
+    height: 90%;
+    margin: 2px 2px 2px 2px;
+    width: 57%;
+}
+
+.mainMessageArea {
+    border: 1px solid green;
+    height: 6%;
+    margin: 2px 2px 2px 2px;
+    width: 98%;
+}
+
+.mainGridAndTipsArea {
+    border: 1px solid green;
+    margin: 2px 2px 2px 2px;
+    width: 98%;
+}
+
+
+.mainGridArea { }
+
+
+.mainTipsArea { }

@@ -1,0 +1,443 @@
+C:\Users\User\Desktop\TVET\MSIS\MyUserManagement\bin\Debug\MyUserManagement.dll
+C:\Users\User\Desktop\TVET\MSIS\MyUserManagement\bin\Debug\MyUserManagement.pdb
+C:\Users\User\Desktop\TVET\MSIS\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+C:\Users\User\Desktop\TVET\MSIS\MyUserManagement\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\User\Desktop\TVET\MSIS\MyUserManagement\obj\Debug\MyUserManagement.dll
+C:\Users\User\Desktop\TVET\MSIS\MyUserManagement\obj\Debug\MyUserManagement.pdb
+C:\Users\User\Desktop\TVET\MSIS\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\Payroll\MyUserManagement\bin\Debug\MyUserManagement.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\Payroll\MyUserManagement\bin\Debug\MyUserManagement.pdb
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\Payroll\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\Payroll\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\Payroll\MyUserManagement\obj\Debug\MyUserManagement.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\Payroll\MyUserManagement\obj\Debug\MyUserManagement.pdb
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleepMS\MyUserManagement\bin\Debug\MyUserManagement.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleepMS\MyUserManagement\bin\Debug\MyUserManagement.pdb
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleepMS\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleepMS\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleepMS\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleepMS\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleepMS\MyUserManagement\obj\Debug\MyUserManagement.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleepMS\MyUserManagement\obj\Debug\MyUserManagement.pdb
+C:\Users\Amanuel\Documents\Visual Studio 2012\Projects\Hohoma Fleet Management\FleetMS\MyUserManagement\bin\Debug\MyUserManagement.dll
+C:\Users\Amanuel\Documents\Visual Studio 2012\Projects\Hohoma Fleet Management\FleetMS\MyUserManagement\bin\Debug\MyUserManagement.pdb
+C:\Users\Amanuel\Documents\Visual Studio 2012\Projects\Hohoma Fleet Management\FleetMS\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+C:\Users\Amanuel\Documents\Visual Studio 2012\Projects\Hohoma Fleet Management\FleetMS\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+C:\Users\Amanuel\Documents\Visual Studio 2012\Projects\Hohoma Fleet Management\FleetMS\MyUserManagement\obj\Debug\MyUserManagement.dll
+C:\Users\Amanuel\Documents\Visual Studio 2012\Projects\Hohoma Fleet Management\FleetMS\MyUserManagement\obj\Debug\MyUserManagement.pdb
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleetMS\MyUserManagement\bin\Debug\MyUserManagement.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleetMS\MyUserManagement\bin\Debug\MyUserManagement.pdb
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleetMS\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleetMS\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleetMS\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleetMS\MyUserManagement\obj\Debug\MyUserManagement.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleetMS\MyUserManagement\obj\Debug\MyUserManagement.pdb
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleetMS\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleetMS\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleetMS\MyUserManagement\bin\Debug\EntityFramework.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\FleetMS\MyUserManagement\bin\Debug\EntityFramework.xml
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.pdb
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.pdb
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+C:\Users\Birhane\Documents\Visual Studio 2012\WebSites\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+C:\Users\Birhane\Documents\Visual Studio 2012\Projects\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+C:\Users\Birhane\Documents\Visual Studio 2012\Projects\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\Projects\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.pdb
+C:\Users\Birhane\Documents\Visual Studio 2012\Projects\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\Projects\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\Projects\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\Projects\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+C:\Users\Birhane\Documents\Visual Studio 2012\Projects\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+C:\Users\Birhane\Documents\Visual Studio 2012\Projects\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.dll
+C:\Users\Birhane\Documents\Visual Studio 2012\Projects\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.pdb
+C:\Users\Binyam\Desktop\Fleet\HoHome\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+C:\Users\Binyam\Desktop\Fleet\HoHome\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.dll
+C:\Users\Binyam\Desktop\Fleet\HoHome\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.pdb
+C:\Users\Binyam\Desktop\Fleet\HoHome\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+C:\Users\Binyam\Desktop\Fleet\HoHome\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+C:\Users\Binyam\Desktop\Fleet\HoHome\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+C:\Users\Binyam\Desktop\Fleet\HoHome\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+C:\Users\Binyam\Desktop\Fleet\HoHome\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+C:\Users\Binyam\Desktop\Fleet\HoHome\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.dll
+C:\Users\Binyam\Desktop\Fleet\HoHome\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.pdb
+C:\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+C:\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.dll
+C:\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.pdb
+C:\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+C:\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+C:\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+C:\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+C:\HohomaFMS\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+C:\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+C:\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.dll
+C:\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.pdb
+C:\Users\Binyam\Desktop\Fleet\HoHome\Latest02022015\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+C:\Users\Binyam\Desktop\Fleet\HoHome\Latest02022015\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.dll
+C:\Users\Binyam\Desktop\Fleet\HoHome\Latest02022015\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.pdb
+C:\Users\Binyam\Desktop\Fleet\HoHome\Latest02022015\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.dll
+C:\Users\Binyam\Desktop\Fleet\HoHome\Latest02022015\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.pdb
+C:\Users\Binyam\Desktop\Fleet\HoHome\BackUpServer\Latest02022015\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+C:\Users\Binyam\Desktop\Fleet\HoHome\BackUpServer\Latest02022015\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.dll
+C:\Users\Binyam\Desktop\Fleet\HoHome\BackUpServer\Latest02022015\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.pdb
+C:\Users\Binyam\Desktop\Fleet\HoHome\BackUpServer\Latest02022015\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.dll
+C:\Users\Binyam\Desktop\Fleet\HoHome\BackUpServer\Latest02022015\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.pdb
+E:\brea\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+E:\brea\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.dll
+E:\brea\HohomaFMS\MyUserManagement\bin\Debug\MyUserManagement.pdb
+E:\brea\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+E:\brea\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.dll
+E:\brea\HohomaFMS\MyUserManagement\obj\Debug\MyUserManagement.pdb
+E:\Data\HOHOMA\HohomaFMSLAST\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+E:\Data\HOHOMA\HohomaFMSLAST\MyUserManagement\bin\Debug\MyUserManagement.dll
+E:\Data\HOHOMA\HohomaFMSLAST\MyUserManagement\bin\Debug\MyUserManagement.pdb
+E:\Data\HOHOMA\HohomaFMSLAST\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+E:\Data\HOHOMA\HohomaFMSLAST\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+E:\Data\HOHOMA\HohomaFMSLAST\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+E:\Data\HOHOMA\HohomaFMSLAST\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+E:\Data\HOHOMA\HohomaFMSLAST\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+E:\Data\HOHOMA\HohomaFMSLAST\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+E:\Data\HOHOMA\HohomaFMSLAST\MyUserManagement\obj\Debug\MyUserManagement.dll
+E:\Data\HOHOMA\HohomaFMSLAST\MyUserManagement\obj\Debug\MyUserManagement.pdb
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\MyUserManagement.dll
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\MyUserManagement.pdb
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.dll
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.dll
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Maths.dll
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Zip.dll
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.xml
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.xml
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Maths.xml
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Zip.xml
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\obj\Debug\MyUserManagement.dll
+E:\Data\HOHOMA\FMSLAST\MyUserManagement\obj\Debug\MyUserManagement.pdb
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\MyUserManagement.dll
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\MyUserManagement.pdb
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.dll
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\obj\Debug\MyUserManagement.dll
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\obj\Debug\MyUserManagement.pdb
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.dll
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.dll
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Zip.dll
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\EnvDTE.dll
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\stdole.dll
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.xml
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.xml
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+E:\Data\HOHOMA\_Finalized\AllLatest\FMSLAST\MyUserManagement\bin\Debug\Telerik.Windows.Zip.xml
+E:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+E:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\MyUserManagement.dll
+E:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\MyUserManagement.pdb
+E:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+E:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.dll
+E:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+E:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+E:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\EnvDTE.dll
+E:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+E:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+E:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\stdole.dll
+E:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+E:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+E:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+E:\Data\ERP\HR\HRIMS\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+E:\Data\ERP\HR\HRIMS\MyUserManagement\obj\Debug\MyUserManagement.dll
+E:\Data\ERP\HR\HRIMS\MyUserManagement\obj\Debug\MyUserManagement.pdb
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\MyUserManagement.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\MyUserManagement.pdb
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Zip.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\EnvDTE.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\stdole.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.xml
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.xml
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+D:\Data\ERP\HR\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Zip.xml
+D:\Data\ERP\HR\HRIMS\MyUserManagement\obj\Debug\MyUserManagement.dll
+D:\Data\ERP\HR\HRIMS\MyUserManagement\obj\Debug\MyUserManagement.pdb
+D:\Data\ERP\HR\HRIMS\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\MyUserManagement.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\MyUserManagement.pdb
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Zip.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\EnvDTE.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\stdole.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.xml
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.xml
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\bin\Debug\Telerik.Windows.Zip.xml
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\obj\Debug\MyUserManagement.dll
+D:\Data\ERP\IntegratedModule\HRIMS\MyUserManagement\obj\Debug\MyUserManagement.pdb
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.pdb
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Zip.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\EnvDTE.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\stdole.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.xml
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.xml
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Zip.xml
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.pdb
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.dll
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.pdb
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.xml
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.xml
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\bin\Debug\Telerik.Windows.Zip.xml
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.dll
+F:\RESOURCES\DATA\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.pdb
+F:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+F:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.dll
+F:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.pdb
+F:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.dll
+F:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.pdb
+F:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+D:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+D:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.dll
+D:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.pdb
+D:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+D:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.dll
+D:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+D:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+D:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+D:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+D:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+D:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+D:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.dll
+D:\RESOURCES\DATA\05-26-12017\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.pdb
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\bin\Debug\MyUserManagement.pdb
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\bin\Debug\EnvDTE.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\bin\Debug\stdole.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.dll
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.pdb
+D:\Data\ERP\IntegratedModule\AllIntegrated\19_07_2017_Arron\HohomaERP\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\MyUserManagement.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\MyUserManagement.pdb
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Windows.Zip.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\EnvDTE.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\stdole.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.xml
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.xml
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\bin\Debug\Telerik.Windows.Zip.xml
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\obj\Debug\MyUserManagement.dll
+D:\Data\Pension2\WebApplication\PalmEnroll\MyUserManagement\obj\Debug\MyUserManagement.pdb
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.dll
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.pdb
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.dll
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\bin\Debug\EnvDTE.dll
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\bin\Debug\stdole.dll
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.dll
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.pdb
+D:\Data\INFONANS\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.dll
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.pdb
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.dll
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\bin\Debug\EnvDTE.dll
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\bin\Debug\stdole.dll
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.dll
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.pdb
+D:\Data\Infonancs_DBU_OCS\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.pdb
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\bin\Debug\EnvDTE.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\bin\Debug\stdole.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.pdb
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.pdb
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\EnvDTE.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\stdole.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.dll
+D:\Data\Infonancs_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.pdb
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.dll
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\MyUserManagement.pdb
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.dll
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\EnvDTE.dll
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\stdole.dll
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.csprojResolveAssemblyReference.cache
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.dll
+D:\Data\Infonans_DBU_OCS\HikVision\GITHub\DKU_OCS\OneCardSystem\MyUserManagement\obj\Debug\MyUserManagement.pdb
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\MyUserManagement.dll.config
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\MyUserManagement.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\MyUserManagement.pdb
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\obj\Debug\MyUserManagement.csproj.CoreCompileInputs.cache
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\obj\Debug\MyUserManagement.csproj.CopyComplete
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\obj\Debug\MyUserManagement.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\obj\Debug\MyUserManagement.pdb
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Web.Design.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Web.UI.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Web.UI.Skins.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Windows.Zip.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\EnvDTE.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Newtonsoft.Json.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\stdole.dll
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Web.Device.Detection.xml
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Web.Spreadsheet.xml
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Web.UI.xml
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Core.xml
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Flow.xml
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Windows.Zip.xml
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\obj\Debug\MyUserManagement.csprojAssemblyReference.cache

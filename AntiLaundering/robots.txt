@@ -1,0 +1,1 @@
+﻿User-agent: * Disallow: /View/ Allow: /View/Index.aspx  Allow: /View/um/Account/Login.aspx 

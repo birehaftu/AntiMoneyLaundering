@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AntiMoney_UMModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Company">
+    <Key>
+      <PropertyRef Name="CompanyId" />
+    </Key>
+    <Property Name="CompanyId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="CompanyType" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="NumberOfVehicles" Type="int" Nullable="false" />
+    <Property Name="CompanyLogo" Type="nvarchar" MaxLength="250" />
+    <Property Name="Photo" Type="text" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubCity" Type="nvarchar" MaxLength="50" />
+    <Property Name="Woreda" Type="nvarchar" MaxLength="50" />
+    <Property Name="POBOX" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tel" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="ManagerName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Descrbition" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="LoginHistory">
+    <Key>
+      <PropertyRef Name="LoginHistoryID" />
+    </Key>
+    <Property Name="LoginHistoryID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="150" />
+    <Property Name="DateLogged" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Operation">
+    <Key>
+      <PropertyRef Name="OperationID" />
+    </Key>
+    <Property Name="OperationID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ModuleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubSystem" Type="int" Nullable="false" />
+    <Property Name="OperationName" Type="nvarchar" MaxLength="50" />
+    <Property Name="OperationLink" Type="nvarchar" MaxLength="150" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="SubSystemID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="RoleOperation">
+    <Key>
+      <PropertyRef Name="RoleOperationID" />
+    </Key>
+    <Property Name="RoleOperationID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Operation" Type="int" Nullable="false" />
+    <Property Name="Roles" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Rank" Type="int" />
+    <Property Name="AccessLevel" Type="int" />
+    <Property Name="OperationID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="ROLENAME" />
+    </Key>
+    <Property Name="ROLENAME" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="SubSystem">
+    <Key>
+      <PropertyRef Name="SubSystemID" />
+    </Key>
+    <Property Name="SubSystemID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubSystemName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Logo" Type="nvarchar" MaxLength="250" />
+    <Property Name="Description" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="UserLogs">
+    <Key>
+      <PropertyRef Name="LodId" />
+    </Key>
+    <Property Name="LodId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="LogTime" Type="datetime" Nullable="false" />
+    <Property Name="LogUser" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="LogType" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="LogDetail" Type="text" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="USERNAME" />
+    </Key>
+    <Property Name="USERNAME" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="250" />
+    <Property Name="EmployeeId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="DOB" Type="date" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="EMAIL" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="PalmIP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="250" />
+    <Property Name="PASSWORD" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LASTACTIVITYDATE" Type="datetime" />
+    <Property Name="LASTLOGINDATE" Type="datetime" />
+    <Property Name="LASTPASSWORDCHANGEDDATE" Type="datetime" />
+    <Property Name="CREATIONDATE" Type="datetime" />
+    <Property Name="ISONLINE" Type="nvarchar" MaxLength="50" />
+    <Property Name="ISLOCKEDOUT" Type="bit" Nullable="false" />
+    <Property Name="LASTLOCKEDOUTDATE" Type="datetime" />
+    <Property Name="FAILEDPASSWORDATTEMPTCOUNT" Type="smallint" />
+    <Property Name="FAILEDPASSWORDATTEMPTWS" Type="datetime" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CompanyId" Type="uniqueidentifier" />
+    <Property Name="SchoolId" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="Usersinroles">
+    <Key>
+      <PropertyRef Name="UsersinrolesID" />
+    </Key>
+    <Property Name="UsersinrolesID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="USERNAME" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ROLENAME" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AntiMoney_UM.dbo.VWModules' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VWModules">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="OperationID" />
+    </Key>
+    <Property Name="ModuleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="OperationID" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AntiMoney_UM.dbo.VWModuleSubsystem' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VWModuleSubsystem">
+    <Key>
+      <PropertyRef Name="SubSystemName" />
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="OperationID" />
+    </Key>
+    <Property Name="SubSystemName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ModuleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="OperationName" Type="nvarchar" MaxLength="50" />
+    <Property Name="OperationLink" Type="nvarchar" MaxLength="150" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="OperationID" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AntiMoney_UM.dbo.VWROLEOp' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VWROLEOp">
+    <Key>
+      <PropertyRef Name="Operation" />
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="ROLENAME" />
+      <PropertyRef Name="Roles" />
+      <PropertyRef Name="OperationId" />
+      <PropertyRef Name="CompanyName" />
+      <PropertyRef Name="CompanyId" />
+    </Key>
+    <Property Name="OperationName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Operation" Type="int" Nullable="false" />
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="ROLENAME" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Roles" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="ModuleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="OperationLink" Type="nvarchar" MaxLength="150" />
+    <Property Name="OperationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Rank" Type="int" />
+    <Property Name="AccessLevel" Type="int" />
+    <Property Name="CompanyName" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="CompanyId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AntiMoney_UM.dbo.VWRoleOperationAssign' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VWRoleOperationAssign">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Operation" />
+      <PropertyRef Name="Roles" />
+      <PropertyRef Name="ROLENAME" />
+      <PropertyRef Name="USERNAME" />
+      <PropertyRef Name="CompanyId" />
+      <PropertyRef Name="CompanyName" />
+    </Key>
+    <Property Name="OperationID" Type="uniqueidentifier" />
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Operation" Type="int" Nullable="false" />
+    <Property Name="Roles" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="OperationLink" Type="nvarchar" MaxLength="150" />
+    <Property Name="OperationName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ROLENAME" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Rank" Type="int" />
+    <Property Name="ModuleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="USERNAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AccessLevel" Type="int" />
+    <Property Name="CompanyId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AntiMoney_UM.dbo.VWRoleOperations' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VWRoleOperations">
+    <Key>
+      <PropertyRef Name="Operation" />
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="ROLENAME" />
+      <PropertyRef Name="Roles" />
+      <PropertyRef Name="USERNAME" />
+      <PropertyRef Name="EmployeeId" />
+      <PropertyRef Name="CompanyName" />
+      <PropertyRef Name="CompanyId" />
+    </Key>
+    <Property Name="OperationName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Operation" Type="int" Nullable="false" />
+    <Property Name="OperationID" Type="uniqueidentifier" />
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="ROLENAME" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Roles" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="ModuleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="OperationLink" Type="nvarchar" MaxLength="150" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="50" />
+    <Property Name="USERNAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="EmployeeId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Rank" Type="int" />
+    <Property Name="AccessLevel" Type="int" />
+    <Property Name="CompanyName" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="CompanyId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_LoginHistory_LoginHistory">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="LoginHistory" Type="Self.LoginHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="USERNAME" />
+      </Principal>
+      <Dependent Role="LoginHistory">
+        <PropertyRef Name="UserName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RoleOperation_Operation">
+    <End Role="Operation" Type="Self.Operation" Multiplicity="0..1" />
+    <End Role="RoleOperation" Type="Self.RoleOperation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Operation">
+        <PropertyRef Name="OperationID" />
+      </Principal>
+      <Dependent Role="RoleOperation">
+        <PropertyRef Name="OperationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SubSystem_Operation">
+    <End Role="SubSystem" Type="Self.SubSystem" Multiplicity="0..1" />
+    <End Role="Operation" Type="Self.Operation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubSystem">
+        <PropertyRef Name="SubSystemID" />
+      </Principal>
+      <Dependent Role="Operation">
+        <PropertyRef Name="SubSystemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserLogs_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="UserLogs" Type="Self.UserLogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="USERNAME" />
+      </Principal>
+      <Dependent Role="UserLogs">
+        <PropertyRef Name="LogUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Company">
+    <End Role="Company" Type="Self.Company" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Company">
+        <PropertyRef Name="CompanyId" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usersinroles_Roles">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+    <End Role="Usersinroles" Type="Self.Usersinroles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="ROLENAME" />
+      </Principal>
+      <Dependent Role="Usersinroles">
+        <PropertyRef Name="ROLENAME" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usersinroles_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Usersinroles" Type="Self.Usersinroles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="USERNAME" />
+      </Principal>
+      <Dependent Role="Usersinroles">
+        <PropertyRef Name="USERNAME" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AntiMoney_UMModelStoreContainer">
+    <EntitySet Name="Company" EntityType="Self.Company" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoginHistory" EntityType="Self.LoginHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Operation" EntityType="Self.Operation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RoleOperation" EntityType="Self.RoleOperation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SubSystem" EntityType="Self.SubSystem" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserLogs" EntityType="Self.UserLogs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usersinroles" EntityType="Self.Usersinroles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VWModules" EntityType="Self.VWModules" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VWModules].[ModuleName] AS [ModuleName], 
+    [VWModules].[Id] AS [Id], 
+    [VWModules].[OperationID] AS [OperationID]
+    FROM [dbo].[VWModules] AS [VWModules]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VWModuleSubsystem" EntityType="Self.VWModuleSubsystem" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VWModuleSubsystem].[SubSystemName] AS [SubSystemName], 
+    [VWModuleSubsystem].[ModuleName] AS [ModuleName], 
+    [VWModuleSubsystem].[OperationName] AS [OperationName], 
+    [VWModuleSubsystem].[OperationLink] AS [OperationLink], 
+    [VWModuleSubsystem].[Description] AS [Description], 
+    [VWModuleSubsystem].[Id] AS [Id], 
+    [VWModuleSubsystem].[OperationID] AS [OperationID]
+    FROM [dbo].[VWModuleSubsystem] AS [VWModuleSubsystem]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VWROLEOp" EntityType="Self.VWROLEOp" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VWROLEOp].[OperationName] AS [OperationName], 
+    [VWROLEOp].[Operation] AS [Operation], 
+    [VWROLEOp].[Id] AS [Id], 
+    [VWROLEOp].[ROLENAME] AS [ROLENAME], 
+    [VWROLEOp].[Roles] AS [Roles], 
+    [VWROLEOp].[Description] AS [Description], 
+    [VWROLEOp].[ModuleName] AS [ModuleName], 
+    [VWROLEOp].[OperationLink] AS [OperationLink], 
+    [VWROLEOp].[OperationId] AS [OperationId], 
+    [VWROLEOp].[Rank] AS [Rank], 
+    [VWROLEOp].[AccessLevel] AS [AccessLevel], 
+    [VWROLEOp].[CompanyName] AS [CompanyName], 
+    [VWROLEOp].[CompanyId] AS [CompanyId]
+    FROM [dbo].[VWROLEOp] AS [VWROLEOp]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VWRoleOperationAssign" EntityType="Self.VWRoleOperationAssign" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VWRoleOperationAssign].[OperationID] AS [OperationID], 
+    [VWRoleOperationAssign].[Id] AS [Id], 
+    [VWRoleOperationAssign].[Operation] AS [Operation], 
+    [VWRoleOperationAssign].[Roles] AS [Roles], 
+    [VWRoleOperationAssign].[OperationLink] AS [OperationLink], 
+    [VWRoleOperationAssign].[OperationName] AS [OperationName], 
+    [VWRoleOperationAssign].[ROLENAME] AS [ROLENAME], 
+    [VWRoleOperationAssign].[Description] AS [Description], 
+    [VWRoleOperationAssign].[Rank] AS [Rank], 
+    [VWRoleOperationAssign].[ModuleName] AS [ModuleName], 
+    [VWRoleOperationAssign].[USERNAME] AS [USERNAME], 
+    [VWRoleOperationAssign].[AccessLevel] AS [AccessLevel], 
+    [VWRoleOperationAssign].[CompanyId] AS [CompanyId], 
+    [VWRoleOperationAssign].[CompanyName] AS [CompanyName]
+    FROM [dbo].[VWRoleOperationAssign] AS [VWRoleOperationAssign]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VWRoleOperations" EntityType="Self.VWRoleOperations" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VWRoleOperations].[OperationName] AS [OperationName], 
+    [VWRoleOperations].[Operation] AS [Operation], 
+    [VWRoleOperations].[OperationID] AS [OperationID], 
+    [VWRoleOperations].[Id] AS [Id], 
+    [VWRoleOperations].[ROLENAME] AS [ROLENAME], 
+    [VWRoleOperations].[Roles] AS [Roles], 
+    [VWRoleOperations].[Description] AS [Description], 
+    [VWRoleOperations].[ModuleName] AS [ModuleName], 
+    [VWRoleOperations].[OperationLink] AS [OperationLink], 
+    [VWRoleOperations].[FullName] AS [FullName], 
+    [VWRoleOperations].[USERNAME] AS [USERNAME], 
+    [VWRoleOperations].[EmployeeId] AS [EmployeeId], 
+    [VWRoleOperations].[Rank] AS [Rank], 
+    [VWRoleOperations].[AccessLevel] AS [AccessLevel], 
+    [VWRoleOperations].[CompanyName] AS [CompanyName], 
+    [VWRoleOperations].[CompanyId] AS [CompanyId]
+    FROM [dbo].[VWRoleOperations] AS [VWRoleOperations]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_LoginHistory_LoginHistory" Association="Self.FK_LoginHistory_LoginHistory">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="LoginHistory" EntitySet="LoginHistory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RoleOperation_Operation" Association="Self.FK_RoleOperation_Operation">
+      <End Role="Operation" EntitySet="Operation" />
+      <End Role="RoleOperation" EntitySet="RoleOperation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SubSystem_Operation" Association="Self.FK_SubSystem_Operation">
+      <End Role="SubSystem" EntitySet="SubSystem" />
+      <End Role="Operation" EntitySet="Operation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserLogs_Users" Association="Self.FK_UserLogs_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserLogs" EntitySet="UserLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Company" Association="Self.FK_Users_Company">
+      <End Role="Company" EntitySet="Company" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usersinroles_Roles" Association="Self.FK_Usersinroles_Roles">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Usersinroles" EntitySet="Usersinroles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usersinroles_Users" Association="Self.FK_Usersinroles_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Usersinroles" EntitySet="Usersinroles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

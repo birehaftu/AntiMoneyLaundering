@@ -1,0 +1,1036 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="AntiMoney_UMModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Company">
+          <Key>
+            <PropertyRef Name="CompanyId" />
+          </Key>
+          <Property Name="CompanyId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="CompanyName" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="CompanyType" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="NumberOfVehicles" Type="int" Nullable="false" />
+          <Property Name="CompanyLogo" Type="nvarchar" MaxLength="250" />
+          <Property Name="Photo" Type="text" />
+          <Property Name="City" Type="nvarchar" MaxLength="50" />
+          <Property Name="SubCity" Type="nvarchar" MaxLength="50" />
+          <Property Name="Woreda" Type="nvarchar" MaxLength="50" />
+          <Property Name="POBOX" Type="nvarchar" MaxLength="50" />
+          <Property Name="Tel" Type="nvarchar" MaxLength="50" />
+          <Property Name="Fax" Type="nvarchar" MaxLength="50" />
+          <Property Name="Mobile" Type="nvarchar" MaxLength="50" />
+          <Property Name="ManagerName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="Descrbition" Type="nvarchar" MaxLength="150" />
+        </EntityType>
+        <EntityType Name="LoginHistory">
+          <Key>
+            <PropertyRef Name="LoginHistoryID" />
+          </Key>
+          <Property Name="LoginHistoryID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="150" />
+          <Property Name="DateLogged" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Operation">
+          <Key>
+            <PropertyRef Name="OperationID" />
+          </Key>
+          <Property Name="OperationID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ModuleName" Type="nvarchar" MaxLength="50" />
+          <Property Name="SubSystem" Type="int" Nullable="false" />
+          <Property Name="OperationName" Type="nvarchar" MaxLength="50" />
+          <Property Name="OperationLink" Type="nvarchar" MaxLength="150" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="SubSystemID" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="RoleOperation">
+          <Key>
+            <PropertyRef Name="RoleOperationID" />
+          </Key>
+          <Property Name="RoleOperationID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Operation" Type="int" Nullable="false" />
+          <Property Name="Roles" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="Rank" Type="int" />
+          <Property Name="AccessLevel" Type="int" />
+          <Property Name="OperationID" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Roles">
+          <Key>
+            <PropertyRef Name="ROLENAME" />
+          </Key>
+          <Property Name="ROLENAME" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="150" />
+        </EntityType>
+        <EntityType Name="SubSystem">
+          <Key>
+            <PropertyRef Name="SubSystemID" />
+          </Key>
+          <Property Name="SubSystemID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SubSystemName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Logo" Type="nvarchar" MaxLength="250" />
+          <Property Name="Description" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="UserLogs">
+          <Key>
+            <PropertyRef Name="LodId" />
+          </Key>
+          <Property Name="LodId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="LogTime" Type="datetime" Nullable="false" />
+          <Property Name="LogUser" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="LogType" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="LogDetail" Type="text" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="USERNAME" />
+          </Key>
+          <Property Name="USERNAME" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="FullName" Type="nvarchar" MaxLength="250" />
+          <Property Name="EmployeeId" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="DOB" Type="date" />
+          <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+          <Property Name="EMAIL" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="PalmIP" Type="nvarchar" MaxLength="50" />
+          <Property Name="Address" Type="nvarchar" MaxLength="250" />
+          <Property Name="PASSWORD" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="LASTACTIVITYDATE" Type="datetime" />
+          <Property Name="LASTLOGINDATE" Type="datetime" />
+          <Property Name="LASTPASSWORDCHANGEDDATE" Type="datetime" />
+          <Property Name="CREATIONDATE" Type="datetime" />
+          <Property Name="ISONLINE" Type="nvarchar" MaxLength="50" />
+          <Property Name="ISLOCKEDOUT" Type="bit" Nullable="false" />
+          <Property Name="LASTLOCKEDOUTDATE" Type="datetime" />
+          <Property Name="FAILEDPASSWORDATTEMPTCOUNT" Type="smallint" />
+          <Property Name="FAILEDPASSWORDATTEMPTWS" Type="datetime" />
+          <Property Name="Description" Type="nvarchar" MaxLength="250" />
+          <Property Name="CompanyId" Type="uniqueidentifier" />
+          <Property Name="SchoolId" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Usersinroles">
+          <Key>
+            <PropertyRef Name="UsersinrolesID" />
+          </Key>
+          <Property Name="UsersinrolesID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="USERNAME" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="ROLENAME" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="150" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'AntiMoney_UM.dbo.VWModules' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="VWModules">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="OperationID" />
+          </Key>
+          <Property Name="ModuleName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="OperationID" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'AntiMoney_UM.dbo.VWModuleSubsystem' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="VWModuleSubsystem">
+          <Key>
+            <PropertyRef Name="SubSystemName" />
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="OperationID" />
+          </Key>
+          <Property Name="SubSystemName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="ModuleName" Type="nvarchar" MaxLength="50" />
+          <Property Name="OperationName" Type="nvarchar" MaxLength="50" />
+          <Property Name="OperationLink" Type="nvarchar" MaxLength="150" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="OperationID" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'AntiMoney_UM.dbo.VWROLEOp' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="VWROLEOp">
+          <Key>
+            <PropertyRef Name="Operation" />
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="ROLENAME" />
+            <PropertyRef Name="Roles" />
+            <PropertyRef Name="OperationId" />
+            <PropertyRef Name="CompanyName" />
+            <PropertyRef Name="CompanyId" />
+          </Key>
+          <Property Name="OperationName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Operation" Type="int" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="ROLENAME" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="Roles" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="ModuleName" Type="nvarchar" MaxLength="50" />
+          <Property Name="OperationLink" Type="nvarchar" MaxLength="150" />
+          <Property Name="OperationId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Rank" Type="int" />
+          <Property Name="AccessLevel" Type="int" />
+          <Property Name="CompanyName" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="CompanyId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'AntiMoney_UM.dbo.VWRoleOperationAssign' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="VWRoleOperationAssign">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="Operation" />
+            <PropertyRef Name="Roles" />
+            <PropertyRef Name="ROLENAME" />
+            <PropertyRef Name="USERNAME" />
+            <PropertyRef Name="CompanyId" />
+            <PropertyRef Name="CompanyName" />
+          </Key>
+          <Property Name="OperationID" Type="uniqueidentifier" />
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Operation" Type="int" Nullable="false" />
+          <Property Name="Roles" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="OperationLink" Type="nvarchar" MaxLength="150" />
+          <Property Name="OperationName" Type="nvarchar" MaxLength="50" />
+          <Property Name="ROLENAME" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="Rank" Type="int" />
+          <Property Name="ModuleName" Type="nvarchar" MaxLength="50" />
+          <Property Name="USERNAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="AccessLevel" Type="int" />
+          <Property Name="CompanyId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="CompanyName" Type="nvarchar" MaxLength="250" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'AntiMoney_UM.dbo.VWRoleOperations' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="VWRoleOperations">
+          <Key>
+            <PropertyRef Name="Operation" />
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="ROLENAME" />
+            <PropertyRef Name="Roles" />
+            <PropertyRef Name="USERNAME" />
+            <PropertyRef Name="EmployeeId" />
+            <PropertyRef Name="CompanyName" />
+            <PropertyRef Name="CompanyId" />
+          </Key>
+          <Property Name="OperationName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Operation" Type="int" Nullable="false" />
+          <Property Name="OperationID" Type="uniqueidentifier" />
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="ROLENAME" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="Roles" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="ModuleName" Type="nvarchar" MaxLength="50" />
+          <Property Name="OperationLink" Type="nvarchar" MaxLength="150" />
+          <Property Name="FullName" Type="nvarchar" MaxLength="50" />
+          <Property Name="USERNAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="EmployeeId" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="Rank" Type="int" />
+          <Property Name="AccessLevel" Type="int" />
+          <Property Name="CompanyName" Type="nvarchar" MaxLength="250" Nullable="false" />
+          <Property Name="CompanyId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_LoginHistory_LoginHistory">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="LoginHistory" Type="Self.LoginHistory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="USERNAME" />
+            </Principal>
+            <Dependent Role="LoginHistory">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RoleOperation_Operation">
+          <End Role="Operation" Type="Self.Operation" Multiplicity="0..1" />
+          <End Role="RoleOperation" Type="Self.RoleOperation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Operation">
+              <PropertyRef Name="OperationID" />
+            </Principal>
+            <Dependent Role="RoleOperation">
+              <PropertyRef Name="OperationID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubSystem_Operation">
+          <End Role="SubSystem" Type="Self.SubSystem" Multiplicity="0..1" />
+          <End Role="Operation" Type="Self.Operation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SubSystem">
+              <PropertyRef Name="SubSystemID" />
+            </Principal>
+            <Dependent Role="Operation">
+              <PropertyRef Name="SubSystemID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserLogs_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="UserLogs" Type="Self.UserLogs" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="USERNAME" />
+            </Principal>
+            <Dependent Role="UserLogs">
+              <PropertyRef Name="LogUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Users_Company">
+          <End Role="Company" Type="Self.Company" Multiplicity="0..1" />
+          <End Role="Users" Type="Self.Users" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Company">
+              <PropertyRef Name="CompanyId" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="CompanyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Usersinroles_Roles">
+          <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+          <End Role="Usersinroles" Type="Self.Usersinroles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="ROLENAME" />
+            </Principal>
+            <Dependent Role="Usersinroles">
+              <PropertyRef Name="ROLENAME" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Usersinroles_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Usersinroles" Type="Self.Usersinroles" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="USERNAME" />
+            </Principal>
+            <Dependent Role="Usersinroles">
+              <PropertyRef Name="USERNAME" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="AntiMoney_UMModelStoreContainer">
+          <EntitySet Name="Company" EntityType="Self.Company" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LoginHistory" EntityType="Self.LoginHistory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Operation" EntityType="Self.Operation" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RoleOperation" EntityType="Self.RoleOperation" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SubSystem" EntityType="Self.SubSystem" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserLogs" EntityType="Self.UserLogs" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Usersinroles" EntityType="Self.Usersinroles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="VWModules" EntityType="Self.VWModules" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [VWModules].[ModuleName] AS [ModuleName], 
+    [VWModules].[Id] AS [Id], 
+    [VWModules].[OperationID] AS [OperationID]
+    FROM [dbo].[VWModules] AS [VWModules]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="VWModuleSubsystem" EntityType="Self.VWModuleSubsystem" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [VWModuleSubsystem].[SubSystemName] AS [SubSystemName], 
+    [VWModuleSubsystem].[ModuleName] AS [ModuleName], 
+    [VWModuleSubsystem].[OperationName] AS [OperationName], 
+    [VWModuleSubsystem].[OperationLink] AS [OperationLink], 
+    [VWModuleSubsystem].[Description] AS [Description], 
+    [VWModuleSubsystem].[Id] AS [Id], 
+    [VWModuleSubsystem].[OperationID] AS [OperationID]
+    FROM [dbo].[VWModuleSubsystem] AS [VWModuleSubsystem]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="VWROLEOp" EntityType="Self.VWROLEOp" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [VWROLEOp].[OperationName] AS [OperationName], 
+    [VWROLEOp].[Operation] AS [Operation], 
+    [VWROLEOp].[Id] AS [Id], 
+    [VWROLEOp].[ROLENAME] AS [ROLENAME], 
+    [VWROLEOp].[Roles] AS [Roles], 
+    [VWROLEOp].[Description] AS [Description], 
+    [VWROLEOp].[ModuleName] AS [ModuleName], 
+    [VWROLEOp].[OperationLink] AS [OperationLink], 
+    [VWROLEOp].[OperationId] AS [OperationId], 
+    [VWROLEOp].[Rank] AS [Rank], 
+    [VWROLEOp].[AccessLevel] AS [AccessLevel], 
+    [VWROLEOp].[CompanyName] AS [CompanyName], 
+    [VWROLEOp].[CompanyId] AS [CompanyId]
+    FROM [dbo].[VWROLEOp] AS [VWROLEOp]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="VWRoleOperationAssign" EntityType="Self.VWRoleOperationAssign" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [VWRoleOperationAssign].[OperationID] AS [OperationID], 
+    [VWRoleOperationAssign].[Id] AS [Id], 
+    [VWRoleOperationAssign].[Operation] AS [Operation], 
+    [VWRoleOperationAssign].[Roles] AS [Roles], 
+    [VWRoleOperationAssign].[OperationLink] AS [OperationLink], 
+    [VWRoleOperationAssign].[OperationName] AS [OperationName], 
+    [VWRoleOperationAssign].[ROLENAME] AS [ROLENAME], 
+    [VWRoleOperationAssign].[Description] AS [Description], 
+    [VWRoleOperationAssign].[Rank] AS [Rank], 
+    [VWRoleOperationAssign].[ModuleName] AS [ModuleName], 
+    [VWRoleOperationAssign].[USERNAME] AS [USERNAME], 
+    [VWRoleOperationAssign].[AccessLevel] AS [AccessLevel], 
+    [VWRoleOperationAssign].[CompanyId] AS [CompanyId], 
+    [VWRoleOperationAssign].[CompanyName] AS [CompanyName]
+    FROM [dbo].[VWRoleOperationAssign] AS [VWRoleOperationAssign]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="VWRoleOperations" EntityType="Self.VWRoleOperations" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [VWRoleOperations].[OperationName] AS [OperationName], 
+    [VWRoleOperations].[Operation] AS [Operation], 
+    [VWRoleOperations].[OperationID] AS [OperationID], 
+    [VWRoleOperations].[Id] AS [Id], 
+    [VWRoleOperations].[ROLENAME] AS [ROLENAME], 
+    [VWRoleOperations].[Roles] AS [Roles], 
+    [VWRoleOperations].[Description] AS [Description], 
+    [VWRoleOperations].[ModuleName] AS [ModuleName], 
+    [VWRoleOperations].[OperationLink] AS [OperationLink], 
+    [VWRoleOperations].[FullName] AS [FullName], 
+    [VWRoleOperations].[USERNAME] AS [USERNAME], 
+    [VWRoleOperations].[EmployeeId] AS [EmployeeId], 
+    [VWRoleOperations].[Rank] AS [Rank], 
+    [VWRoleOperations].[AccessLevel] AS [AccessLevel], 
+    [VWRoleOperations].[CompanyName] AS [CompanyName], 
+    [VWRoleOperations].[CompanyId] AS [CompanyId]
+    FROM [dbo].[VWRoleOperations] AS [VWRoleOperations]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_LoginHistory_LoginHistory" Association="Self.FK_LoginHistory_LoginHistory">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="LoginHistory" EntitySet="LoginHistory" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RoleOperation_Operation" Association="Self.FK_RoleOperation_Operation">
+            <End Role="Operation" EntitySet="Operation" />
+            <End Role="RoleOperation" EntitySet="RoleOperation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubSystem_Operation" Association="Self.FK_SubSystem_Operation">
+            <End Role="SubSystem" EntitySet="SubSystem" />
+            <End Role="Operation" EntitySet="Operation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserLogs_Users" Association="Self.FK_UserLogs_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="UserLogs" EntitySet="UserLogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Users_Company" Association="Self.FK_Users_Company">
+            <End Role="Company" EntitySet="Company" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Usersinroles_Roles" Association="Self.FK_Usersinroles_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="Usersinroles" EntitySet="Usersinroles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Usersinroles_Users" Association="Self.FK_Usersinroles_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Usersinroles" EntitySet="Usersinroles" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AntiMoney_UMModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Company">
+          <Key>
+            <PropertyRef Name="CompanyId" />
+          </Key>
+          <Property Name="CompanyId" Type="Guid" Nullable="false" />
+          <Property Name="CompanyName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CompanyType" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NumberOfVehicles" Type="Int32" Nullable="false" />
+          <Property Name="CompanyLogo" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="Photo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SubCity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Woreda" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="POBOX" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Tel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Fax" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ManagerName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Descrbition" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_Users_Company" FromRole="Company" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="LoginHistory">
+          <Key>
+            <PropertyRef Name="LoginHistoryID" />
+          </Key>
+          <Property Name="LoginHistoryID" Type="Guid" Nullable="false" />
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="DateLogged" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="User" Relationship="Self.FK_LoginHistory_LoginHistory" FromRole="LoginHistory" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Operation">
+          <Key>
+            <PropertyRef Name="OperationID" />
+          </Key>
+          <Property Name="OperationID" Type="Guid" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ModuleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SubSystem" Type="Int32" Nullable="false" />
+          <Property Name="OperationName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OperationLink" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SubSystemID" Type="Guid" />
+          <NavigationProperty Name="RoleOperations" Relationship="Self.FK_RoleOperation_Operation" FromRole="Operation" ToRole="RoleOperation" />
+          <NavigationProperty Name="SubSystem1" Relationship="Self.FK_SubSystem_Operation" FromRole="Operation" ToRole="SubSystem" />
+        </EntityType>
+        <EntityType Name="RoleOperation">
+          <Key>
+            <PropertyRef Name="RoleOperationID" />
+          </Key>
+          <Property Name="RoleOperationID" Type="Guid" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Operation" Type="Int32" Nullable="false" />
+          <Property Name="Roles" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Rank" Type="Int32" />
+          <Property Name="AccessLevel" Type="Int32" />
+          <Property Name="OperationID" Type="Guid" />
+          <NavigationProperty Name="Operation1" Relationship="Self.FK_RoleOperation_Operation" FromRole="RoleOperation" ToRole="Operation" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="ROLENAME" />
+          </Key>
+          <Property Name="ROLENAME" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Usersinroles" Relationship="Self.FK_Usersinroles_Roles" FromRole="Roles" ToRole="Usersinroles" />
+        </EntityType>
+        <EntityType Name="SubSystem">
+          <Key>
+            <PropertyRef Name="SubSystemID" />
+          </Key>
+          <Property Name="SubSystemID" Type="Guid" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SubSystemName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Logo" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Operations" Relationship="Self.FK_SubSystem_Operation" FromRole="SubSystem" ToRole="Operation" />
+        </EntityType>
+        <EntityType Name="UserLog">
+          <Key>
+            <PropertyRef Name="LodId" />
+          </Key>
+          <Property Name="LodId" Type="Guid" Nullable="false" />
+          <Property Name="LogTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="LogUser" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="LogType" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="LogDetail" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="User" Relationship="Self.FK_UserLogs_Users" FromRole="UserLogs" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="USERNAME" />
+          </Key>
+          <Property Name="USERNAME" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="FullName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DOB" Type="DateTime" Precision="0" />
+          <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EMAIL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PalmIP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="PASSWORD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="LASTACTIVITYDATE" Type="DateTime" Precision="3" />
+          <Property Name="LASTLOGINDATE" Type="DateTime" Precision="3" />
+          <Property Name="LASTPASSWORDCHANGEDDATE" Type="DateTime" Precision="3" />
+          <Property Name="CREATIONDATE" Type="DateTime" Precision="3" />
+          <Property Name="ISONLINE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ISLOCKEDOUT" Type="Boolean" Nullable="false" />
+          <Property Name="LASTLOCKEDOUTDATE" Type="DateTime" Precision="3" />
+          <Property Name="FAILEDPASSWORDATTEMPTCOUNT" Type="Int16" />
+          <Property Name="FAILEDPASSWORDATTEMPTWS" Type="DateTime" Precision="3" />
+          <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="CompanyId" Type="Guid" />
+          <Property Name="SchoolId" Type="Guid" />
+          <NavigationProperty Name="Company" Relationship="Self.FK_Users_Company" FromRole="Users" ToRole="Company" />
+          <NavigationProperty Name="LoginHistories" Relationship="Self.FK_LoginHistory_LoginHistory" FromRole="Users" ToRole="LoginHistory" />
+          <NavigationProperty Name="UserLogs" Relationship="Self.FK_UserLogs_Users" FromRole="Users" ToRole="UserLogs" />
+          <NavigationProperty Name="Usersinroles" Relationship="Self.FK_Usersinroles_Users" FromRole="Users" ToRole="Usersinroles" />
+        </EntityType>
+        <EntityType Name="Usersinrole">
+          <Key>
+            <PropertyRef Name="UsersinrolesID" />
+          </Key>
+          <Property Name="UsersinrolesID" Type="Guid" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="USERNAME" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ROLENAME" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Role" Relationship="Self.FK_Usersinroles_Roles" FromRole="Usersinroles" ToRole="Roles" />
+          <NavigationProperty Name="User" Relationship="Self.FK_Usersinroles_Users" FromRole="Usersinroles" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="VWModule">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="OperationID" />
+          </Key>
+          <Property Name="ModuleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="OperationID" Type="Guid" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VWModuleSubsystem">
+          <Key>
+            <PropertyRef Name="SubSystemName" />
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="OperationID" />
+          </Key>
+          <Property Name="SubSystemName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ModuleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OperationName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OperationLink" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="OperationID" Type="Guid" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VWROLEOp">
+          <Key>
+            <PropertyRef Name="Operation" />
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="ROLENAME" />
+            <PropertyRef Name="Roles" />
+            <PropertyRef Name="OperationId" />
+            <PropertyRef Name="CompanyName" />
+            <PropertyRef Name="CompanyId" />
+          </Key>
+          <Property Name="OperationName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Operation" Type="Int32" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="ROLENAME" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Roles" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ModuleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OperationLink" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="OperationId" Type="Guid" Nullable="false" />
+          <Property Name="Rank" Type="Int32" />
+          <Property Name="AccessLevel" Type="Int32" />
+          <Property Name="CompanyName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CompanyId" Type="Guid" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VWRoleOperationAssign">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="Operation" />
+            <PropertyRef Name="Roles" />
+            <PropertyRef Name="ROLENAME" />
+            <PropertyRef Name="USERNAME" />
+            <PropertyRef Name="CompanyId" />
+            <PropertyRef Name="CompanyName" />
+          </Key>
+          <Property Name="OperationID" Type="Guid" />
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Operation" Type="Int32" Nullable="false" />
+          <Property Name="Roles" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="OperationLink" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="OperationName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ROLENAME" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Rank" Type="Int32" />
+          <Property Name="ModuleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="USERNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="AccessLevel" Type="Int32" />
+          <Property Name="CompanyId" Type="Guid" Nullable="false" />
+          <Property Name="CompanyName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VWRoleOperation">
+          <Key>
+            <PropertyRef Name="Operation" />
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="ROLENAME" />
+            <PropertyRef Name="Roles" />
+            <PropertyRef Name="USERNAME" />
+            <PropertyRef Name="EmployeeId" />
+            <PropertyRef Name="CompanyName" />
+            <PropertyRef Name="CompanyId" />
+          </Key>
+          <Property Name="OperationName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Operation" Type="Int32" Nullable="false" />
+          <Property Name="OperationID" Type="Guid" />
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="ROLENAME" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Roles" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ModuleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OperationLink" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="USERNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="EmployeeId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Rank" Type="Int32" />
+          <Property Name="AccessLevel" Type="Int32" />
+          <Property Name="CompanyName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CompanyId" Type="Guid" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Users_Company">
+          <End Role="Company" Type="Self.Company" Multiplicity="0..1" />
+          <End Role="Users" Type="Self.User" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Company">
+              <PropertyRef Name="CompanyId" />
+            </Principal>
+            <Dependent Role="Users">
+              <PropertyRef Name="CompanyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_LoginHistory_LoginHistory">
+          <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+          <End Role="LoginHistory" Type="Self.LoginHistory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="USERNAME" />
+            </Principal>
+            <Dependent Role="LoginHistory">
+              <PropertyRef Name="UserName" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RoleOperation_Operation">
+          <End Role="Operation" Type="Self.Operation" Multiplicity="0..1" />
+          <End Role="RoleOperation" Type="Self.RoleOperation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Operation">
+              <PropertyRef Name="OperationID" />
+            </Principal>
+            <Dependent Role="RoleOperation">
+              <PropertyRef Name="OperationID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubSystem_Operation">
+          <End Role="SubSystem" Type="Self.SubSystem" Multiplicity="0..1" />
+          <End Role="Operation" Type="Self.Operation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SubSystem">
+              <PropertyRef Name="SubSystemID" />
+            </Principal>
+            <Dependent Role="Operation">
+              <PropertyRef Name="SubSystemID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Usersinroles_Roles">
+          <End Role="Roles" Type="Self.Role" Multiplicity="1" />
+          <End Role="Usersinroles" Type="Self.Usersinrole" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="ROLENAME" />
+            </Principal>
+            <Dependent Role="Usersinroles">
+              <PropertyRef Name="ROLENAME" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserLogs_Users">
+          <End Role="Users" Type="Self.User" Multiplicity="1" />
+          <End Role="UserLogs" Type="Self.UserLog" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="USERNAME" />
+            </Principal>
+            <Dependent Role="UserLogs">
+              <PropertyRef Name="LogUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Usersinroles_Users">
+          <End Role="Users" Type="Self.User" Multiplicity="1" />
+          <End Role="Usersinroles" Type="Self.Usersinrole" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="USERNAME" />
+            </Principal>
+            <Dependent Role="Usersinroles">
+              <PropertyRef Name="USERNAME" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="AntiMoney_UMEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Companies" EntityType="Self.Company" />
+          <EntitySet Name="LoginHistories" EntityType="Self.LoginHistory" />
+          <EntitySet Name="Operations" EntityType="Self.Operation" />
+          <EntitySet Name="RoleOperations" EntityType="Self.RoleOperation" />
+          <EntitySet Name="Roles" EntityType="Self.Role" />
+          <EntitySet Name="SubSystems" EntityType="Self.SubSystem" />
+          <EntitySet Name="UserLogs" EntityType="Self.UserLog" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+          <EntitySet Name="Usersinroles" EntityType="Self.Usersinrole" />
+          <EntitySet Name="VWModules" EntityType="Self.VWModule" />
+          <EntitySet Name="VWModuleSubsystems" EntityType="Self.VWModuleSubsystem" />
+          <EntitySet Name="VWROLEOps" EntityType="Self.VWROLEOp" />
+          <EntitySet Name="VWRoleOperationAssigns" EntityType="Self.VWRoleOperationAssign" />
+          <EntitySet Name="VWRoleOperations" EntityType="Self.VWRoleOperation" />
+          <AssociationSet Name="FK_Users_Company" Association="Self.FK_Users_Company">
+            <End Role="Company" EntitySet="Companies" />
+            <End Role="Users" EntitySet="Users" />
+          </AssociationSet>
+          <AssociationSet Name="FK_LoginHistory_LoginHistory" Association="Self.FK_LoginHistory_LoginHistory">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="LoginHistory" EntitySet="LoginHistories" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RoleOperation_Operation" Association="Self.FK_RoleOperation_Operation">
+            <End Role="Operation" EntitySet="Operations" />
+            <End Role="RoleOperation" EntitySet="RoleOperations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubSystem_Operation" Association="Self.FK_SubSystem_Operation">
+            <End Role="SubSystem" EntitySet="SubSystems" />
+            <End Role="Operation" EntitySet="Operations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Usersinroles_Roles" Association="Self.FK_Usersinroles_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="Usersinroles" EntitySet="Usersinroles" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserLogs_Users" Association="Self.FK_UserLogs_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="UserLogs" EntitySet="UserLogs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Usersinroles_Users" Association="Self.FK_Usersinroles_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Usersinroles" EntitySet="Usersinroles" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AntiMoney_UMModelStoreContainer" CdmEntityContainer="AntiMoney_UMEntities">
+          <EntitySetMapping Name="Companies">
+            <EntityTypeMapping TypeName="AntiMoney_UMModel.Company">
+              <MappingFragment StoreEntitySet="Company">
+                <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+                <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+                <ScalarProperty Name="CompanyType" ColumnName="CompanyType" />
+                <ScalarProperty Name="NumberOfVehicles" ColumnName="NumberOfVehicles" />
+                <ScalarProperty Name="CompanyLogo" ColumnName="CompanyLogo" />
+                <ScalarProperty Name="Photo" ColumnName="Photo" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="SubCity" ColumnName="SubCity" />
+                <ScalarProperty Name="Woreda" ColumnName="Woreda" />
+                <ScalarProperty Name="POBOX" ColumnName="POBOX" />
+                <ScalarProperty Name="Tel" ColumnName="Tel" />
+                <ScalarProperty Name="Fax" ColumnName="Fax" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="ManagerName" ColumnName="ManagerName" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Descrbition" ColumnName="Descrbition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LoginHistories">
+            <EntityTypeMapping TypeName="AntiMoney_UMModel.LoginHistory">
+              <MappingFragment StoreEntitySet="LoginHistory">
+                <ScalarProperty Name="LoginHistoryID" ColumnName="LoginHistoryID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="DateLogged" ColumnName="DateLogged" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Operations">
+            <EntityTypeMapping TypeName="AntiMoney_UMModel.Operation">
+              <MappingFragment StoreEntitySet="Operation">
+                <ScalarProperty Name="OperationID" ColumnName="OperationID" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ModuleName" ColumnName="ModuleName" />
+                <ScalarProperty Name="SubSystem" ColumnName="SubSystem" />
+                <ScalarProperty Name="OperationName" ColumnName="OperationName" />
+                <ScalarProperty Name="OperationLink" ColumnName="OperationLink" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="SubSystemID" ColumnName="SubSystemID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RoleOperations">
+            <EntityTypeMapping TypeName="AntiMoney_UMModel.RoleOperation">
+              <MappingFragment StoreEntitySet="RoleOperation">
+                <ScalarProperty Name="RoleOperationID" ColumnName="RoleOperationID" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Operation" ColumnName="Operation" />
+                <ScalarProperty Name="Roles" ColumnName="Roles" />
+                <ScalarProperty Name="Rank" ColumnName="Rank" />
+                <ScalarProperty Name="AccessLevel" ColumnName="AccessLevel" />
+                <ScalarProperty Name="OperationID" ColumnName="OperationID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Roles">
+            <EntityTypeMapping TypeName="AntiMoney_UMModel.Role">
+              <MappingFragment StoreEntitySet="Roles">
+                <ScalarProperty Name="ROLENAME" ColumnName="ROLENAME" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SubSystems">
+            <EntityTypeMapping TypeName="AntiMoney_UMModel.SubSystem">
+              <MappingFragment StoreEntitySet="SubSystem">
+                <ScalarProperty Name="SubSystemID" ColumnName="SubSystemID" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="SubSystemName" ColumnName="SubSystemName" />
+                <ScalarProperty Name="Logo" ColumnName="Logo" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserLogs">
+            <EntityTypeMapping TypeName="AntiMoney_UMModel.UserLog">
+              <MappingFragment StoreEntitySet="UserLogs">
+                <ScalarProperty Name="LodId" ColumnName="LodId" />
+                <ScalarProperty Name="LogTime" ColumnName="LogTime" />
+                <ScalarProperty Name="LogUser" ColumnName="LogUser" />
+                <ScalarProperty Name="LogType" ColumnName="LogType" />
+                <ScalarProperty Name="LogDetail" ColumnName="LogDetail" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="AntiMoney_UMModel.User">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+                <ScalarProperty Name="DOB" ColumnName="DOB" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+                <ScalarProperty Name="PalmIP" ColumnName="PalmIP" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+                <ScalarProperty Name="LASTACTIVITYDATE" ColumnName="LASTACTIVITYDATE" />
+                <ScalarProperty Name="LASTLOGINDATE" ColumnName="LASTLOGINDATE" />
+                <ScalarProperty Name="LASTPASSWORDCHANGEDDATE" ColumnName="LASTPASSWORDCHANGEDDATE" />
+                <ScalarProperty Name="CREATIONDATE" ColumnName="CREATIONDATE" />
+                <ScalarProperty Name="ISONLINE" ColumnName="ISONLINE" />
+                <ScalarProperty Name="ISLOCKEDOUT" ColumnName="ISLOCKEDOUT" />
+                <ScalarProperty Name="LASTLOCKEDOUTDATE" ColumnName="LASTLOCKEDOUTDATE" />
+                <ScalarProperty Name="FAILEDPASSWORDATTEMPTCOUNT" ColumnName="FAILEDPASSWORDATTEMPTCOUNT" />
+                <ScalarProperty Name="FAILEDPASSWORDATTEMPTWS" ColumnName="FAILEDPASSWORDATTEMPTWS" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+                <ScalarProperty Name="SchoolId" ColumnName="SchoolId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Usersinroles">
+            <EntityTypeMapping TypeName="AntiMoney_UMModel.Usersinrole">
+              <MappingFragment StoreEntitySet="Usersinroles">
+                <ScalarProperty Name="UsersinrolesID" ColumnName="UsersinrolesID" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
+                <ScalarProperty Name="ROLENAME" ColumnName="ROLENAME" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VWModules">
+            <EntityTypeMapping TypeName="AntiMoney_UMModel.VWModule">
+              <MappingFragment StoreEntitySet="VWModules">
+                <ScalarProperty Name="ModuleName" ColumnName="ModuleName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="OperationID" ColumnName="OperationID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VWModuleSubsystems">
+            <EntityTypeMapping TypeName="AntiMoney_UMModel.VWModuleSubsystem">
+              <MappingFragment StoreEntitySet="VWModuleSubsystem">
+                <ScalarProperty Name="SubSystemName" ColumnName="SubSystemName" />
+                <ScalarProperty Name="ModuleName" ColumnName="ModuleName" />
+                <ScalarProperty Name="OperationName" ColumnName="OperationName" />
+                <ScalarProperty Name="OperationLink" ColumnName="OperationLink" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="OperationID" ColumnName="OperationID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VWROLEOps">
+            <EntityTypeMapping TypeName="AntiMoney_UMModel.VWROLEOp">
+              <MappingFragment StoreEntitySet="VWROLEOp">
+                <ScalarProperty Name="OperationName" ColumnName="OperationName" />
+                <ScalarProperty Name="Operation" ColumnName="Operation" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ROLENAME" ColumnName="ROLENAME" />
+                <ScalarProperty Name="Roles" ColumnName="Roles" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="ModuleName" ColumnName="ModuleName" />
+                <ScalarProperty Name="OperationLink" ColumnName="OperationLink" />
+                <ScalarProperty Name="OperationId" ColumnName="OperationId" />
+                <ScalarProperty Name="Rank" ColumnName="Rank" />
+                <ScalarProperty Name="AccessLevel" ColumnName="AccessLevel" />
+                <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+                <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VWRoleOperationAssigns">
+            <EntityTypeMapping TypeName="AntiMoney_UMModel.VWRoleOperationAssign">
+              <MappingFragment StoreEntitySet="VWRoleOperationAssign">
+                <ScalarProperty Name="OperationID" ColumnName="OperationID" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Operation" ColumnName="Operation" />
+                <ScalarProperty Name="Roles" ColumnName="Roles" />
+                <ScalarProperty Name="OperationLink" ColumnName="OperationLink" />
+                <ScalarProperty Name="OperationName" ColumnName="OperationName" />
+                <ScalarProperty Name="ROLENAME" ColumnName="ROLENAME" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Rank" ColumnName="Rank" />
+                <ScalarProperty Name="ModuleName" ColumnName="ModuleName" />
+                <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
+                <ScalarProperty Name="AccessLevel" ColumnName="AccessLevel" />
+                <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+                <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VWRoleOperations">
+            <EntityTypeMapping TypeName="AntiMoney_UMModel.VWRoleOperation">
+              <MappingFragment StoreEntitySet="VWRoleOperations">
+                <ScalarProperty Name="OperationName" ColumnName="OperationName" />
+                <ScalarProperty Name="Operation" ColumnName="Operation" />
+                <ScalarProperty Name="OperationID" ColumnName="OperationID" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ROLENAME" ColumnName="ROLENAME" />
+                <ScalarProperty Name="Roles" ColumnName="Roles" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="ModuleName" ColumnName="ModuleName" />
+                <ScalarProperty Name="OperationLink" ColumnName="OperationLink" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
+                <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+                <ScalarProperty Name="Rank" ColumnName="Rank" />
+                <ScalarProperty Name="AccessLevel" ColumnName="AccessLevel" />
+                <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+                <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

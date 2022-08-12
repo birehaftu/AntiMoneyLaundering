@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomePage.Master.cs" Inherits="AntiLaundering.View.HomePage" %>
+
+
+<%@ Register Assembly="Telerik.ReportViewer.WebForms, Version=10.0.16.113, Culture=neutral, PublicKeyToken=a9d7983dfcc261be" Namespace="Telerik.ReportViewer.WebForms" TagPrefix="telerik" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <%-- PSETSE Public Service Employees Transport Service  --%>
+    <title> Detecting Money Laundering System</title>
+    <link href="css/button.css" rel="stylesheet" type="text/css" />
+    <link href="css/icons.css" rel="stylesheet" type="text/css"  media="screen" />
+    <link href="css/prettify.css" rel="stylesheet" type="text/css" />
+    <link href="css/application.css" rel="stylesheet" type="text/css" />
+    <link href="css/template.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen, print" />
+    <link href="css/ui.css" rel="stylesheet" type="text/css" /> 
+    <script type="text/javascript" src="/View/Scripts/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="/View/Scripts/jquery-2.2.0.js"></script>
+    
+    <!-- Minified generation -->
+    <!-- // End minified generation -->
+    <%--   <script src="js/saticMinify.js?v=2" type="text/javascript">--%>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+       
+        .auto-style1 {
+            border-style: none;
+            border-color: inherit;
+            border-width: 0;
+height: 30px;
+            }
+        .auto-style2 {
+            height: 31px;
+            vertical-align:middle;
+        }
+    </style>
+</head>
+<body style="background-color:#800080">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+       
+        <div id="header" class="auto-style1">
+            <div class="bar">
+                <p class="left" style="background-color:#800080;vertical-align:top; margin-top:3px;margin-bottom:3px; width: auto;font-size:x-large;font-family:'Bodoni Bd BT'" >
+                     
+                   
+                    
+                 
+                       &nbsp; &nbsp;   <asp:Image ID="Image2"  runat="server"  ImageUrl="" Width="70px" Height="60px" />
+                    <%--&nbsp; &nbsp;   <a style="font-size:x-large;font-family:'Bodoni Bd BT'" href="Index.aspx" class="home"><asp:Label Visible="false" ID="Label2" BorderWidth="0px" runat="server" Text=""></asp:Label></a>--%>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <asp:Label ID="Label1" ForeColor="White" runat="server" Text="hi there"></asp:Label>
+                    
+                   <ul class="right" style=" margin-top:10px; width: auto;font-family:'Bodoni Bd BT'"><li> <asp:LoginName ID="LoginName1" runat="server" BorderStyle="None" FormatString="Welcome  {0} "
+                            Font-Size="10pt" style="color:White;background-color:#800080" />
+                     <%-- <b style="font-size:10pt;background-image:url(images/setting.png);background-size:cover;background-repeat:no-repeat;background-position: center center;">--%> 
+                        <a href="redirect/Logout.aspx"  title="Logout" style="padding-top:6px;color:white;font-size:larger"> Logout</a><%--</b>--%>
+                       </li></ul>
+               </p>     
+                 
+            </div>
+            
+        </div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+
+
+
+        </asp:ContentPlaceHolder>
+    <div id="footer" style="background-color:#800080;color:#ffffff;border:none;text-align:center;margin-top:2px;vertical-align:middle" class="auto-style2">
+        
+                   &copy; <%: DateTime.Now.Year %> - <a style="color:white" href="http://www.infonans.com">ACT American College of Technology and Commercial Bank of Ethiopia</a>
+    </div>
+    </form>
+</body>
+</html>

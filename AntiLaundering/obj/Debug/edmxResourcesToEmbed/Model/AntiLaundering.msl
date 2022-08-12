@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AntiLaunderingModelStoreContainer" CdmEntityContainer="AntiLaunderingEntities">
+    <EntitySetMapping Name="BlackMarketRates">
+      <EntityTypeMapping TypeName="AntiLaunderingModel.BlackMarketRate">
+        <MappingFragment StoreEntitySet="BlackMarketRate">
+          <ScalarProperty Name="BlackMarketRateID" ColumnName="BlackMarketRateID" />
+          <ScalarProperty Name="ExchangeName" ColumnName="ExchangeName" />
+          <ScalarProperty Name="ExchangeCode" ColumnName="ExchangeCode" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="RateDate" ColumnName="RateDate" />
+          <ScalarProperty Name="RateAmountInBirr" ColumnName="RateAmountInBirr" />
+          <ScalarProperty Name="BankRate" ColumnName="BankRate" />
+          <ScalarProperty Name="RecorderBy" ColumnName="RecorderBy" />
+          <ScalarProperty Name="RecordedDate" ColumnName="RecordedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

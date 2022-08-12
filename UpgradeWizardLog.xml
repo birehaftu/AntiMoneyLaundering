@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\MyUserManagement.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\App.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\web.config" />
+  <event action="Analyze" type="Success" name="web.config" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\web.config" />
+  <event action="Analyze" type="Success" name="MyUserManagement" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\MyUserManagement.csproj" />
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\AntiLaundering.csproj" />
+  <event action="Analyze" type="Success" name="UserActionReport.resx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Control\Report\ReportLib\UserActionReport.resx" />
+  <event action="Analyze" type="Success" name="UserLogInReport.resx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Control\Report\ReportLib\UserLogInReport.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\packages.config" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\AntiLaundering\BlackMarketRateInformation.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\AntiLaundering\BlackMarketRateInformation.aspx" />
+  <event action="Analyze" type="Success" name="BlackMarketRateInformation.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\AntiLaundering\BlackMarketRateInformation.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\AntiLaundering\BlackMarketRateRegisteration.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\AntiLaundering\BlackMarketRateRegisteration.aspx" />
+  <event action="Analyze" type="Success" name="BlackMarketRateRegisteration.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\AntiLaundering\BlackMarketRateRegisteration.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Front.Master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Front.Master" />
+  <event action="Analyze" type="Success" name="Front.Master" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Front.Master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Home.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Home.aspx" />
+  <event action="Analyze" type="Success" name="Home.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Home.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\HomePage.Master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\HomePage.Master" />
+  <event action="Analyze" type="Success" name="HomePage.Master" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\HomePage.Master" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Index.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Index.aspx" />
+  <event action="Analyze" type="Success" name="Index.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Index.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\redirect\Logout.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\redirect\Logout.aspx" />
+  <event action="Analyze" type="Success" name="Logout.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\redirect\Logout.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\redirect\redirect.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\redirect\redirect.aspx" />
+  <event action="Analyze" type="Success" name="redirect.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\redirect\redirect.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Reports\ReportManagement\LogReport.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Reports\ReportManagement\LogReport.aspx" />
+  <event action="Analyze" type="Success" name="LogReport.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Reports\ReportManagement\LogReport.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Reports\ReportManagement\UserLogInReportUI.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Reports\ReportManagement\UserLogInReportUI.aspx" />
+  <event action="Analyze" type="Success" name="UserLogInReportUI.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Reports\ReportManagement\UserLogInReportUI.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\ResourceManagement\CompanyInformation.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\ResourceManagement\CompanyInformation.aspx" />
+  <event action="Analyze" type="Success" name="CompanyInformation.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\ResourceManagement\CompanyInformation.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\ResourceManagement\CompanyRegisteration.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\ResourceManagement\CompanyRegisteration.aspx" />
+  <event action="Analyze" type="Success" name="CompanyRegisteration.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\ResourceManagement\CompanyRegisteration.aspx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Site.Master" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Site.Master" />
+  <event action="Analyze" type="Success" name="Site.Master" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Site.Master" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\AccessRule.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\AccessRule.aspx" />
+  <event action="Analyze" type="Success" name="AccessRule.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\AccessRule.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Account\ChangeOthersPassword.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Account\ChangeOthersPassword.aspx" />
+  <event action="Analyze" type="Success" name="ChangeOthersPassword.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Account\ChangeOthersPassword.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Account\ChangePassword.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Account\ChangePassword.aspx" />
+  <event action="Analyze" type="Success" name="ChangePassword.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Account\ChangePassword.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Account\ChangePasswordSuccess.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Account\ChangePasswordSuccess.aspx" />
+  <event action="Analyze" type="Success" name="ChangePasswordSuccess.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Account\ChangePasswordSuccess.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Account\Login.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Account\Login.aspx" />
+  <event action="Analyze" type="Success" name="Login.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Account\Login.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\AddSqlUser.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\AddSqlUser.aspx" />
+  <event action="Analyze" type="Success" name="AddSqlUser.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\AddSqlUser.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\EditUser.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\EditUser.ascx" />
+  <event action="Analyze" type="Success" name="EditUser.ascx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\EditUser.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\listusers.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\listusers.aspx" />
+  <event action="Analyze" type="Success" name="listusers.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\listusers.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Operations.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Operations.aspx" />
+  <event action="Analyze" type="Success" name="Operations.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\Operations.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\RestoreBackup.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\RestoreBackup.aspx" />
+  <event action="Analyze" type="Success" name="RestoreBackup.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\RestoreBackup.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\RoleOperationUI.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\RoleOperationUI.aspx" />
+  <event action="Analyze" type="Success" name="RoleOperationUI.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\RoleOperationUI.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\SqlRole.aspx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\SqlRole.aspx" />
+  <event action="Analyze" type="Success" name="SqlRole.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\SqlRole.aspx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\ucSqlRole.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\ucSqlRole.ascx" />
+  <event action="Analyze" type="Success" name="ucSqlRole.ascx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\ucSqlRole.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\UserControls\errormsg.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\UserControls\errormsg.ascx" />
+  <event action="Analyze" type="Success" name="errormsg.ascx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\UserControls\errormsg.ascx" />
+  <event action="Analyze" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\UserControls\MessageBox.ascx" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\UserControls\MessageBox.ascx" />
+  <event action="Analyze" type="Success" name="MessageBox.ascx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\UserManagement\UserControls\MessageBox.ascx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.config" />
+  <event action="Analyze" type="Success" name="Web.config" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Web.Debug.config" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Web.Release.config" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.Release.config" />
+  <event action="Analyze" type="Success" name="AntiLaundering" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\AntiLaundering.csproj" />
+  <event action="Analyze" type="Success" name="AntiLaundering" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering.sln" />
+  <event action="Backup" type="Success" name="AntiLaundering" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\AntiLaundering.csproj" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\AntiLaundering.csproj" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\HomePage.Master" />
+  <event action="Upgrade" type="Success" name="HomePage.Master" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\HomePage.Master" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Reports\ReportManagement\LogReport.aspx" />
+  <event action="Upgrade" type="Success" name="LogReport.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Reports\ReportManagement\LogReport.aspx" />
+  <event action="Upgrade" type="Success" name="Register Directives" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Reports\ReportManagement\UserLogInReportUI.aspx" />
+  <event action="Upgrade" type="Success" name="UserLogInReportUI.aspx" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\View\Reports\ReportManagement\UserLogInReportUI.aspx" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.config" />
+  <event action="Upgrade" type="Success" name="Http Handlers" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.config" />
+  <event action="Upgrade" type="Success" name="Handlers (IIS7+)" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.config" />
+  <event action="Upgrade" type="Success" name="Web.config" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\Web.config" />
+  <event action="Upgrade" type="Success" name="AntiLaundering" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\AntiLaundering.csproj" />
+  <event action="Upgrade" type="Success" name="AntiLaundering" path="D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering.sln" />
+</log>
