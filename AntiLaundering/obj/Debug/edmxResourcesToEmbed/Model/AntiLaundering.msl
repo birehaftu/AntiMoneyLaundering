@@ -16,5 +16,20 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="CustomerTransacts">
+      <EntityTypeMapping TypeName="AntiLaunderingModel.CustomerTransact">
+        <MappingFragment StoreEntitySet="CustomerTransact">
+          <ScalarProperty Name="RecordedDate" ColumnName="RecordedDate" />
+          <ScalarProperty Name="RecorderBy" ColumnName="RecorderBy" />
+          <ScalarProperty Name="TransactionType" ColumnName="TransactionType" />
+          <ScalarProperty Name="TransactionAmount" ColumnName="TransactionAmount" />
+          <ScalarProperty Name="DebitedDateTime" ColumnName="DebitedDateTime" />
+          <ScalarProperty Name="BusinessDate" ColumnName="BusinessDate" />
+          <ScalarProperty Name="CustomerAccount" ColumnName="CustomerAccount" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CustomerTransactID" ColumnName="CustomerTransactID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

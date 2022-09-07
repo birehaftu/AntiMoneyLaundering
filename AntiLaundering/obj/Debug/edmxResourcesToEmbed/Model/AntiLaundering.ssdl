@@ -14,7 +14,22 @@
     <Property Name="RecorderBy" Type="nvarchar" MaxLength="250" />
     <Property Name="RecordedDate" Type="date" />
   </EntityType>
+  <EntityType Name="CustomerTransact">
+    <Key>
+      <PropertyRef Name="CustomerTransactID" />
+    </Key>
+    <Property Name="CustomerTransactID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CustomerID" Type="int" />
+    <Property Name="CustomerAccount" Type="int" />
+    <Property Name="BusinessDate" Type="date" />
+    <Property Name="DebitedDateTime" Type="datetime" />
+    <Property Name="TransactionAmount" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="TransactionType" Type="nvarchar" MaxLength="50" />
+    <Property Name="RecorderBy" Type="nvarchar" MaxLength="250" />
+    <Property Name="RecordedDate" Type="datetime" />
+  </EntityType>
   <EntityContainer Name="AntiLaunderingModelStoreContainer">
     <EntitySet Name="BlackMarketRate" EntityType="Self.BlackMarketRate" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CustomerTransact" EntityType="Self.CustomerTransact" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

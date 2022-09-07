@@ -6,6 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="a2b3d4f160aa4690a1a70f835bdfeccc" Name="Diagram1">
         <EntityTypeShape EntityType="AntiLaunderingModel.BlackMarketRate" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AntiLaunderingModel.CustomerTransact" Width="1.5" PointX="3.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

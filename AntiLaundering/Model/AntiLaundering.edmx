@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="AntiLaunderingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="AntiLaunderingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="BlackMarketRate">
           <Key>
             <PropertyRef Name="BlackMarketRateID" />
@@ -19,11 +19,25 @@
           <Property Name="RecorderBy" Type="nvarchar" MaxLength="250" />
           <Property Name="RecordedDate" Type="date" />
         </EntityType>
+        <EntityType Name="CustomerTransact">
+          <Key>
+            <PropertyRef Name="CustomerTransactID" />
+          </Key>
+          <Property Name="CustomerTransactID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="CustomerID" Type="int" />
+          <Property Name="CustomerAccount" Type="int" />
+          <Property Name="BusinessDate" Type="date" />
+          <Property Name="DebitedDateTime" Type="datetime" />
+          <Property Name="TransactionAmount" Type="decimal" Precision="18" Scale="4" />
+          <Property Name="TransactionType" Type="nvarchar" MaxLength="50" />
+          <Property Name="RecorderBy" Type="nvarchar" MaxLength="250" />
+          <Property Name="RecordedDate" Type="datetime" />
+        </EntityType>
         <EntityContainer Name="AntiLaunderingModelStoreContainer">
           <EntitySet Name="BlackMarketRate" EntityType="Self.BlackMarketRate" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CustomerTransact" EntityType="Self.CustomerTransact" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="AntiLaunderingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -43,7 +57,22 @@
         </EntityType>
         <EntityContainer Name="AntiLaunderingEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="BlackMarketRates" EntityType="Self.BlackMarketRate" />
+          <EntitySet Name="CustomerTransacts" EntityType="AntiLaunderingModel.CustomerTransact" />
         </EntityContainer>
+        <EntityType Name="CustomerTransact">
+          <Key>
+            <PropertyRef Name="CustomerTransactID" />
+          </Key>
+          <Property Name="CustomerTransactID" Type="Guid" Nullable="false" />
+          <Property Name="CustomerID" Type="Int32" />
+          <Property Name="CustomerAccount" Type="Int32" />
+          <Property Name="BusinessDate" Type="DateTime" Precision="0" />
+          <Property Name="DebitedDateTime" Type="DateTime" Precision="3" />
+          <Property Name="TransactionAmount" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="TransactionType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="RecorderBy" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="RecordedDate" Type="DateTime" Precision="3" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -62,6 +91,21 @@
                 <ScalarProperty Name="BankRate" ColumnName="BankRate" />
                 <ScalarProperty Name="RecorderBy" ColumnName="RecorderBy" />
                 <ScalarProperty Name="RecordedDate" ColumnName="RecordedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CustomerTransacts">
+            <EntityTypeMapping TypeName="AntiLaunderingModel.CustomerTransact">
+              <MappingFragment StoreEntitySet="CustomerTransact">
+                <ScalarProperty Name="RecordedDate" ColumnName="RecordedDate" />
+                <ScalarProperty Name="RecorderBy" ColumnName="RecorderBy" />
+                <ScalarProperty Name="TransactionType" ColumnName="TransactionType" />
+                <ScalarProperty Name="TransactionAmount" ColumnName="TransactionAmount" />
+                <ScalarProperty Name="DebitedDateTime" ColumnName="DebitedDateTime" />
+                <ScalarProperty Name="BusinessDate" ColumnName="BusinessDate" />
+                <ScalarProperty Name="CustomerAccount" ColumnName="CustomerAccount" />
+                <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+                <ScalarProperty Name="CustomerTransactID" ColumnName="CustomerTransactID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
