@@ -63,8 +63,8 @@ namespace AntiLaundering.View.AntiLaundering
         }
         protected void load_CustomerTransactInfo(Boolean bind)
         {
-            CustomerTransactManagement com = new CustomerTransactManagement();
-            grdCustomerTransactInfo.DataSource = com.GetCustomerTransact();
+            RowDataManagement com = new RowDataManagement();
+            grdCustomerTransactInfo.DataSource = com.GetRowData();
             if(bind)
                 grdCustomerTransactInfo.DataBind();
             AccesCheck();
@@ -128,9 +128,9 @@ namespace AntiLaundering.View.AntiLaundering
             {
                 if (Path.GetExtension(FileUpload1.FileName) == ".xlsx" || Path.GetExtension(FileUpload1.FileName) == ".xls")
                 {
-                    if (FileUpload1.PostedFile.ContentLength > 1000e+7)
+                    if (FileUpload1.PostedFile.ContentLength > 1000000e+7)
                     {
-                        ErrorMsg1.Message = "It is not allowed to upload A file size more than 10,000 Mega Byte!";
+                        ErrorMsg1.Message = "It is not allowed to upload A file size more than 10,000,000 Mega Byte!";
                         return;
                     }
                     if ((this.FileUpload1.PostedFile != null) && (this.FileUpload1.PostedFile.ContentLength > 0))
@@ -142,7 +142,7 @@ namespace AntiLaundering.View.AntiLaundering
                         this.FileUpload1.PostedFile.SaveAs(saveLocation);
 
                         ImportFromExcel transact = new ImportFromExcel();
-                        string message = transact.ImportCustomerTransactFromExcel(saveLocation, User.Identity.Name);
+                        string message = transact.ImportCustomerRowDataFromExcel(saveLocation);
                         if (message.Contains("registered succefully."))
                         {
                             MessageBox1.Message = message;

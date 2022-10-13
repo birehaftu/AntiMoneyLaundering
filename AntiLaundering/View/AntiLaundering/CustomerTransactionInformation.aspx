@@ -49,7 +49,7 @@
             EnableHeaderContextMenu="false" PageSize="20" OnPreRender="grdCustomerTransactInfo_PreRender" >
             <GroupingSettings CaseSensitive="false" />
             <MasterTableView CommandItemDisplay="Top" EnableHeaderContextAggregatesMenu="False"
-                  ClientDataKeyNames="CustomerTransactID" DataKeyNames="CustomerTransactID">
+                  ClientDataKeyNames="TXN_ID" DataKeyNames="TXN_ID">
                 <CommandItemSettings ExportToPdfText="Export to Pdf" ShowAddNewRecordButton="false"></CommandItemSettings>
                 <CommandItemTemplate>
                             <telerik:RadButton ID="btnRegister" ButtonType="LinkButton" BackColor="#a4bbc1" OnClientClicked="RegisterCustomerTransact" runat="server" Text="New CustomerTransact" AutoPostBack="false"
@@ -64,63 +64,102 @@
                         </ItemTemplate>
                         <HeaderStyle Width="50px" />
                     </telerik:GridTemplateColumn>
-                    <telerik:GridTemplateColumn Display="false" UniqueName="CustomerTransactID" HeaderText="CustomerTransactID" SortExpression="CustomerTransactID"
+                    <telerik:GridTemplateColumn Display="false" UniqueName="TXN_ID" HeaderText="TXN_ID" SortExpression="TXN_ID"
                         AllowFiltering="true">
                         <ItemTemplate>
-                            <%#Eval("CustomerTransactID")%>
+                            <%#Eval("TXN_ID")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
-                    <telerik:GridTemplateColumn UniqueName="CustomerID" HeaderText="CustomerID" SortExpression="CustomerID"
-                        DataField="CustomerID" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
+                    <telerik:GridTemplateColumn UniqueName="DEBIT_CUSTOMER" HeaderText="DEBIT_CUSTOMER" SortExpression="DEBIT_CUSTOMER"
+                        DataField="DEBIT_CUSTOMER" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
                         <ItemTemplate>
-                            <%#Eval("CustomerID")%>
+                            <%#Eval("DEBIT_CUSTOMER")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
-                    <telerik:GridTemplateColumn UniqueName="CustomerAccount" HeaderText="CustomerAccount" SortExpression="CustomerAccount"
-                        AllowFiltering="true" DataField="CustomerAccount" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
+                    <telerik:GridTemplateColumn UniqueName="CREDIT_CUSTOMER" HeaderText="CREDIT_CUSTOMER" SortExpression="CREDIT_CUSTOMER"
+                        AllowFiltering="true" DataField="CREDIT_CUSTOMER" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
                         <ItemTemplate>
-                            <%#Eval("CustomerAccount")%>
+                            <%#Eval("CREDIT_CUSTOMER")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
-                    <telerik:GridDateTimeColumn UniqueName="BusinessDate" HeaderText="BusinessDate" SortExpression="BusinessDate" DataType="System.DateTime" DataFormatString="{0:MM/dd/yyyy}"
-                        DataField="BusinessDate"                         
+                    <telerik:GridTemplateColumn UniqueName="DEBIT_ACCT_NO" HeaderText="DEBIT_ACCT_NO" SortExpression="DEBIT_ACCT_NO"
+                        AllowFiltering="true" DataField="DEBIT_ACCT_NO" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
+                        <ItemTemplate>
+                            <%#Eval("DEBIT_ACCT_NO")%>
+                        </ItemTemplate>
+                        <HeaderStyle Width="184px" />
+                    </telerik:GridTemplateColumn>
+                    <telerik:GridTemplateColumn UniqueName="CREDIT_ACCT_NO" HeaderText="CREDIT_ACCT_NO" SortExpression="CREDIT_ACCT_NO"
+                        AllowFiltering="true" DataField="CREDIT_ACCT_NO" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
+                        <ItemTemplate>
+                            <%#Eval("CREDIT_ACCT_NO")%>
+                        </ItemTemplate>
+                        <HeaderStyle Width="184px" />
+                    </telerik:GridTemplateColumn>
+                    <telerik:GridDateTimeColumn UniqueName="BUSINESS_DATE" HeaderText="BUSINESS_DATE" SortExpression="BUSINESS_DATE" DataType="System.DateTime" DataFormatString="{0:MM/dd/yyyy}"
+                        DataField="BUSINESS_DATE"                         
                        AutoPostBackOnFilter="true" AllowFiltering="true" EnableTimeIndependentFiltering="true" ShowFilterIcon="false" CurrentFilterFunction="EqualTo">
                         <HeaderStyle Width="184px" />
                     </telerik:GridDateTimeColumn>
-                    <telerik:GridDateTimeColumn UniqueName="DebitedDateTime" HeaderText="DebitedDateTime" SortExpression="DebitedDateTime" DataType="System.DateTime" DataFormatString="{0:MM/dd/yyyy}"
-                        DataField="DebitedDateTime"                         
-                       AutoPostBackOnFilter="true" AllowFiltering="true" EnableTimeIndependentFiltering="true" ShowFilterIcon="false" CurrentFilterFunction="EqualTo">
-                        <HeaderStyle Width="184px" />
-                    </telerik:GridDateTimeColumn>
-                    <telerik:GridTemplateColumn UniqueName="TransactionAmount" HeaderText="Transaction Amount" SortExpression="TransactionAmount"
-                        AllowFiltering="false" DataField="TransactionAmount" FilterControlAltText="">
+                    <telerik:GridTemplateColumn UniqueName="TRANSACTION_BY" HeaderText="TRANSACTION_BY" SortExpression="TRANSACTION_BY"
+                        AllowFiltering="true" DataField="TRANSACTION_BY" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
                         <ItemTemplate>
-                            <%#Eval("TransactionAmount")%>
+                            <%#Eval("TRANSACTION_BY")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
-                    <telerik:GridTemplateColumn UniqueName="TransactionType" HeaderText="Transaction Type" SortExpression="TransactionType"
-                        AllowFiltering="false" DataField="TransactionType" FilterControlAltText="">
+                    <telerik:GridTemplateColumn UniqueName="DEBIT_CURRENCY" HeaderText="DEBIT_CURRENCY" SortExpression="DEBIT_CURRENCY"
+                        AllowFiltering="true" DataField="DEBIT_CURRENCY" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
                         <ItemTemplate>
-                            <%#Eval("TransactionType")%>
+                            <%#Eval("DEBIT_CURRENCY")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
-                    <telerik:GridTemplateColumn UniqueName="RecorderBy" HeaderText="Recorder By" SortExpression="RecorderBy"
-                        AllowFiltering="false" DataField="RecorderBy" FilterControlAltText="">
+                    <telerik:GridTemplateColumn UniqueName="USD_EQUIV_BALANCE" HeaderText="Transaction Amount" SortExpression="USD_EQUIV_BALANCE"
+                        AllowFiltering="false" DataField="USD_EQUIV_BALANCE" FilterControlAltText="">
                         <ItemTemplate>
-                            <%#Eval("RecorderBy")%>
+                            <%#Eval("USD_EQUIV_BALANCE")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
-                    <telerik:GridDateTimeColumn UniqueName="RecordedDate" HeaderText="RecordedDate" SortExpression="RecordedDate" DataType="System.DateTime" DataFormatString="{0:MM/dd/yyyy}"
-                        DataField="RecordedDate"                         
-                       AutoPostBackOnFilter="true" AllowFiltering="true" EnableTimeIndependentFiltering="true" ShowFilterIcon="false" CurrentFilterFunction="EqualTo">
+                    <telerik:GridTemplateColumn UniqueName="CREDIT_AMOUNT" HeaderText="Transaction Type" SortExpression="CREDIT_AMOUNT"
+                        AllowFiltering="false" DataField="CREDIT_AMOUNT" FilterControlAltText="">
+                        <ItemTemplate>
+                            <%#Eval("CREDIT_AMOUNT")%>
+                        </ItemTemplate>
                         <HeaderStyle Width="184px" />
-                    </telerik:GridDateTimeColumn>
+                    </telerik:GridTemplateColumn>
+                    <telerik:GridTemplateColumn UniqueName="AGE" HeaderText="AGE" SortExpression="AGE"
+                        AllowFiltering="false" DataField="AGE" FilterControlAltText="">
+                        <ItemTemplate>
+                            <%#Eval("AGE")%>
+                        </ItemTemplate>
+                        <HeaderStyle Width="184px" />
+                    </telerik:GridTemplateColumn>
+                    <telerik:GridTemplateColumn UniqueName="GENDER" HeaderText="GENDER" SortExpression="GENDER"
+                        AllowFiltering="false" DataField="GENDER" FilterControlAltText="">
+                        <ItemTemplate>
+                            <%#Eval("GENDER")%>
+                        </ItemTemplate>
+                        <HeaderStyle Width="184px" />
+                    </telerik:GridTemplateColumn>
+                    <telerik:GridTemplateColumn UniqueName="REGIONNAME" HeaderText="REGION NAME" SortExpression="REGIONNAME"
+                        AllowFiltering="false" DataField="REGIONNAME" FilterControlAltText="">
+                        <ItemTemplate>
+                            <%#Eval("REGIONNAME")%>
+                        </ItemTemplate>
+                        <HeaderStyle Width="184px" />
+                    </telerik:GridTemplateColumn>
+                    <telerik:GridTemplateColumn UniqueName="DISTRICTNAME" HeaderText="DISTRICT NAME" SortExpression="DISTRICTNAME"
+                        AllowFiltering="false" DataField="DISTRICTNAME" FilterControlAltText="">
+                        <ItemTemplate>
+                            <%#Eval("DISTRICTNAME")%>
+                        </ItemTemplate>
+                        <HeaderStyle Width="184px" />
+                    </telerik:GridTemplateColumn>
                 </Columns>
                 <EditItemStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
                     Font-Underline="False" HorizontalAlign="Left" Wrap="True" />

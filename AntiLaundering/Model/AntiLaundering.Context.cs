@@ -18,9 +18,10 @@ namespace AntiLaundering.Model
         public AntiLaunderingEntities()
             : base("name=AntiLaunderingEntities")
         {
-            this.Database.CommandTimeout = 1800;
+            //this.Database.CommandTimeout = 1800;
+            this.Database.CommandTimeout = 1048576;
         }
-
+    
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
@@ -28,5 +29,6 @@ namespace AntiLaundering.Model
     
         public virtual DbSet<BlackMarketRate> BlackMarketRates { get; set; }
         public virtual DbSet<CustomerTransact> CustomerTransacts { get; set; }
+        public virtual DbSet<RowData> RowDatas { get; set; }
     }
 }

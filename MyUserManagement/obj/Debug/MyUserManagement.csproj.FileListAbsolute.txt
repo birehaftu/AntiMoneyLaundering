@@ -415,8 +415,6 @@ D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyL
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\MyUserManagement.dll
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\MyUserManagement.pdb
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
-D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\obj\Debug\MyUserManagement.csproj.CoreCompileInputs.cache
-D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\obj\Debug\MyUserManagement.csproj.CopyComplete
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\obj\Debug\MyUserManagement.dll
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\obj\Debug\MyUserManagement.pdb
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Web.Design.dll
@@ -441,3 +439,5 @@ D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyL
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\bin\Debug\Telerik.Windows.Zip.xml
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\obj\Debug\MyUserManagement.csprojAssemblyReference.cache
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\obj\Debug\MyUserManagement.csproj.CoreCompileInputs.cache
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\MyUserManagement\obj\Debug\MyUserManagement.csproj.CopyComplete
