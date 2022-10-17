@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Logout.aspx.cs" Inherits="CBEBirrManage.View.redirect.Logout" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Logout.aspx.cs" Inherits="AntiLaundering.View.redirect.Logout" %>
 
 <!DOCTYPE html>
 

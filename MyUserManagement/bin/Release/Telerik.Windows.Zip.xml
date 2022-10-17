@@ -269,7 +269,7 @@
             current <see cref="T:Telerik.Windows.Zip.OperationStream"/> object does not match the underlying stream.  
             For example, this exception is thrown when using <see cref="F:Telerik.Windows.Zip.StreamOperationMode.Read"/> with an underlying stream that is write only.  </exception>
             <exception cref="T:System.ArgumentOutOfRangeException">The <paramref name="offset"/> parameter is less than zero.-or- The <paramref name="count"/> parameter is less than zero. </exception>
-            <exception cref="T:System.ArgumentException">Thesum of the <paramref name="count"/> and <paramref name="offset"/> parameters is longer than the length of the buffer. </exception>
+            <exception cref="T:System.ArgumentException">The sum of the <paramref name="count"/> and <paramref name="offset"/> parameters is larger than the length of the buffer. </exception>
         </member>
         <member name="M:Telerik.Windows.Zip.OperationStream.Seek(System.Int64,System.IO.SeekOrigin)">
             <summary>
@@ -440,7 +440,7 @@
             current <see cref="T:Telerik.Windows.Zip.OperationStream"/> object does not match the underlying stream.  
             For example, this exception is thrown when using <see cref="F:Telerik.Windows.Zip.StreamOperationMode.Read"/> with an underlying stream that is write only.  </exception>
             <exception cref="T:System.ArgumentOutOfRangeException">The <paramref name="offset"/> parameter is less than zero.-or- The <paramref name="count"/> parameter is less than zero. </exception>
-            <exception cref="T:System.ArgumentException">Thesum of the <paramref name="count"/> and <paramref name="offset"/> parameters is longer than the length of the buffer. </exception>
+            <exception cref="T:System.ArgumentException">The sum of the <paramref name="count"/> and <paramref name="offset"/> parameters is larger than the length of the buffer. </exception>
         </member>
         <member name="M:Telerik.Windows.Zip.CompressedStream.SetLength(System.Int64)">
             <summary>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile ="~/View/Site.Master" CodeBehind="redirect.aspx.cs" Inherits="CBEBirrManage.View.redirect.redirect" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile ="~/View/Site.Master" CodeBehind="redirect.aspx.cs" Inherits="AntiLaundering.View.redirect.redirect" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>

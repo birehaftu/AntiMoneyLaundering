@@ -5857,7 +5857,7 @@ var
 
 	// Swappable if display is none or starts with table
 	// except "table", "table-cell", or "table-caption"
-	// See here for display values: https://developer.mozilla.org/en-US/dCBEBirrManage.CSS/display
+	// See here for display values: https://developer.mozilla.org/en-US/dAntiLaundering.CSS/display
 	rdisplayswap = /^(none|table(?!-c[ea]).+)/,
 
 	cssShow = { position: "absolute", visibility: "hidden", display: "block" },

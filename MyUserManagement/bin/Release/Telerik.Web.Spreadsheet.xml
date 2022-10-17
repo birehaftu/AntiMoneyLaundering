@@ -68,6 +68,13 @@
             <param name="cellRef">Cell reference, i.e A7</param>
             <returns>Structure representing cell index</returns>
         </member>
+        <member name="M:Telerik.Web.Spreadsheet.CommonExtensions.GetNamedRanges(System.Collections.Generic.IEnumerable{Telerik.Windows.Documents.Spreadsheet.Model.ISpreadsheetName})">
+            <summary>
+            Converts NameCollection to NamedRange List
+            </summary>
+            <param name="spreadsheetNames">Names Collection</param>
+            <returns>Converted colleciton</returns>
+        </member>
         <member name="M:Telerik.Web.Spreadsheet.CommonExtensions.ToCellRange(System.String)">
             <summary>
             Converts cell reference to list of cell ranges
@@ -137,12 +144,112 @@
             Extensions for the DocumentWorksheet class
             </summary>
         </member>
+        <member name="M:Telerik.Web.Spreadsheet.DocumentWorksheetExtensions.ImportColumns(Telerik.Windows.Documents.Spreadsheet.Model.Worksheet)">
+            <summary>
+            Gather all columns with changed properties.
+            </summary>
+            <param name="worksheet">DocumentWorksheet from which to import columns</param>
+            <returns>A collection of columns with changed properties</returns>
+        </member>
         <member name="M:Telerik.Web.Spreadsheet.DocumentWorksheetExtensions.ImportRows(Telerik.Windows.Documents.Spreadsheet.Model.Worksheet)">
             <summary>
             Gather all rows with changed properties.
             </summary>
             <param name="worksheet">DocumentWorksheet from which to import rows</param>
             <returns>A collection of rows with changed properties</returns>
+        </member>
+        <member name="T:Telerik.Web.Spreadsheet.ValidationExtension">
+            <summary>
+            Extensions methods for DPL Validation
+            </summary>
+        </member>
+        <member name="M:Telerik.Web.Spreadsheet.ValidationExtension.ToCellValidation(Telerik.Windows.Documents.Spreadsheet.Model.DataValidation.IDataValidationRule)">
+            <summary>
+            Converts DPL Validation to Telerik.Web.Spreadsheet.Validation
+            </summary>
+        </member>
+        <member name="T:Telerik.Web.Spreadsheet.NamedRange">
+            <summary>
+            Represents a NamedRange
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.NamedRange.Name">
+            <summary>
+            Represents the name of the NamedRange
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.NamedRange.Value">
+            <summary>
+             String representation of the object the name refers to.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.NamedRange.Hidden">
+            <summary>
+            Represents visibility of the NamedRange
+            </summary>
+        </member>
+        <member name="M:Telerik.Web.Spreadsheet.NamedRange.Serialize">
+            <summary>
+            Serialize NamedRange to Dictionary
+            </summary>
+        </member>
+        <member name="T:Telerik.Web.Spreadsheet.Validation">
+            <summary>
+            Represents a Validation
+            </summary>
+            <summary>
+            Represents a Validation
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Validation.Type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Validation.ComparerType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Validation.DataType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Validation.From">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Validation.To">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Validation.ShowButton">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Validation.AllowNulls">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Validation.MessageTemplate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Validation.TitleTemplate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Telerik.Web.Spreadsheet.Validation.SerializeSettings">
+            <summary>
+            Serialize current instance to Dictionary
+            </summary>
         </member>
         <member name="T:Telerik.Web.Spreadsheet.ValueFilterDate">
             <summary>
@@ -247,6 +354,16 @@
             <param name="output">The output stream</param>
             <param name="extension">The file extension. Supported extensions are ".xlsx", ".csv", ".txt" and ".json"</param>
         </member>
+        <member name="P:Telerik.Web.Spreadsheet.Workbook.NamedRanges">
+            <summary>
+            An array defining the document named ranges.
+            </summary>
+        </member>
+        <member name="M:Telerik.Web.Spreadsheet.Workbook.#ctor">
+            <summary>
+            Instance of Workbook class
+            </summary>
+        </member>
         <member name="M:Telerik.Web.Spreadsheet.Workbook.AddSheet">
             <summary>
             Adds an empty sheet
@@ -257,21 +374,26 @@
             <summary>
             Implicit Workbook conversion to Dictionary
             </summary>
-            <param name="instance">Workbook instance</param>        
-        </member>
-        <member name="M:Telerik.Web.Spreadsheet.Workbook.SerializeSettings">
-            <summary>
-            Serialize current instance to Dictionary
-            </summary>
+            <param name="instance">Workbook instance</param>
         </member>
         <member name="P:Telerik.Web.Spreadsheet.Workbook.ActiveSheet">
             <summary>
             The name of the currently active sheet.Must match one of the (sheet names)[#configuration-sheets.name] exactly.
             </summary>
         </member>
+        <member name="P:Telerik.Web.Spreadsheet.Workbook.Pdf">
+            <summary>
+            Configures the Kendo UI Spreadsheet PDF export settings.
+            </summary>
+        </member>
         <member name="P:Telerik.Web.Spreadsheet.Workbook.Sheets">
             <summary>
             An array defining the document sheets and their content.
+            </summary>
+        </member>
+        <member name="M:Telerik.Web.Spreadsheet.Workbook.SerializeSettings">
+            <summary>
+            Serialize current instance to Dictionary
             </summary>
         </member>
         <member name="T:Telerik.Web.Spreadsheet.JsonSettings">
@@ -316,20 +438,6 @@
             Creates a new instance of the JSON Format Provider
             </summary>
         </member>
-        <member name="M:Telerik.Web.Spreadsheet.JsonFormatProvider.ImportOverride(System.IO.Stream)">
-            <summary>
-            Reads an input stream with JSON data and produces a Telerik DPL Workbook.
-            </summary>
-            <param name="input">An input stream containing JSON data</param>
-            <returns>A Telerik DPL Workbook</returns>
-        </member>
-        <member name="M:Telerik.Web.Spreadsheet.JsonFormatProvider.ExportOverride(Telerik.Windows.Documents.Spreadsheet.Model.Workbook,System.IO.Stream)">
-            <summary>
-            Writes a Telerik DPL Workbook to an output stream in JSON format
-            </summary>
-            <param name="document">A Telerik DPL Workbook</param>
-            <param name="output">The stream to write to</param>
-        </member>
         <member name="P:Telerik.Web.Spreadsheet.JsonFormatProvider.Name">
             <summary>
             Gets the name of the provider
@@ -361,6 +469,20 @@
             <summary>
             The settings to use during import
             </summary>
+        </member>
+        <member name="M:Telerik.Web.Spreadsheet.JsonFormatProvider.ImportOverride(System.IO.Stream)">
+            <summary>
+            Reads an input stream with JSON data and produces a Telerik DPL Workbook.
+            </summary>
+            <param name="input">An input stream containing JSON data</param>
+            <returns>A Telerik DPL Workbook</returns>
+        </member>
+        <member name="M:Telerik.Web.Spreadsheet.JsonFormatProvider.ExportOverride(Telerik.Windows.Documents.Spreadsheet.Model.Workbook,System.IO.Stream)">
+            <summary>
+            Writes a Telerik DPL Workbook to an output stream in JSON format
+            </summary>
+            <param name="document">A Telerik DPL Workbook</param>
+            <param name="output">The stream to write to</param>
         </member>
         <member name="T:Telerik.Web.Spreadsheet.MimeTypes">
             <summary>
@@ -405,11 +527,6 @@
             Represents a BorderStyle
             </summary>
         </member>
-        <member name="M:Telerik.Web.Spreadsheet.BorderStyle.SerializeSettings">
-            <summary>
-            Serialize current instance to Dictionary
-            </summary>
-        </member>
         <member name="P:Telerik.Web.Spreadsheet.BorderStyle.Size">
             <summary>
             
@@ -418,6 +535,11 @@
         <member name="P:Telerik.Web.Spreadsheet.BorderStyle.Color">
             <summary>
             
+            </summary>
+        </member>
+        <member name="M:Telerik.Web.Spreadsheet.BorderStyle.SerializeSettings">
+            <summary>
+            Serialize current instance to Dictionary
             </summary>
         </member>
         <member name="T:Telerik.Web.Spreadsheet.Worksheet">
@@ -445,11 +567,6 @@
             Adds a merged range to the worksheet.
             </summary>
             <param name="range">The merged range, e.g. "A1:B4"</param>
-        </member>
-        <member name="M:Telerik.Web.Spreadsheet.Worksheet.SerializeSettings">
-            <summary>
-            Serialize current instance to Dictionary
-            </summary>
         </member>
         <member name="P:Telerik.Web.Spreadsheet.Worksheet.ActiveCell">
             <summary>
@@ -491,6 +608,11 @@
             The selected range in the sheet, e.g. "A1:B10".
             </summary>
         </member>
+        <member name="P:Telerik.Web.Spreadsheet.Worksheet.ShowGridLines">
+            <summary>
+            A boolean value indicating if the sheet grid lines should be displayed.
+            </summary>
+        </member>
         <member name="P:Telerik.Web.Spreadsheet.Worksheet.Sort">
             <summary>
             Defines the sort criteria for the sheet.
@@ -501,17 +623,17 @@
             
             </summary>
         </member>
+        <member name="M:Telerik.Web.Spreadsheet.Worksheet.SerializeSettings">
+            <summary>
+            Serialize current instance to Dictionary
+            </summary>
+        </member>
         <member name="T:Telerik.Web.Spreadsheet.Column">
             <summary>
             Represents a Column
             </summary>
             <summary>
             Represents a Column
-            </summary>
-        </member>
-        <member name="M:Telerik.Web.Spreadsheet.Column.SerializeSettings">
-            <summary>
-            Serialize current instance to Dictionary
             </summary>
         </member>
         <member name="P:Telerik.Web.Spreadsheet.Column.Index">
@@ -521,7 +643,17 @@
         </member>
         <member name="P:Telerik.Web.Spreadsheet.Column.Width">
             <summary>
-            The width of the column in pixels. Defaults to columnWidth.
+            The width of the column in pixels. Value is 0 for hidden column. Defaults to columnWidth.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Column.Hidden">
+            <summary>
+            The width of the column in pixels, when row is hidden. Defaults to null.
+            </summary>
+        </member>
+        <member name="M:Telerik.Web.Spreadsheet.Column.SerializeSettings">
+            <summary>
+            Serialize current instance to Dictionary
             </summary>
         </member>
         <member name="T:Telerik.Web.Spreadsheet.Filter">
@@ -530,11 +662,6 @@
             </summary>
             <summary>
             Represents a Filter
-            </summary>
-        </member>
-        <member name="M:Telerik.Web.Spreadsheet.Filter.SerializeSettings">
-            <summary>
-            Serialize current instance to Dictionary
             </summary>
         </member>
         <member name="P:Telerik.Web.Spreadsheet.Filter.Columns">
@@ -547,17 +674,17 @@
             The active range for the filter, e.g. "B1:D8".
             </summary>
         </member>
+        <member name="M:Telerik.Web.Spreadsheet.Filter.SerializeSettings">
+            <summary>
+            Serialize current instance to Dictionary
+            </summary>
+        </member>
         <member name="T:Telerik.Web.Spreadsheet.FilterColumn">
             <summary>
             Represents a FilterColumn
             </summary>
             <summary>
             Represents a FilterColumn
-            </summary>
-        </member>
-        <member name="M:Telerik.Web.Spreadsheet.FilterColumn.SerializeSettings">
-            <summary>
-            Serialize current instance to Dictionary
             </summary>
         </member>
         <member name="P:Telerik.Web.Spreadsheet.FilterColumn.Dates">
@@ -633,6 +760,11 @@
             Indicates whether to include blank values
             </summary>
         </member>
+        <member name="M:Telerik.Web.Spreadsheet.FilterColumn.SerializeSettings">
+            <summary>
+            Serialize current instance to Dictionary
+            </summary>
+        </member>
         <member name="T:Telerik.Web.Spreadsheet.Row">
             <summary>
             Represents a Row
@@ -653,11 +785,6 @@
             </summary>
             <param name="cell">The cell to add</param>
         </member>
-        <member name="M:Telerik.Web.Spreadsheet.Row.SerializeSettings">
-            <summary>
-            Serialize current instance to Dictionary
-            </summary>
-        </member>
         <member name="P:Telerik.Web.Spreadsheet.Row.Cells">
             <summary>
             The cells for this row.
@@ -665,12 +792,22 @@
         </member>
         <member name="P:Telerik.Web.Spreadsheet.Row.Height">
             <summary>
-            The row height in pixels. Defaults to rowHeight.
+            The row height in pixels. Value is 0 for hidden rows. Defaults to rowHeight.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Row.Hidden">
+            <summary>
+            The row height in pixels, when row is hidden. Defaults to null.
             </summary>
         </member>
         <member name="P:Telerik.Web.Spreadsheet.Row.Index">
             <summary>
             The absolute row index. Required to ensure correct positioning.
+            </summary>
+        </member>
+        <member name="M:Telerik.Web.Spreadsheet.Row.SerializeSettings">
+            <summary>
+            Serialize current instance to Dictionary
             </summary>
         </member>
         <member name="T:Telerik.Web.Spreadsheet.Cell">
@@ -679,11 +816,6 @@
             </summary>
             <summary>
             Represents a Cell
-            </summary>
-        </member>
-        <member name="M:Telerik.Web.Spreadsheet.Cell.SerializeSettings">
-            <summary>
-            Serialize current instance to Dictionary
             </summary>
         </member>
         <member name="P:Telerik.Web.Spreadsheet.Cell.BorderBottom">
@@ -704,6 +836,11 @@
         <member name="P:Telerik.Web.Spreadsheet.Cell.BorderRight">
             <summary>
             The style information for the right border of the cell.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Cell.Validation">
+            <summary>
+            The information for the validation.
             </summary>
         </member>
         <member name="P:Telerik.Web.Spreadsheet.Cell.Background">
@@ -756,6 +893,11 @@
             The zero-based index of the cell. Required to ensure correct positioning.
             </summary>
         </member>
+        <member name="P:Telerik.Web.Spreadsheet.Cell.Link">
+            <summary>
+            The hyperlink (URL) of the cell.
+            </summary>
+        </member>
         <member name="P:Telerik.Web.Spreadsheet.Cell.TextAlign">
             <summary>
             The text align setting for the cell content.Available options are:
@@ -789,17 +931,22 @@
             Will wrap the cell content if set to true.
             </summary>
         </member>
+        <member name="P:Telerik.Web.Spreadsheet.Cell.Editor">
+            <summary>
+            Sets the editor of the cell.
+            </summary>
+        </member>
+        <member name="M:Telerik.Web.Spreadsheet.Cell.SerializeSettings">
+            <summary>
+            Serialize current instance to Dictionary
+            </summary>
+        </member>
         <member name="T:Telerik.Web.Spreadsheet.Sort">
             <summary>
             Represents a Sort
             </summary>
             <summary>
             Represents a Sort
-            </summary>
-        </member>
-        <member name="M:Telerik.Web.Spreadsheet.Sort.SerializeSettings">
-            <summary>
-            Serialize current instance to Dictionary
             </summary>
         </member>
         <member name="P:Telerik.Web.Spreadsheet.Sort.Columns">
@@ -812,17 +959,17 @@
             The sorted range, e.g. "A1:D5".
             </summary>
         </member>
+        <member name="M:Telerik.Web.Spreadsheet.Sort.SerializeSettings">
+            <summary>
+            Serialize current instance to Dictionary
+            </summary>
+        </member>
         <member name="T:Telerik.Web.Spreadsheet.SortColumn">
             <summary>
             Represents a SortColumn
             </summary>
             <summary>
             Represents a SortColumn
-            </summary>
-        </member>
-        <member name="M:Telerik.Web.Spreadsheet.SortColumn.SerializeSettings">
-            <summary>
-            Serialize current instance to Dictionary
             </summary>
         </member>
         <member name="P:Telerik.Web.Spreadsheet.SortColumn.Ascending">
@@ -835,17 +982,17 @@
             The index of the column within the sheet.For example, column C will have index 2.
             </summary>
         </member>
+        <member name="M:Telerik.Web.Spreadsheet.SortColumn.SerializeSettings">
+            <summary>
+            Serialize current instance to Dictionary
+            </summary>
+        </member>
         <member name="T:Telerik.Web.Spreadsheet.Criteria">
             <summary>
             Represents a Criteria
             </summary>
             <summary>
             Represents a Criteria
-            </summary>
-        </member>
-        <member name="M:Telerik.Web.Spreadsheet.Criteria.SerializeSettings">
-            <summary>
-            Serialize current instance to Dictionary
             </summary>
         </member>
         <member name="P:Telerik.Web.Spreadsheet.Criteria.Operator">
@@ -873,6 +1020,151 @@
         <member name="P:Telerik.Web.Spreadsheet.Criteria.Value">
             <summary>
             The value for the criteria operator.
+            </summary>
+        </member>
+        <member name="M:Telerik.Web.Spreadsheet.Criteria.SerializeSettings">
+            <summary>
+            Serialize current instance to Dictionary
+            </summary>
+        </member>
+        <member name="T:Telerik.Web.Spreadsheet.Pdf">
+            <summary>
+            Represents a Pdf
+            </summary>
+            <summary>
+            Represents a Pdf
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.Area">
+            <summary>
+            The area to export. Possible values:
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.Author">
+            <summary>
+            The author of the PDF document.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.Creator">
+            <summary>
+            The creator of the PDF document.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.Date">
+            <summary>
+            The date when the PDF document is created. Defaults to new Date().
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.FileName">
+            <summary>
+            Specifies the file name of the exported PDF file.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.FitWidth">
+            <summary>
+            An option indicating whether to fit the spreadsheet content to page width.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.ForceProxy">
+            <summary>
+            If set to true, the content will be forwarded to proxyURL even if the browser supports saving files locally.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.Guidelines">
+            <summary>
+            An option indicating whether to export the cell guidelines.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.HCenter">
+            <summary>
+            An option indicating whether to center the content horizontally.See also vCenter.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.Keywords">
+            <summary>
+            Specifies the keywords of the exported PDF file.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.Landscape">
+            <summary>
+            Set to true to reverse the paper dimensions if needed such that width is the larger edge.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.Margin">
+            <summary>
+            Specifies the margins of the page (numbers or strings with units). Supported
+            units are "mm", "cm", "in" and "pt" (default).
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.PaperSize">
+            <summary>
+            Specifies the paper size of the PDF document.
+            The default "auto" means paper size is determined by content.Supported values:
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.ProxyURL">
+            <summary>
+            The URL of the server side proxy which will stream the file to the end user.A proxy will be used when the browser isn't capable of saving files locally e.g. Internet Explorer 9 and Safari. PDF export is not supported in Internet Explorer 8 and below.The developer is responsible for implementing the server-side proxy.The proxy will receive a POST request with the following parameters in the request body:The proxy should return the decoded file with the "Content-Disposition" header set to
+            attachment; filename="&lt;fileName.pdf&gt;".
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.ProxyTarget">
+            <summary>
+            A name or keyword indicating where to display the document returned from the proxy.If you want to display the document in a new window or iframe,
+            the proxy should set the "Content-Disposition" header to inline; filename="&lt;fileName.pdf&gt;".
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.Subject">
+            <summary>
+            Sets the subject of the PDF file.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.Title">
+            <summary>
+            Sets the title of the PDF file.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Pdf.VCenter">
+            <summary>
+            An option indicating whether to center the content vertically.See also hCenter.
+            </summary>
+        </member>
+        <member name="M:Telerik.Web.Spreadsheet.Pdf.SerializeSettings">
+            <summary>
+            Serialize current instance to Dictionary
+            </summary>
+        </member>
+        <member name="T:Telerik.Web.Spreadsheet.Margin">
+            <summary>
+            Represents a Margin
+            </summary>
+            <summary>
+            Represents a Margin
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Margin.Bottom">
+            <summary>
+            The bottom margin. Numbers are considered as "pt" units.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Margin.Left">
+            <summary>
+            The left margin. Numbers are considered as "pt" units.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Margin.Right">
+            <summary>
+            The right margin. Numbers are considered as "pt" units.
+            </summary>
+        </member>
+        <member name="P:Telerik.Web.Spreadsheet.Margin.Top">
+            <summary>
+            The top margin. Numbers are considered as "pt" units.
+            </summary>
+        </member>
+        <member name="M:Telerik.Web.Spreadsheet.Margin.SerializeSettings">
+            <summary>
+            Serialize current instance to Dictionary
             </summary>
         </member>
     </members>

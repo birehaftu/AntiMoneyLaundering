@@ -1,7 +1,8 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomePage.Master.cs" Inherits="CBEBirrManage.View.HomePage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomePage.Master.cs" Inherits="AntiLaundering.View.HomePage" %>
 
 
-<%@ Register Assembly="Telerik.ReportViewer.WebForms, Version=10.0.16.113, Culture=neutral, PublicKeyToken=a9d7983dfcc261be" Namespace="Telerik.ReportViewer.WebForms" TagPrefix="telerik" %>
+
+<%@ Register Assembly="Telerik.ReportViewer.WebForms, Version=13.2.19.1030, Culture=neutral, PublicKeyToken=a9d7983dfcc261be" Namespace="Telerik.ReportViewer.WebForms" TagPrefix="telerik" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -10,7 +11,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <%-- PSETSE Public Service Employees Transport Service  --%>
-    <title>CBEBirr Midleware System</title>
+    <title> Detecting Money Laundering System</title>
     <link href="css/button.css" rel="stylesheet" type="text/css" />
     <link href="css/icons.css" rel="stylesheet" type="text/css"  media="screen" />
     <link href="css/prettify.css" rel="stylesheet" type="text/css" />
@@ -74,7 +75,7 @@ height: 30px;
         </asp:ContentPlaceHolder>
     <div id="footer" style="background-color:#800080;color:#ffffff;border:none;text-align:center;margin-top:2px;vertical-align:middle" class="auto-style2">
         
-                   &copy; <%: DateTime.Now.Year %> - <a style="color:white" href="http://www.infonans.com">Commercial Bank of Ethiopia</a>
+                   &copy; <%: DateTime.Now.Year %> - <a style="color:white" href="http://www.infonans.com">ACT American College of Technology and Commercial Bank of Ethiopia</a>
     </div>
     </form>
 </body>

@@ -31,5 +31,6 @@ namespace AntiLaundering.Model
         public virtual DbSet<RowData> RowDatas { get; set; }
         public virtual DbSet<FraudDetectedBlack> FraudDetectedBlacks { get; set; }
         public virtual DbSet<FraudDetectedBlackCount> FraudDetectedBlackCounts { get; set; }
+        public virtual DbSet<FraudDetectedBlackCountFiltered> FraudDetectedBlackCountFiltereds { get; set; }
     }
 }

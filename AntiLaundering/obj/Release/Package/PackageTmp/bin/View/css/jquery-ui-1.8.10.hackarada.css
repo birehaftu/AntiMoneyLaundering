@@ -5,7 +5,7 @@
  * Dual licensed under the MIT or GPL Version 2 licenses.
  * http://jquery.org/license
  *
- * http://dCBEBirrManage.jquery.com/UI/Theming/API
+ * http://dAntiLaundering.jquery.com/UI/Theming/API
  */
 
 /* Layout helpers
@@ -97,7 +97,7 @@
  * Dual licensed under the MIT or GPL Version 2 licenses.
  * http://jquery.org/license
  *
- * http://dCBEBirrManage.jquery.com/UI/Theming/API
+ * http://dAntiLaundering.jquery.com/UI/Theming/API
  *
  * To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Arial,Verdana,sans-serif&fwDefault=normal&fsDefault=1.2em&cornerRadius=4px&bgColorHeader=35acde&bgTextureHeader=01_flat.png&bgImgOpacityHeader=75&borderColorHeader=0099cc&fcHeader=ffffff&iconColorHeader=ffffff&bgColorContent=ffffff&bgTextureContent=01_flat.png&bgImgOpacityContent=75&borderColorContent=aaaaaa&fcContent=222222&iconColorContent=222222&bgColorDefault=e6e6e6&bgTextureDefault=02_glass.png&bgImgOpacityDefault=75&borderColorDefault=d3d3d3&fcDefault=555555&iconColorDefault=888888&bgColorHover=35acde&bgTextureHover=01_flat.png&bgImgOpacityHover=75&borderColorHover=0099cc&fcHover=ffffff&iconColorHover=ffffff&bgColorActive=35acde&bgTextureActive=01_flat.png&bgImgOpacityActive=65&borderColorActive=0099cc&fcActive=ffffff&iconColorActive=ffffff&bgColorHighlight=fbf9ee&bgTextureHighlight=02_glass.png&bgImgOpacityHighlight=55&borderColorHighlight=fcefa1&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=05_inset_soft.png&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=01_flat.png&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=01_flat.png&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px
  */
@@ -683,7 +683,7 @@
  * Dual licensed under the MIT or GPL Version 2 licenses.
  * http://jquery.org/license
  *
- * http://dCBEBirrManage.jquery.com/UI/Resizable#theming
+ * http://dAntiLaundering.jquery.com/UI/Resizable#theming
  */
 
 .ui-resizable { position: relative; }
@@ -766,7 +766,7 @@
  * Dual licensed under the MIT or GPL Version 2 licenses.
  * http://jquery.org/license
  *
- * http://dCBEBirrManage.jquery.com/UI/Selectable#theming
+ * http://dAntiLaundering.jquery.com/UI/Selectable#theming
  */
 
 .ui-selectable-helper {
@@ -781,7 +781,7 @@
  * Dual licensed under the MIT or GPL Version 2 licenses.
  * http://jquery.org/license
  *
- * http://dCBEBirrManage.jquery.com/UI/Accordion#theming
+ * http://dAntiLaundering.jquery.com/UI/Accordion#theming
  */
 /* IE/Win - Fix animation bug - #4615 */
 
@@ -833,7 +833,7 @@
  * Dual licensed under the MIT or GPL Version 2 licenses.
  * http://jquery.org/license
  *
- * http://dCBEBirrManage.jquery.com/UI/Autocomplete#theming
+ * http://dAntiLaundering.jquery.com/UI/Autocomplete#theming
  */
 
 .ui-autocomplete {
@@ -865,7 +865,7 @@
  * Dual licensed under the MIT or GPL Version 2 licenses.
  * http://jquery.org/license
  *
- * http://dCBEBirrManage.jquery.com/UI/Menu#theming
+ * http://dAntiLaundering.jquery.com/UI/Menu#theming
  */
 
 .ui-menu {
@@ -907,7 +907,7 @@
  * Dual licensed under the MIT or GPL Version 2 licenses.
  * http://jquery.org/license
  *
- * http://dCBEBirrManage.jquery.com/UI/Button#theming
+ * http://dAntiLaundering.jquery.com/UI/Button#theming
  */
 
 .ui-button {
@@ -997,7 +997,7 @@ button.ui-button::-moz-focus-inner {
  * Dual licensed under the MIT or GPL Version 2 licenses.
  * http://jquery.org/license
  *
- * http://dCBEBirrManage.jquery.com/UI/Dialog#theming
+ * http://dAntiLaundering.jquery.com/UI/Dialog#theming
  */
 
 .ui-dialog {
@@ -1073,7 +1073,7 @@ button.ui-button::-moz-focus-inner {
  * Dual licensed under the MIT or GPL Version 2 licenses.
  * http://jquery.org/license
  *
- * http://dCBEBirrManage.jquery.com/UI/Slider#theming
+ * http://dAntiLaundering.jquery.com/UI/Slider#theming
  */
 
 .ui-slider {
@@ -1139,7 +1139,7 @@ button.ui-button::-moz-focus-inner {
  * Dual licensed under the MIT or GPL Version 2 licenses.
  * http://jquery.org/license
  *
- * http://dCBEBirrManage.jquery.com/UI/Tabs#theming
+ * http://dAntiLaundering.jquery.com/UI/Tabs#theming
  */
 
 .ui-tabs {
@@ -1194,7 +1194,7 @@ button.ui-button::-moz-focus-inner {
  * Dual licensed under the MIT or GPL Version 2 licenses.
  * http://jquery.org/license
  *
- * http://dCBEBirrManage.jquery.com/UI/Datepicker#theming
+ * http://dAntiLaundering.jquery.com/UI/Datepicker#theming
  */
 
 .ui-datepicker {
@@ -1385,7 +1385,7 @@ button.ui-button::-moz-focus-inner {
  * Dual licensed under the MIT or GPL Version 2 licenses.
  * http://jquery.org/license
  *
- * http://dCBEBirrManage.jquery.com/UI/Progressbar#theming
+ * http://dAntiLaundering.jquery.com/UI/Progressbar#theming
  */
 
 .ui-progressbar {

@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="CBEBirrManage.View.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="AntiLaundering.View.Global" Language="C#" %>

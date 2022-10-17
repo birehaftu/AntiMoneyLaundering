@@ -3760,7 +3760,7 @@
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI
+* http://dAntiLaundering.jquery.com/UI
 */
 (function(c, j)
 {
@@ -3931,7 +3931,7 @@
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Widget
+* http://dAntiLaundering.jquery.com/UI/Widget
 */
 (function(b, j)
 {
@@ -4101,7 +4101,7 @@
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Mouse
+* http://dAntiLaundering.jquery.com/UI/Mouse
 *
 * Depends:
 *	jquery.ui.widget.js
@@ -4212,7 +4212,7 @@
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Position
+* http://dAntiLaundering.jquery.com/UI/Position
 */
 (function(c)
 {
@@ -4344,7 +4344,7 @@
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Draggables
+* http://dAntiLaundering.jquery.com/UI/Draggables
 *
 * Depends:
 *	jquery.ui.core.js
@@ -4805,7 +4805,7 @@
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Droppables
+* http://dAntiLaundering.jquery.com/UI/Droppables
 *
 * Depends:
 *	jquery.ui.core.js
@@ -5004,7 +5004,7 @@
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Resizables
+* http://dAntiLaundering.jquery.com/UI/Resizables
 *
 * Depends:
 *	jquery.ui.core.js
@@ -5518,7 +5518,7 @@
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Selectables
+* http://dAntiLaundering.jquery.com/UI/Selectables
 *
 * Depends:
 *	jquery.ui.core.js
@@ -5713,7 +5713,7 @@
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Sortables
+* http://dAntiLaundering.jquery.com/UI/Sortables
 *
 * Depends:
 *	jquery.ui.core.js
@@ -6331,7 +6331,7 @@
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Datepicker
+* http://dAntiLaundering.jquery.com/UI/Datepicker
 *
 * Depends:
 *	jquery.ui.core.js
@@ -7515,7 +7515,7 @@
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Effects/
+* http://dAntiLaundering.jquery.com/UI/Effects/
 */
 jQuery.effects||function(f, j)
 {
@@ -7970,7 +7970,7 @@ jQuery.effects||function(f, j)
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Effects/Blind
+* http://dAntiLaundering.jquery.com/UI/Effects/Blind
 *
 * Depends:
 *	jquery.effects.core.js
@@ -8010,7 +8010,7 @@ jQuery.effects||function(f, j)
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Effects/Bounce
+* http://dAntiLaundering.jquery.com/UI/Effects/Bounce
 *
 * Depends:
 *	jquery.effects.core.js
@@ -8092,7 +8092,7 @@ jQuery.effects||function(f, j)
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Effects/Clip
+* http://dAntiLaundering.jquery.com/UI/Effects/Clip
 *
 * Depends:
 *	jquery.effects.core.js
@@ -8140,7 +8140,7 @@ jQuery.effects||function(f, j)
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Effects/Drop
+* http://dAntiLaundering.jquery.com/UI/Effects/Drop
 *
 * Depends:
 *	jquery.effects.core.js
@@ -8183,7 +8183,7 @@ jQuery.effects||function(f, j)
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Effects/Explode
+* http://dAntiLaundering.jquery.com/UI/Effects/Explode
 *
 * Depends:
 *	jquery.effects.core.js
@@ -8222,7 +8222,7 @@ jQuery.effects||function(f, j)
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Effects/Fade
+* http://dAntiLaundering.jquery.com/UI/Effects/Fade
 *
 * Depends:
 *	jquery.effects.core.js
@@ -8252,7 +8252,7 @@ jQuery.effects||function(f, j)
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Effects/Fold
+* http://dAntiLaundering.jquery.com/UI/Effects/Fold
 *
 * Depends:
 *	jquery.effects.core.js
@@ -8297,7 +8297,7 @@ jQuery.effects||function(f, j)
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Effects/Highlight
+* http://dAntiLaundering.jquery.com/UI/Effects/Highlight
 *
 * Depends:
 *	jquery.effects.core.js
@@ -8333,7 +8333,7 @@ jQuery.effects||function(f, j)
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Effects/Pulsate
+* http://dAntiLaundering.jquery.com/UI/Effects/Pulsate
 *
 * Depends:
 *	jquery.effects.core.js
@@ -8383,7 +8383,7 @@ jQuery.effects||function(f, j)
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Effects/Scale
+* http://dAntiLaundering.jquery.com/UI/Effects/Scale
 *
 * Depends:
 *	jquery.effects.core.js
@@ -8532,7 +8532,7 @@ jQuery.effects||function(f, j)
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Effects/Shake
+* http://dAntiLaundering.jquery.com/UI/Effects/Shake
 *
 * Depends:
 *	jquery.effects.core.js
@@ -8582,7 +8582,7 @@ jQuery.effects||function(f, j)
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Effects/Slide
+* http://dAntiLaundering.jquery.com/UI/Effects/Slide
 *
 * Depends:
 *	jquery.effects.core.js
@@ -8625,7 +8625,7 @@ jQuery.effects||function(f, j)
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
 *
-* http://dCBEBirrManage.jquery.com/UI/Effects/Transfer
+* http://dAntiLaundering.jquery.com/UI/Effects/Transfer
 *
 * Depends:
 *	jquery.effects.core.js

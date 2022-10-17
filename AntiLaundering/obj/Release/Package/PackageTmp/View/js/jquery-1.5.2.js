@@ -794,7 +794,7 @@
             },
 
             // Use of jQuery.browser is frowned upon.
-            // More details: http://dCBEBirrManage.jquery.com/Utilities/jQuery.browser
+            // More details: http://dAntiLaundering.jquery.com/Utilities/jQuery.browser
             uaMatch: function (ua) {
                 ua = ua.toLowerCase();
 

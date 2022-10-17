@@ -2111,7 +2111,7 @@ google.maps.Marker.prototype.getId = function() {
 
 //==========================
 // Array indexOf
-// https://developer.mozilla.org/en-US/dCBEBirrManage.JavaScript/Reference/Global_Objects/Array/indexOf
+// https://developer.mozilla.org/en-US/dAntiLaundering.JavaScript/Reference/Global_Objects/Array/indexOf
 if (!Array.prototype.indexOf) {
   Array.prototype.indexOf = function (searchElement /*, fromIndex */ ) {
       "use strict";

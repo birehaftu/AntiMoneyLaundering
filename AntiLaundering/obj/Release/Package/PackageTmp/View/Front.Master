@@ -1,9 +1,9 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Front.Master.cs" Inherits="CBEBirrManage.View.Front" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Front.Master.cs" Inherits="AntiLaundering.View.Front" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head runat="server" enableviewstate="True">
-    <title>CBEBirr Midleware System</title>
+    <title> Detecting Money Laundering System</title>
    <link id="Link1" runat="server" rel="shortcut icon" href="~/View/images/favi.ico" type="image/x-icon" />
     <link id="Link2" runat="server" rel="icon" href="~/View/images/favi.ico" type="image/ico" />
     <%--<link href="Styles/Site.css" rel="stylesheet" type="text/css" />--%>
@@ -25,7 +25,7 @@
                     <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
                         
                         
-                        <%--<asp:Label ID="Label2" runat="server" Text="CBEBirr Midleware System" Font-Bold="True" Font-Size="16pt" ForeColor="#0033CC"></asp:Label>--%>
+                        <%--<asp:Label ID="Label2" runat="server" Text=" Detecting Money Laundering System" Font-Bold="True" Font-Size="16pt" ForeColor="#0033CC"></asp:Label>--%>
                         </li>
                 </ul>
             </div>
@@ -52,7 +52,7 @@
                 
             </div>
             <div id="templatemo_menu_section1" style="padding-top:80px;color:#000;border: 0px 0px 0px 0px;text-align:center">
-                &copy;  <%: DateTime.Now.Year %> - <a target="_blank" href="http://infonans.com">Commercial Bank of Ethiopia</a>
+                &copy;  <%: DateTime.Now.Year %> - <a target="_blank" href="http://infonans.com">ACT American College of Technology and Commercial Bank of Ethiopia</a>
             </div>
         </div>
     </form>
