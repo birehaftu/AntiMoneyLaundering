@@ -16,23 +16,10 @@
   </EntityType>
   <EntityContainer Name="AntiLaunderingEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="BlackMarketRates" EntityType="Self.BlackMarketRate" />
-    <EntitySet Name="CustomerTransacts" EntityType="AntiLaunderingModel.CustomerTransact" />
     <EntitySet Name="RowDatas" EntityType="AntiLaunderingModel.RowData" />
+    <EntitySet Name="FraudDetectedBlacks" EntityType="AntiLaunderingModel.FraudDetectedBlack" />
+    <EntitySet Name="FraudDetectedBlackCounts" EntityType="AntiLaunderingModel.FraudDetectedBlackCount" />
   </EntityContainer>
-  <EntityType Name="CustomerTransact">
-    <Key>
-      <PropertyRef Name="CustomerTransactID" />
-    </Key>
-    <Property Name="CustomerTransactID" Type="Guid" Nullable="false" />
-    <Property Name="CustomerID" Type="Int32" />
-    <Property Name="CustomerAccount" Type="Int32" />
-    <Property Name="BusinessDate" Type="DateTime" Precision="0" />
-    <Property Name="DebitedDateTime" Type="DateTime" Precision="3" />
-    <Property Name="TransactionAmount" Type="Decimal" Precision="18" Scale="4" />
-    <Property Name="TransactionType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="RecorderBy" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
-    <Property Name="RecordedDate" Type="DateTime" Precision="3" />
-  </EntityType>
   <EntityType Name="RowData">
     <Key>
       <PropertyRef Name="TXN_ID" />
@@ -47,6 +34,44 @@
     <Property Name="DEBIT_CURRENCY" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
     <Property Name="USD_EQUIV_BALANCE" Type="Decimal" Precision="35" Scale="4" />
     <Property Name="CREDIT_AMOUNT" Type="Decimal" Precision="35" Scale="4" />
+    <Property Name="AGE" Type="Int32" />
+    <Property Name="GENDER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="REGIONNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DISTRICTNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="FraudDetectedBlack">
+    <Key>
+      <PropertyRef Name="TXN_ID" />
+    </Key>
+    <Property Name="TXN_ID" Type="Int32" Nullable="false" />
+    <Property Name="DEBIT_CUSTOMER" Type="Int32" />
+    <Property Name="CREDIT_CUSTOMER" Type="Int32" />
+    <Property Name="DEBIT_ACCT_NO" Type="Int32" />
+    <Property Name="CREDIT_ACCT_NO" Type="Int32" />
+    <Property Name="BUSINESS_DATE" Type="DateTime" Precision="0" />
+    <Property Name="TRANSACTION_BY" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DEBIT_CURRENCY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="USD_EQUIV_BALANCE" Type="Decimal" Precision="18" Scale="4" />
+    <Property Name="CREDIT_AMOUNT" Type="Decimal" Precision="18" Scale="4" />
+    <Property Name="AGE" Type="Int32" />
+    <Property Name="GENDER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="REGIONNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DISTRICTNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="EXCHANGERATE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SUSPECTFRAUD" Type="Int32" />
+    <Property Name="DETECTED_BY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="FraudDetectedBlackCount">
+    <Key>
+      <PropertyRef Name="TXN_ID" />
+    </Key>
+    <Property Name="TXN_ID" Type="Int32" Nullable="false" />
+    <Property Name="TOTAL_TNX" Type="Int32" />
+    <Property Name="SUSPECTFRAUD" Type="Int32" />
+    <Property Name="DETECTED_BY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DEBIT_CUSTOMER" Type="Int32" />
+    <Property Name="USD_EQUIV_BALANCE" Type="Decimal" Precision="18" Scale="4" />
+    <Property Name="CREDIT_AMOUNT" Type="Decimal" Precision="18" Scale="4" />
     <Property Name="AGE" Type="Int32" />
     <Property Name="GENDER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="REGIONNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />

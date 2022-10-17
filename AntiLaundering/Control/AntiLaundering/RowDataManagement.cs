@@ -74,7 +74,7 @@ namespace AntiLaundering.Control.AntiLaundering
 
         public List<RowData> GetRowData()
         {
-            var comp_data = (from v in CBE.RowDatas orderby v.BUSINESS_DATE select v).ToList();
+            var comp_data = (from v in CBE.RowDatas orderby v.TXN_ID select v).Take(2000000).ToList();
             return comp_data;
         }
        

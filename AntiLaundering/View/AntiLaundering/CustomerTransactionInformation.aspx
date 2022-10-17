@@ -44,7 +44,7 @@
             AllowSorting="True" ShowRecordedDateBar="True"
             Width="100%" ClientSettings-Selecting-AllowRowSelect="true"
             AllowMultiRowSelection="false" AllowFilteringByColumn="true"
-            OnItemDataBound="grdCustomerTransactInfo_ItemDataBound" OnDeleteCommand="grdCustomerTransactInfo_DeleteCommand"
+            OnItemDataBound="grdCustomerTransactInfo_ItemDataBound" 
             EnableHeaderContextAggregatesMenu="false" OnNeedDataSource="grdCustomerTransactInfo_NeedDataSource" EnableHeaderContextFilterMenu="false"
             EnableHeaderContextMenu="false" PageSize="20" OnPreRender="grdCustomerTransactInfo_PreRender" >
             <GroupingSettings CaseSensitive="false" />

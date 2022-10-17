@@ -21,14 +21,15 @@ namespace AntiLaundering.Model
             //this.Database.CommandTimeout = 1800;
             this.Database.CommandTimeout = 1048576;
         }
-    
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
         }
     
         public virtual DbSet<BlackMarketRate> BlackMarketRates { get; set; }
-        public virtual DbSet<CustomerTransact> CustomerTransacts { get; set; }
         public virtual DbSet<RowData> RowDatas { get; set; }
+        public virtual DbSet<FraudDetectedBlack> FraudDetectedBlacks { get; set; }
+        public virtual DbSet<FraudDetectedBlackCount> FraudDetectedBlackCounts { get; set; }
     }
 }

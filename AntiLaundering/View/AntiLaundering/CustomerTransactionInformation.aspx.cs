@@ -71,28 +71,7 @@ namespace AntiLaundering.View.AntiLaundering
         }
         protected void grdCustomerTransactInfo_DeleteCommand(object sender, Telerik.Web.UI.GridCommandEventArgs e)
         {
-            Guid Id = Guid.Parse(e.Item.OwnerTableView.DataKeyValues[e.Item.ItemIndex]["CustomerTransactID"].ToString());
-            try
-            {
-                CustomerTransactManagement com = new CustomerTransactManagement();
-                if (com.DeleteCustomerTransact(Id))
-                {
-                    load_CustomerTransactInfo(true);
-                    MessageBox1.Message = "CustomerTransact Information Deleted";
-                    use.InserActionLog(DateTime.Now, User.Identity.Name, "CustomerTransact Deleted ", "CustomerTransact Deleted" + ID.ToString());
-                }
-                else
-                {
-                    ErrorMsg1.Message = "This CustomerTransact is used as foreign key to other informations! Fisrt delete those informations to delete this CustomerTransact!";
-                }
-            }
-
-            catch (Exception ex)
-            {
-                //MessagePanel1.Visible = true;
-                ErrorMsg1.Message = ex.Message;
-
-            }
+           
         }
 
         protected void btnRefresh_Click(object sender, EventArgs e)
