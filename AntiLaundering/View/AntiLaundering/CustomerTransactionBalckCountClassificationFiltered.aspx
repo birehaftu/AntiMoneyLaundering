@@ -87,7 +87,7 @@
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
-                    <telerik:GridTemplateColumn UniqueName="CREDIT_AMOUNT" HeaderText="Transaction Type" SortExpression="CREDIT_AMOUNT"
+                    <telerik:GridTemplateColumn UniqueName="CREDIT_AMOUNT" HeaderText="CREDIT_AMOUNT" SortExpression="CREDIT_AMOUNT"
                         AllowFiltering="false" DataField="CREDIT_AMOUNT" FilterControlAltText="">
                         <ItemTemplate>
                             <%#Eval("CREDIT_AMOUNT")%>

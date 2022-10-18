@@ -120,14 +120,14 @@
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
-                    <telerik:GridTemplateColumn UniqueName="USD_EQUIV_BALANCE" HeaderText="Transaction Amount" SortExpression="USD_EQUIV_BALANCE"
+                    <telerik:GridTemplateColumn UniqueName="USD_EQUIV_BALANCE" HeaderText="USD_EQUIV_BALANCE" SortExpression="USD_EQUIV_BALANCE"
                         AllowFiltering="false" DataField="USD_EQUIV_BALANCE" FilterControlAltText="">
                         <ItemTemplate>
                             <%#Eval("USD_EQUIV_BALANCE")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
-                    <telerik:GridTemplateColumn UniqueName="CREDIT_AMOUNT" HeaderText="Transaction Type" SortExpression="CREDIT_AMOUNT"
+                    <telerik:GridTemplateColumn UniqueName="CREDIT_AMOUNT" HeaderText="CREDIT_AMOUNT" SortExpression="CREDIT_AMOUNT"
                         AllowFiltering="false" DataField="CREDIT_AMOUNT" FilterControlAltText="">
                         <ItemTemplate>
                             <%#Eval("CREDIT_AMOUNT")%>
