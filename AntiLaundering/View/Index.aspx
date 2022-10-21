@@ -127,17 +127,17 @@
     
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <div style="border:none;background-color:#800080;height:100%;border-bottom-width:0px">
+    <div style="border:none;background-color:#6497b1;height:100%;border-bottom-width:0px">
         <table width="100%" border="0" class="auto-style2">
             <tr>
                 <td valign="top" style="border:none; margin:0px 0px 0px 0px">
                    
                     <telerik:RadSplitter ID="radSplitter" runat="server" BorderSize="0" Height="549px" Width="100%"
                          Orientation="Vertical">
-                        <telerik:RadPane ID="RadPane1" runat="server" BorderWidth="0" Width="19%" BackColor="#800080">
+                        <telerik:RadPane ID="RadPane1" runat="server" BorderWidth="0" Width="19%" BackColor="#6497b1">
                             
                             <telerik:RadTreeView ID="RadTreeView1" runat="server" Height="99%" Width="100%" RenderMode="Native" ShowLineImages="false"
-                                EnableDragAndDrop="false" OnNodeClick="RadTreeView1_NodeClick" Style="background-color:#800080;color:white;border: 0px ;" Font-Size="Medium">
+                                EnableDragAndDrop="false" OnNodeClick="RadTreeView1_NodeClick" Style="background-color:#6497b1;color:white;border: 0px ;" Font-Size="Medium">
                             </telerik:RadTreeView>
                         </telerik:RadPane>
                         <telerik:RadSplitBar ID="RadSplitbar1" runat="server" BackColor="InActiveCaption" CollapseMode="Forward">

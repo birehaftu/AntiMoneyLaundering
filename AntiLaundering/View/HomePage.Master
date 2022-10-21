@@ -41,14 +41,14 @@ height: 30px;
         }
     </style>
 </head>
-<body style="background-color:#800080">
+<body style="background-color:#6497b1">
     <form id="form1" runat="server">
     <asp:ScriptManager ID="ScriptManager1" runat="server">
     </asp:ScriptManager>
        
         <div id="header" class="auto-style1">
             <div class="bar">
-                <p class="left" style="background-color:#800080;vertical-align:top; margin-top:3px;margin-bottom:3px; width: auto;font-size:x-large;font-family:'Bodoni Bd BT'" >
+                <p class="left" style="background-color:#6497b1;vertical-align:top; margin-top:3px;margin-bottom:3px; width: auto;font-size:x-large;font-family:'Bodoni Bd BT'" >
                      
                    
                     
@@ -58,7 +58,7 @@ height: 30px;
                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <asp:Label ID="Label1" ForeColor="White" runat="server" Text="hi there"></asp:Label>
                     
                    <ul class="right" style=" margin-top:10px; width: auto;font-family:'Bodoni Bd BT'"><li> <asp:LoginName ID="LoginName1" runat="server" BorderStyle="None" FormatString="Welcome  {0} "
-                            Font-Size="10pt" style="color:White;background-color:#800080" />
+                            Font-Size="10pt" style="color:White;background-color:#6497b1" />
                      <%-- <b style="font-size:10pt;background-image:url(images/setting.png);background-size:cover;background-repeat:no-repeat;background-position: center center;">--%> 
                         <a href="redirect/Logout.aspx"  title="Logout" style="padding-top:6px;color:white;font-size:larger"> Logout</a><%--</b>--%>
                        </li></ul>
@@ -73,7 +73,7 @@ height: 30px;
 
 
         </asp:ContentPlaceHolder>
-    <div id="footer" style="background-color:#800080;color:#ffffff;border:none;text-align:center;margin-top:2px;vertical-align:middle" class="auto-style2">
+    <div id="footer" style="background-color:#6497b1;color:#ffffff;border:none;text-align:center;margin-top:2px;vertical-align:middle" class="auto-style2">
         
                    &copy; <%: DateTime.Now.Year %> - <a style="color:white" href="http://www.infonans.com">ACT American College of Technology and Commercial Bank of Ethiopia</a>
     </div>

@@ -73,7 +73,7 @@ background-position: left;
                         <asp:Panel ID="pnlDefaultButton"  style="align-content:center"  runat="server" DefaultButton="LoginButton">
 
                             <%--<asp:ValidationSummary ID="LoginUserValidationSummary" runat="server" ValidationGroup="LoginUserValidationGroup" />--%>
-                            <h1 style="text-align:center;color:#800080;font-size:xx-large" >
+                            <h1 style="text-align:center;color:#6497b1;font-size:xx-large" >
                          ACT Detecting Money Laundering <br />
                            SIGN IN
                      </h1>
@@ -98,7 +98,7 @@ background-position: left;
                             </p>
                             </fieldset>
                             <p class="auto-style4">
-                            <asp:Button ID="LoginButton" BackColor="#800080" Font-Size="Medium" Font-Bold="true" runat="server" ForeColor="White" CommandName="Login" Text="Log In      "
+                            <asp:Button ID="LoginButton" BackColor="#6497b1" Font-Size="Medium" Font-Bold="true" runat="server" ForeColor="White" CommandName="Login" Text="Log In      "
                                 ValidationGroup="LoginUserValidationGroup" OnClick="LoginButton_Click" Width="204px" Height="20px" />
                                 </p>
                        </asp:Panel>

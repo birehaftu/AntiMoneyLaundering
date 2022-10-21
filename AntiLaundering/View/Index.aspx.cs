@@ -126,9 +126,9 @@ namespace AntiLaundering.View
                         //root1.ExpandedImageUrl = "~/View/images/open_folder.png";
                         root1.Style.Add("border-size", "1px");
                         root1.Style.Add("margin", "3px 3px 3px 3px");
-                        root1.Style.Add("border-color", "#4e8264");
+                        root1.Style.Add("border-color", "#03396c");
                         root1.Style.Add("width", "100%");
-                        root1.Style.Add("background-color", "#800080");
+                        root1.Style.Add("background-color", "#6497b1");
                         //root1.Style.Add("background-color", "#1b4e00");
                         var submodule = man.getOperationsByModuleName(l.ModuleName, User.Identity.Name);
                         foreach (var li in submodule)
@@ -140,10 +140,10 @@ namespace AntiLaundering.View
                             //root2.SelectedImageUrl = "~/View/images/Icon_New_File_256x256.png";
                             //background - color:#1b4e00
                             root2.Style.Add("border-size", "1px");
-                            root2.Style.Add("border-color", "#4e8264");
+                            root2.Style.Add("border-color", "#03396c");
                             root2.Style.Add("margin", "3px 3px 3px 3px");
                             root2.Style.Add("width", "100%");
-                            root2.Style.Add("background-color", "#FFD700");
+                            root2.Style.Add("background-color", "#b3cde0");
                             //root2.Style.Add("background-color", "#1b4e08");
                             if (!String.IsNullOrEmpty(li.OperationLink))
                             {
@@ -163,12 +163,12 @@ namespace AntiLaundering.View
                         //root2.SelectedImageUrl = "~/View/images/Icon_New_File_256x256.png";
 
                         root2.Style.Add("border-size", "1px");
-                        root2.Style.Add("border-color", "#4e8264");
+                        root2.Style.Add("border-color", "#03396c");
                         root2.Style.Add("margin", "3px 3px 3px 3px");
                         root2.Style.Add("width", "100%");
-                        root2.Style.Add("background-color", "#800080");//#FFD700
+                        root2.Style.Add("background-color", "#6497b1");//#b3cde0
                         //root2.Style.Add("background-color", "#1b4e00");
-                        //background-color:#800080
+                        //background-color:#6497b1
                         RadTreeView1.Nodes.Add(root2);
                         var id = l.OperationID.ToString();
                         String url = "~/View/Index.aspx?gt=" + id;
