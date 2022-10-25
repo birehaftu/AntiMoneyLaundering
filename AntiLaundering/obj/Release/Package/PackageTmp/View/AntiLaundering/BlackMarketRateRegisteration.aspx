@@ -48,7 +48,6 @@
                             <telerik:RadComboBoxItem runat="server" Text="canadian dollar" Value="canadian dollar" />
                             <telerik:RadComboBoxItem runat="server" Text="UAE Dirhams" Value="UAE Dirhams" />
                             <telerik:RadComboBoxItem runat="server" Text="Saudi riyal" Value="Saudi riyal" />
-                            <telerik:RadComboBoxItem runat="server" Text="Kuwaiti dinar" Value="Kuwaiti dinar" />
 
                         </Items>
                     </telerik:RadComboBox>
@@ -64,7 +63,6 @@
                             <telerik:RadComboBoxItem runat="server" Text="CAD" Value="CAD" />
                             <telerik:RadComboBoxItem runat="server" Text="AED" Value="AED" />
                             <telerik:RadComboBoxItem runat="server" Text="SAR" Value="SAR" />
-                            <telerik:RadComboBoxItem runat="server" Text="KWD" Value="KWD" />
 
                         </Items>
                     </telerik:RadComboBox>
@@ -83,7 +81,6 @@
                             <telerik:RadComboBoxItem runat="server" Text="Canada" Value="Canada" />
                             <telerik:RadComboBoxItem runat="server" Text="UAE" Value="UAE" />
                             <telerik:RadComboBoxItem runat="server" Text="Suadi Arebia" Value="Suadi Arebia" />
-                            <telerik:RadComboBoxItem runat="server" Text="Kuwait" Value="Kuwait" />
 
                         </Items>
                     </telerik:RadComboBox>           
