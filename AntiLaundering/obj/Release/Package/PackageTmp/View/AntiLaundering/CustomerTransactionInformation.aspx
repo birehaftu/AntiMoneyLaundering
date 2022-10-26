@@ -167,7 +167,6 @@
             </MasterTableView>
             <ClientSettings>
                 <Selecting AllowRowSelect="true" />
-                <ClientEvents OnRowDblClick="UpdateCustomerTransact" />
             </ClientSettings>
             <FilterItemStyle CssClass="HighZindex" />
             <FilterMenu CssClass="HighZindex" EnableRoundedCorners="True">
