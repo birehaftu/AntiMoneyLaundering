@@ -18,19 +18,23 @@ namespace AntiLaundering.Model
         public AntiLaunderingEntities()
             : base("name=AntiLaunderingEntities")
         {
-            //this.Database.CommandTimeout = 1800;
-            this.Database.CommandTimeout = 1048576;
         }
-
+    
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
         }
     
         public virtual DbSet<BlackMarketRate> BlackMarketRates { get; set; }
-        public virtual DbSet<RowData> RowDatas { get; set; }
         public virtual DbSet<FraudDetectedBlack> FraudDetectedBlacks { get; set; }
         public virtual DbSet<FraudDetectedBlackCount> FraudDetectedBlackCounts { get; set; }
-        public virtual DbSet<FraudDetectedBlackCountFiltered> FraudDetectedBlackCountFiltereds { get; set; }
+        public virtual DbSet<FraudDetectedBlackCountAND> FraudDetectedBlackCountANDs { get; set; }
+        public virtual DbSet<FraudDetectedBlackCountSep> FraudDetectedBlackCountSeps { get; set; }
+        public virtual DbSet<FraudDetectedBlackCountSepAND> FraudDetectedBlackCountSepANDs { get; set; }
+        public virtual DbSet<FraudDetectedTrend> FraudDetectedTrends { get; set; }
+        public virtual DbSet<FraudDetectedTrendAND> FraudDetectedTrendANDs { get; set; }
+        public virtual DbSet<FraudDetectedTrendFifteen> FraudDetectedTrendFifteens { get; set; }
+        public virtual DbSet<RowData> RowDatas { get; set; }
+        public virtual DbSet<RowDataSep> RowDataSeps { get; set; }
     }
 }

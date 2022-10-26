@@ -4,35 +4,15 @@
     <EntitySetMapping Name="BlackMarketRates">
       <EntityTypeMapping TypeName="AntiLaunderingModel.BlackMarketRate">
         <MappingFragment StoreEntitySet="BlackMarketRate">
-          <ScalarProperty Name="BlackMarketRateID" ColumnName="BlackMarketRateID" />
-          <ScalarProperty Name="ExchangeName" ColumnName="ExchangeName" />
-          <ScalarProperty Name="ExchangeCode" ColumnName="ExchangeCode" />
-          <ScalarProperty Name="Country" ColumnName="Country" />
-          <ScalarProperty Name="RateDate" ColumnName="RateDate" />
-          <ScalarProperty Name="RateAmountInBirr" ColumnName="RateAmountInBirr" />
-          <ScalarProperty Name="BankRate" ColumnName="BankRate" />
-          <ScalarProperty Name="RecorderBy" ColumnName="RecorderBy" />
           <ScalarProperty Name="RecordedDate" ColumnName="RecordedDate" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="RowDatas">
-      <EntityTypeMapping TypeName="AntiLaunderingModel.RowData">
-        <MappingFragment StoreEntitySet="RowData">
-          <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
-          <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
-          <ScalarProperty Name="GENDER" ColumnName="GENDER" />
-          <ScalarProperty Name="AGE" ColumnName="AGE" />
-          <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
-          <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
-          <ScalarProperty Name="DEBIT_CURRENCY" ColumnName="DEBIT_CURRENCY" />
-          <ScalarProperty Name="TRANSACTION_BY" ColumnName="TRANSACTION_BY" />
-          <ScalarProperty Name="BUSINESS_DATE" ColumnName="BUSINESS_DATE" />
-          <ScalarProperty Name="CREDIT_ACCT_NO" ColumnName="CREDIT_ACCT_NO" />
-          <ScalarProperty Name="DEBIT_ACCT_NO" ColumnName="DEBIT_ACCT_NO" />
-          <ScalarProperty Name="CREDIT_CUSTOMER" ColumnName="CREDIT_CUSTOMER" />
-          <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
-          <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+          <ScalarProperty Name="RecorderBy" ColumnName="RecorderBy" />
+          <ScalarProperty Name="BankRate" ColumnName="BankRate" />
+          <ScalarProperty Name="RateAmountInBirr" ColumnName="RateAmountInBirr" />
+          <ScalarProperty Name="RateDate" ColumnName="RateDate" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="ExchangeCode" ColumnName="ExchangeCode" />
+          <ScalarProperty Name="ExchangeName" ColumnName="ExchangeName" />
+          <ScalarProperty Name="BlackMarketRateID" ColumnName="BlackMarketRateID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -76,9 +56,9 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="FraudDetectedBlackCountFiltereds">
-      <EntityTypeMapping TypeName="AntiLaunderingModel.FraudDetectedBlackCountFiltered">
-        <MappingFragment StoreEntitySet="FraudDetectedBlackCountFiltered">
+    <EntitySetMapping Name="FraudDetectedBlackCountANDs">
+      <EntityTypeMapping TypeName="AntiLaunderingModel.FraudDetectedBlackCountAND">
+        <MappingFragment StoreEntitySet="FraudDetectedBlackCountAND">
           <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
           <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
           <ScalarProperty Name="GENDER" ColumnName="GENDER" />
@@ -89,6 +69,131 @@
           <ScalarProperty Name="DETECTED_BY" ColumnName="DETECTED_BY" />
           <ScalarProperty Name="SUSPECTFRAUD" ColumnName="SUSPECTFRAUD" />
           <ScalarProperty Name="TOTAL_TNX" ColumnName="TOTAL_TNX" />
+          <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FraudDetectedBlackCountSeps">
+      <EntityTypeMapping TypeName="AntiLaunderingModel.FraudDetectedBlackCountSep">
+        <MappingFragment StoreEntitySet="FraudDetectedBlackCountSep">
+          <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
+          <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
+          <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+          <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
+          <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
+          <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
+          <ScalarProperty Name="DETECTED_BY" ColumnName="DETECTED_BY" />
+          <ScalarProperty Name="SUSPECTFRAUD" ColumnName="SUSPECTFRAUD" />
+          <ScalarProperty Name="TOTAL_TNX" ColumnName="TOTAL_TNX" />
+          <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FraudDetectedBlackCountSepANDs">
+      <EntityTypeMapping TypeName="AntiLaunderingModel.FraudDetectedBlackCountSepAND">
+        <MappingFragment StoreEntitySet="FraudDetectedBlackCountSepAND">
+          <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
+          <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
+          <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+          <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
+          <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
+          <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
+          <ScalarProperty Name="DETECTED_BY" ColumnName="DETECTED_BY" />
+          <ScalarProperty Name="SUSPECTFRAUD" ColumnName="SUSPECTFRAUD" />
+          <ScalarProperty Name="TOTAL_TNX" ColumnName="TOTAL_TNX" />
+          <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FraudDetectedTrends">
+      <EntityTypeMapping TypeName="AntiLaunderingModel.FraudDetectedTrend">
+        <MappingFragment StoreEntitySet="FraudDetectedTrend">
+          <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
+          <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
+          <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+          <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
+          <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
+          <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
+          <ScalarProperty Name="DETECTED_BY" ColumnName="DETECTED_BY" />
+          <ScalarProperty Name="SUSPECTFRAUD" ColumnName="SUSPECTFRAUD" />
+          <ScalarProperty Name="TOTAL_TNX" ColumnName="TOTAL_TNX" />
+          <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FraudDetectedTrendANDs">
+      <EntityTypeMapping TypeName="AntiLaunderingModel.FraudDetectedTrendAND">
+        <MappingFragment StoreEntitySet="FraudDetectedTrendAND">
+          <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
+          <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
+          <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+          <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
+          <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
+          <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
+          <ScalarProperty Name="DETECTED_BY" ColumnName="DETECTED_BY" />
+          <ScalarProperty Name="SUSPECTFRAUD" ColumnName="SUSPECTFRAUD" />
+          <ScalarProperty Name="TOTAL_TNX" ColumnName="TOTAL_TNX" />
+          <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FraudDetectedTrendFifteens">
+      <EntityTypeMapping TypeName="AntiLaunderingModel.FraudDetectedTrendFifteen">
+        <MappingFragment StoreEntitySet="FraudDetectedTrendFifteen">
+          <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
+          <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
+          <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+          <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
+          <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
+          <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
+          <ScalarProperty Name="DETECTED_BY" ColumnName="DETECTED_BY" />
+          <ScalarProperty Name="SUSPECTFRAUD" ColumnName="SUSPECTFRAUD" />
+          <ScalarProperty Name="TOTAL_TNX" ColumnName="TOTAL_TNX" />
+          <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RowDatas">
+      <EntityTypeMapping TypeName="AntiLaunderingModel.RowData">
+        <MappingFragment StoreEntitySet="RowData">
+          <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
+          <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
+          <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+          <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
+          <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
+          <ScalarProperty Name="DEBIT_CURRENCY" ColumnName="DEBIT_CURRENCY" />
+          <ScalarProperty Name="TRANSACTION_BY" ColumnName="TRANSACTION_BY" />
+          <ScalarProperty Name="BUSINESS_DATE" ColumnName="BUSINESS_DATE" />
+          <ScalarProperty Name="CREDIT_ACCT_NO" ColumnName="CREDIT_ACCT_NO" />
+          <ScalarProperty Name="DEBIT_ACCT_NO" ColumnName="DEBIT_ACCT_NO" />
+          <ScalarProperty Name="CREDIT_CUSTOMER" ColumnName="CREDIT_CUSTOMER" />
+          <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
+          <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RowDataSeps">
+      <EntityTypeMapping TypeName="AntiLaunderingModel.RowDataSep">
+        <MappingFragment StoreEntitySet="RowDataSep">
+          <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
+          <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
+          <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+          <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
+          <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
+          <ScalarProperty Name="DEBIT_CURRENCY" ColumnName="DEBIT_CURRENCY" />
+          <ScalarProperty Name="TRANSACTION_BY" ColumnName="TRANSACTION_BY" />
+          <ScalarProperty Name="BUSINESS_DATE" ColumnName="BUSINESS_DATE" />
+          <ScalarProperty Name="CREDIT_ACCT_NO" ColumnName="CREDIT_ACCT_NO" />
+          <ScalarProperty Name="DEBIT_ACCT_NO" ColumnName="DEBIT_ACCT_NO" />
+          <ScalarProperty Name="CREDIT_CUSTOMER" ColumnName="CREDIT_CUSTOMER" />
+          <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
           <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
         </MappingFragment>
       </EntityTypeMapping>

@@ -12,9 +12,9 @@ namespace AntiLaundering.Control.AntiLaundering
     {
         AntiLaunderingEntities CBE = new AntiLaunderingEntities();
        
-        public List<FraudDetectedBlackCountFiltered> GetFraudDetectedBlack()
+        public List<FraudDetectedBlackCountSepAND> GetFraudDetectedBlack()
         {
-            var comp_data = (from v in CBE.FraudDetectedBlackCountFiltereds orderby v.TXN_ID select v).ToList();
+            var comp_data = (from v in CBE.FraudDetectedBlackCountSepANDs orderby v.TXN_ID select v).ToList();
             return comp_data;
         }
        

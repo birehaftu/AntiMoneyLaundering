@@ -14,7 +14,7 @@
         
         <telerik:RadWindowManager ID="RadWindowManager1" VisibleRecordedDatebar="false"  VisibleOnPageLoad="true" runat="server"></telerik:RadWindowManager>
         <fieldset id="Fieldset1">    
-                <asp:Label ID="lbltext" Text=" Customer Classified By black market rate and maximum limit" runat="server"></asp:Label>
+                <asp:Label ID="lbltext" Text=" August Customer Classified By black market rate and maximum limit" runat="server"></asp:Label>
         </fieldset>
     </div>
     <div class="InputPanel" >

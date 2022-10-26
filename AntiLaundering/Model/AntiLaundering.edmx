@@ -57,7 +57,87 @@
           <Property Name="REGIONNAME" Type="nvarchar" MaxLength="500" />
           <Property Name="DISTRICTNAME" Type="nvarchar" MaxLength="500" />
         </EntityType>
-        <EntityType Name="FraudDetectedBlackCountFiltered">
+        <EntityType Name="FraudDetectedBlackCountAND">
+          <Key>
+            <PropertyRef Name="TXN_ID" />
+          </Key>
+          <Property Name="TXN_ID" Type="int" Nullable="false" />
+          <Property Name="TOTAL_TNX" Type="int" />
+          <Property Name="SUSPECTFRAUD" Type="int" />
+          <Property Name="DETECTED_BY" Type="nvarchar" MaxLength="50" />
+          <Property Name="DEBIT_CUSTOMER" Type="int" />
+          <Property Name="USD_EQUIV_BALANCE" Type="decimal" Precision="18" Scale="4" />
+          <Property Name="CREDIT_AMOUNT" Type="decimal" Precision="18" Scale="4" />
+          <Property Name="AGE" Type="int" />
+          <Property Name="GENDER" Type="nvarchar" MaxLength="50" />
+          <Property Name="REGIONNAME" Type="nvarchar" MaxLength="500" />
+          <Property Name="DISTRICTNAME" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="FraudDetectedBlackCountSep">
+          <Key>
+            <PropertyRef Name="TXN_ID" />
+          </Key>
+          <Property Name="TXN_ID" Type="int" Nullable="false" />
+          <Property Name="TOTAL_TNX" Type="int" />
+          <Property Name="SUSPECTFRAUD" Type="int" />
+          <Property Name="DETECTED_BY" Type="nvarchar" MaxLength="50" />
+          <Property Name="DEBIT_CUSTOMER" Type="int" />
+          <Property Name="USD_EQUIV_BALANCE" Type="decimal" Precision="18" Scale="4" />
+          <Property Name="CREDIT_AMOUNT" Type="decimal" Precision="18" Scale="4" />
+          <Property Name="AGE" Type="int" />
+          <Property Name="GENDER" Type="nvarchar" MaxLength="50" />
+          <Property Name="REGIONNAME" Type="nvarchar" MaxLength="500" />
+          <Property Name="DISTRICTNAME" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="FraudDetectedBlackCountSepAND">
+          <Key>
+            <PropertyRef Name="TXN_ID" />
+          </Key>
+          <Property Name="TXN_ID" Type="int" Nullable="false" />
+          <Property Name="TOTAL_TNX" Type="int" />
+          <Property Name="SUSPECTFRAUD" Type="int" />
+          <Property Name="DETECTED_BY" Type="nvarchar" MaxLength="50" />
+          <Property Name="DEBIT_CUSTOMER" Type="int" />
+          <Property Name="USD_EQUIV_BALANCE" Type="decimal" Precision="18" Scale="4" />
+          <Property Name="CREDIT_AMOUNT" Type="decimal" Precision="18" Scale="4" />
+          <Property Name="AGE" Type="int" />
+          <Property Name="GENDER" Type="nvarchar" MaxLength="50" />
+          <Property Name="REGIONNAME" Type="nvarchar" MaxLength="500" />
+          <Property Name="DISTRICTNAME" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="FraudDetectedTrend">
+          <Key>
+            <PropertyRef Name="TXN_ID" />
+          </Key>
+          <Property Name="TXN_ID" Type="int" Nullable="false" />
+          <Property Name="TOTAL_TNX" Type="int" />
+          <Property Name="SUSPECTFRAUD" Type="int" />
+          <Property Name="DETECTED_BY" Type="nvarchar" MaxLength="50" />
+          <Property Name="DEBIT_CUSTOMER" Type="int" />
+          <Property Name="USD_EQUIV_BALANCE" Type="decimal" Precision="18" Scale="4" />
+          <Property Name="CREDIT_AMOUNT" Type="decimal" Precision="18" Scale="4" />
+          <Property Name="AGE" Type="int" />
+          <Property Name="GENDER" Type="nvarchar" MaxLength="50" />
+          <Property Name="REGIONNAME" Type="nvarchar" MaxLength="500" />
+          <Property Name="DISTRICTNAME" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="FraudDetectedTrendAND">
+          <Key>
+            <PropertyRef Name="TXN_ID" />
+          </Key>
+          <Property Name="TXN_ID" Type="int" Nullable="false" />
+          <Property Name="TOTAL_TNX" Type="int" />
+          <Property Name="SUSPECTFRAUD" Type="int" />
+          <Property Name="DETECTED_BY" Type="nvarchar" MaxLength="50" />
+          <Property Name="DEBIT_CUSTOMER" Type="int" />
+          <Property Name="USD_EQUIV_BALANCE" Type="decimal" Precision="18" Scale="4" />
+          <Property Name="CREDIT_AMOUNT" Type="decimal" Precision="18" Scale="4" />
+          <Property Name="AGE" Type="int" />
+          <Property Name="GENDER" Type="nvarchar" MaxLength="50" />
+          <Property Name="REGIONNAME" Type="nvarchar" MaxLength="500" />
+          <Property Name="DISTRICTNAME" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="FraudDetectedTrendFifteen">
           <Key>
             <PropertyRef Name="TXN_ID" />
           </Key>
@@ -77,7 +157,26 @@
           <Key>
             <PropertyRef Name="TXN_ID" />
           </Key>
-          <Property Name="TXN_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TXN_ID" Type="int" Nullable="false" />
+          <Property Name="DEBIT_CUSTOMER" Type="int" />
+          <Property Name="CREDIT_CUSTOMER" Type="int" />
+          <Property Name="DEBIT_ACCT_NO" Type="int" />
+          <Property Name="CREDIT_ACCT_NO" Type="int" />
+          <Property Name="BUSINESS_DATE" Type="date" />
+          <Property Name="TRANSACTION_BY" Type="nvarchar" MaxLength="250" />
+          <Property Name="DEBIT_CURRENCY" Type="nvarchar" MaxLength="10" />
+          <Property Name="USD_EQUIV_BALANCE" Type="decimal" Precision="35" Scale="4" />
+          <Property Name="CREDIT_AMOUNT" Type="decimal" Precision="35" Scale="4" />
+          <Property Name="AGE" Type="int" />
+          <Property Name="GENDER" Type="nvarchar" MaxLength="50" />
+          <Property Name="REGIONNAME" Type="nvarchar" MaxLength="500" />
+          <Property Name="DISTRICTNAME" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="RowDataSep">
+          <Key>
+            <PropertyRef Name="TXN_ID" />
+          </Key>
+          <Property Name="TXN_ID" Type="int" Nullable="false" />
           <Property Name="DEBIT_CUSTOMER" Type="int" />
           <Property Name="CREDIT_CUSTOMER" Type="int" />
           <Property Name="DEBIT_ACCT_NO" Type="int" />
@@ -96,13 +195,32 @@
           <EntitySet Name="BlackMarketRate" EntityType="Self.BlackMarketRate" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="FraudDetectedBlack" EntityType="Self.FraudDetectedBlack" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="FraudDetectedBlackCount" EntityType="Self.FraudDetectedBlackCount" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="FraudDetectedBlackCountFiltered" EntityType="Self.FraudDetectedBlackCountFiltered" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FraudDetectedBlackCountAND" EntityType="Self.FraudDetectedBlackCountAND" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FraudDetectedBlackCountSep" EntityType="Self.FraudDetectedBlackCountSep" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FraudDetectedBlackCountSepAND" EntityType="Self.FraudDetectedBlackCountSepAND" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FraudDetectedTrend" EntityType="Self.FraudDetectedTrend" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FraudDetectedTrendAND" EntityType="Self.FraudDetectedTrendAND" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FraudDetectedTrendFifteen" EntityType="Self.FraudDetectedTrendFifteen" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="RowData" EntityType="Self.RowData" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RowDataSep" EntityType="Self.RowDataSep" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="AntiLaunderingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="AntiLaunderingEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="BlackMarketRates" EntityType="AntiLaunderingModel.BlackMarketRate" />
+          <EntitySet Name="FraudDetectedBlacks" EntityType="AntiLaunderingModel.FraudDetectedBlack" />
+          <EntitySet Name="FraudDetectedBlackCounts" EntityType="AntiLaunderingModel.FraudDetectedBlackCount" />
+          <EntitySet Name="FraudDetectedBlackCountANDs" EntityType="AntiLaunderingModel.FraudDetectedBlackCountAND" />
+          <EntitySet Name="FraudDetectedBlackCountSeps" EntityType="AntiLaunderingModel.FraudDetectedBlackCountSep" />
+          <EntitySet Name="FraudDetectedBlackCountSepANDs" EntityType="AntiLaunderingModel.FraudDetectedBlackCountSepAND" />
+          <EntitySet Name="FraudDetectedTrends" EntityType="AntiLaunderingModel.FraudDetectedTrend" />
+          <EntitySet Name="FraudDetectedTrendANDs" EntityType="AntiLaunderingModel.FraudDetectedTrendAND" />
+          <EntitySet Name="FraudDetectedTrendFifteens" EntityType="AntiLaunderingModel.FraudDetectedTrendFifteen" />
+          <EntitySet Name="RowDatas" EntityType="AntiLaunderingModel.RowData" />
+          <EntitySet Name="RowDataSeps" EntityType="AntiLaunderingModel.RowDataSep" />
+        </EntityContainer>
         <EntityType Name="BlackMarketRate">
           <Key>
             <PropertyRef Name="BlackMarketRateID" />
@@ -116,32 +234,6 @@
           <Property Name="BankRate" Type="Decimal" Precision="18" Scale="4" />
           <Property Name="RecorderBy" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
           <Property Name="RecordedDate" Type="DateTime" Precision="0" />
-        </EntityType>
-        <EntityContainer Name="AntiLaunderingEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="BlackMarketRates" EntityType="Self.BlackMarketRate" />
-          <EntitySet Name="RowDatas" EntityType="AntiLaunderingModel.RowData" />
-          <EntitySet Name="FraudDetectedBlacks" EntityType="AntiLaunderingModel.FraudDetectedBlack" />
-          <EntitySet Name="FraudDetectedBlackCounts" EntityType="AntiLaunderingModel.FraudDetectedBlackCount" />
-          <EntitySet Name="FraudDetectedBlackCountFiltereds" EntityType="AntiLaunderingModel.FraudDetectedBlackCountFiltered" />
-        </EntityContainer>
-        <EntityType Name="RowData">
-          <Key>
-            <PropertyRef Name="TXN_ID" />
-          </Key>
-          <Property Name="TXN_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="DEBIT_CUSTOMER" Type="Int32" />
-          <Property Name="CREDIT_CUSTOMER" Type="Int32" />
-          <Property Name="DEBIT_ACCT_NO" Type="Int32" />
-          <Property Name="CREDIT_ACCT_NO" Type="Int32" />
-          <Property Name="BUSINESS_DATE" Type="DateTime" Precision="0" />
-          <Property Name="TRANSACTION_BY" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
-          <Property Name="DEBIT_CURRENCY" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
-          <Property Name="USD_EQUIV_BALANCE" Type="Decimal" Precision="35" Scale="4" />
-          <Property Name="CREDIT_AMOUNT" Type="Decimal" Precision="35" Scale="4" />
-          <Property Name="AGE" Type="Int32" />
-          <Property Name="GENDER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="REGIONNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
-          <Property Name="DISTRICTNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="FraudDetectedBlack">
           <Key>
@@ -181,7 +273,7 @@
           <Property Name="REGIONNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
           <Property Name="DISTRICTNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
         </EntityType>
-        <EntityType Name="FraudDetectedBlackCountFiltered">
+        <EntityType Name="FraudDetectedBlackCountAND">
           <Key>
             <PropertyRef Name="TXN_ID" />
           </Key>
@@ -197,7 +289,125 @@
           <Property Name="REGIONNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
           <Property Name="DISTRICTNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
         </EntityType>
-      </Schema>
+        <EntityType Name="FraudDetectedBlackCountSep">
+          <Key>
+            <PropertyRef Name="TXN_ID" />
+          </Key>
+          <Property Name="TXN_ID" Type="Int32" Nullable="false" />
+          <Property Name="TOTAL_TNX" Type="Int32" />
+          <Property Name="SUSPECTFRAUD" Type="Int32" />
+          <Property Name="DETECTED_BY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DEBIT_CUSTOMER" Type="Int32" />
+          <Property Name="USD_EQUIV_BALANCE" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="CREDIT_AMOUNT" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="AGE" Type="Int32" />
+          <Property Name="GENDER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="REGIONNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="DISTRICTNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="FraudDetectedBlackCountSepAND">
+          <Key>
+            <PropertyRef Name="TXN_ID" />
+          </Key>
+          <Property Name="TXN_ID" Type="Int32" Nullable="false" />
+          <Property Name="TOTAL_TNX" Type="Int32" />
+          <Property Name="SUSPECTFRAUD" Type="Int32" />
+          <Property Name="DETECTED_BY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DEBIT_CUSTOMER" Type="Int32" />
+          <Property Name="USD_EQUIV_BALANCE" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="CREDIT_AMOUNT" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="AGE" Type="Int32" />
+          <Property Name="GENDER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="REGIONNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="DISTRICTNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="FraudDetectedTrend">
+          <Key>
+            <PropertyRef Name="TXN_ID" />
+          </Key>
+          <Property Name="TXN_ID" Type="Int32" Nullable="false" />
+          <Property Name="TOTAL_TNX" Type="Int32" />
+          <Property Name="SUSPECTFRAUD" Type="Int32" />
+          <Property Name="DETECTED_BY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DEBIT_CUSTOMER" Type="Int32" />
+          <Property Name="USD_EQUIV_BALANCE" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="CREDIT_AMOUNT" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="AGE" Type="Int32" />
+          <Property Name="GENDER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="REGIONNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="DISTRICTNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="FraudDetectedTrendAND">
+          <Key>
+            <PropertyRef Name="TXN_ID" />
+          </Key>
+          <Property Name="TXN_ID" Type="Int32" Nullable="false" />
+          <Property Name="TOTAL_TNX" Type="Int32" />
+          <Property Name="SUSPECTFRAUD" Type="Int32" />
+          <Property Name="DETECTED_BY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DEBIT_CUSTOMER" Type="Int32" />
+          <Property Name="USD_EQUIV_BALANCE" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="CREDIT_AMOUNT" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="AGE" Type="Int32" />
+          <Property Name="GENDER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="REGIONNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="DISTRICTNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="FraudDetectedTrendFifteen">
+          <Key>
+            <PropertyRef Name="TXN_ID" />
+          </Key>
+          <Property Name="TXN_ID" Type="Int32" Nullable="false" />
+          <Property Name="TOTAL_TNX" Type="Int32" />
+          <Property Name="SUSPECTFRAUD" Type="Int32" />
+          <Property Name="DETECTED_BY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DEBIT_CUSTOMER" Type="Int32" />
+          <Property Name="USD_EQUIV_BALANCE" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="CREDIT_AMOUNT" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="AGE" Type="Int32" />
+          <Property Name="GENDER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="REGIONNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="DISTRICTNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="RowData">
+          <Key>
+            <PropertyRef Name="TXN_ID" />
+          </Key>
+          <Property Name="TXN_ID" Type="Int32" Nullable="false" />
+          <Property Name="DEBIT_CUSTOMER" Type="Int32" />
+          <Property Name="CREDIT_CUSTOMER" Type="Int32" />
+          <Property Name="DEBIT_ACCT_NO" Type="Int32" />
+          <Property Name="CREDIT_ACCT_NO" Type="Int32" />
+          <Property Name="BUSINESS_DATE" Type="DateTime" Precision="0" />
+          <Property Name="TRANSACTION_BY" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="DEBIT_CURRENCY" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="USD_EQUIV_BALANCE" Type="Decimal" Precision="35" Scale="4" />
+          <Property Name="CREDIT_AMOUNT" Type="Decimal" Precision="35" Scale="4" />
+          <Property Name="AGE" Type="Int32" />
+          <Property Name="GENDER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="REGIONNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="DISTRICTNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="RowDataSep">
+          <Key>
+            <PropertyRef Name="TXN_ID" />
+          </Key>
+          <Property Name="TXN_ID" Type="Int32" Nullable="false" />
+          <Property Name="DEBIT_CUSTOMER" Type="Int32" />
+          <Property Name="CREDIT_CUSTOMER" Type="Int32" />
+          <Property Name="DEBIT_ACCT_NO" Type="Int32" />
+          <Property Name="CREDIT_ACCT_NO" Type="Int32" />
+          <Property Name="BUSINESS_DATE" Type="DateTime" Precision="0" />
+          <Property Name="TRANSACTION_BY" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="DEBIT_CURRENCY" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="USD_EQUIV_BALANCE" Type="Decimal" Precision="35" Scale="4" />
+          <Property Name="CREDIT_AMOUNT" Type="Decimal" Precision="35" Scale="4" />
+          <Property Name="AGE" Type="Int32" />
+          <Property Name="GENDER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="REGIONNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="DISTRICTNAME" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
@@ -206,35 +416,15 @@
           <EntitySetMapping Name="BlackMarketRates">
             <EntityTypeMapping TypeName="AntiLaunderingModel.BlackMarketRate">
               <MappingFragment StoreEntitySet="BlackMarketRate">
-                <ScalarProperty Name="BlackMarketRateID" ColumnName="BlackMarketRateID" />
-                <ScalarProperty Name="ExchangeName" ColumnName="ExchangeName" />
-                <ScalarProperty Name="ExchangeCode" ColumnName="ExchangeCode" />
-                <ScalarProperty Name="Country" ColumnName="Country" />
-                <ScalarProperty Name="RateDate" ColumnName="RateDate" />
-                <ScalarProperty Name="RateAmountInBirr" ColumnName="RateAmountInBirr" />
-                <ScalarProperty Name="BankRate" ColumnName="BankRate" />
-                <ScalarProperty Name="RecorderBy" ColumnName="RecorderBy" />
                 <ScalarProperty Name="RecordedDate" ColumnName="RecordedDate" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="RowDatas">
-            <EntityTypeMapping TypeName="AntiLaunderingModel.RowData">
-              <MappingFragment StoreEntitySet="RowData">
-                <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
-                <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
-                <ScalarProperty Name="GENDER" ColumnName="GENDER" />
-                <ScalarProperty Name="AGE" ColumnName="AGE" />
-                <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
-                <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
-                <ScalarProperty Name="DEBIT_CURRENCY" ColumnName="DEBIT_CURRENCY" />
-                <ScalarProperty Name="TRANSACTION_BY" ColumnName="TRANSACTION_BY" />
-                <ScalarProperty Name="BUSINESS_DATE" ColumnName="BUSINESS_DATE" />
-                <ScalarProperty Name="CREDIT_ACCT_NO" ColumnName="CREDIT_ACCT_NO" />
-                <ScalarProperty Name="DEBIT_ACCT_NO" ColumnName="DEBIT_ACCT_NO" />
-                <ScalarProperty Name="CREDIT_CUSTOMER" ColumnName="CREDIT_CUSTOMER" />
-                <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
-                <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+                <ScalarProperty Name="RecorderBy" ColumnName="RecorderBy" />
+                <ScalarProperty Name="BankRate" ColumnName="BankRate" />
+                <ScalarProperty Name="RateAmountInBirr" ColumnName="RateAmountInBirr" />
+                <ScalarProperty Name="RateDate" ColumnName="RateDate" />
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="ExchangeCode" ColumnName="ExchangeCode" />
+                <ScalarProperty Name="ExchangeName" ColumnName="ExchangeName" />
+                <ScalarProperty Name="BlackMarketRateID" ColumnName="BlackMarketRateID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -278,9 +468,9 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="FraudDetectedBlackCountFiltereds">
-            <EntityTypeMapping TypeName="AntiLaunderingModel.FraudDetectedBlackCountFiltered">
-              <MappingFragment StoreEntitySet="FraudDetectedBlackCountFiltered">
+          <EntitySetMapping Name="FraudDetectedBlackCountANDs">
+            <EntityTypeMapping TypeName="AntiLaunderingModel.FraudDetectedBlackCountAND">
+              <MappingFragment StoreEntitySet="FraudDetectedBlackCountAND">
                 <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
                 <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
                 <ScalarProperty Name="GENDER" ColumnName="GENDER" />
@@ -291,6 +481,131 @@
                 <ScalarProperty Name="DETECTED_BY" ColumnName="DETECTED_BY" />
                 <ScalarProperty Name="SUSPECTFRAUD" ColumnName="SUSPECTFRAUD" />
                 <ScalarProperty Name="TOTAL_TNX" ColumnName="TOTAL_TNX" />
+                <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FraudDetectedBlackCountSeps">
+            <EntityTypeMapping TypeName="AntiLaunderingModel.FraudDetectedBlackCountSep">
+              <MappingFragment StoreEntitySet="FraudDetectedBlackCountSep">
+                <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
+                <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
+                <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+                <ScalarProperty Name="AGE" ColumnName="AGE" />
+                <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
+                <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
+                <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
+                <ScalarProperty Name="DETECTED_BY" ColumnName="DETECTED_BY" />
+                <ScalarProperty Name="SUSPECTFRAUD" ColumnName="SUSPECTFRAUD" />
+                <ScalarProperty Name="TOTAL_TNX" ColumnName="TOTAL_TNX" />
+                <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FraudDetectedBlackCountSepANDs">
+            <EntityTypeMapping TypeName="AntiLaunderingModel.FraudDetectedBlackCountSepAND">
+              <MappingFragment StoreEntitySet="FraudDetectedBlackCountSepAND">
+                <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
+                <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
+                <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+                <ScalarProperty Name="AGE" ColumnName="AGE" />
+                <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
+                <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
+                <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
+                <ScalarProperty Name="DETECTED_BY" ColumnName="DETECTED_BY" />
+                <ScalarProperty Name="SUSPECTFRAUD" ColumnName="SUSPECTFRAUD" />
+                <ScalarProperty Name="TOTAL_TNX" ColumnName="TOTAL_TNX" />
+                <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FraudDetectedTrends">
+            <EntityTypeMapping TypeName="AntiLaunderingModel.FraudDetectedTrend">
+              <MappingFragment StoreEntitySet="FraudDetectedTrend">
+                <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
+                <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
+                <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+                <ScalarProperty Name="AGE" ColumnName="AGE" />
+                <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
+                <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
+                <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
+                <ScalarProperty Name="DETECTED_BY" ColumnName="DETECTED_BY" />
+                <ScalarProperty Name="SUSPECTFRAUD" ColumnName="SUSPECTFRAUD" />
+                <ScalarProperty Name="TOTAL_TNX" ColumnName="TOTAL_TNX" />
+                <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FraudDetectedTrendANDs">
+            <EntityTypeMapping TypeName="AntiLaunderingModel.FraudDetectedTrendAND">
+              <MappingFragment StoreEntitySet="FraudDetectedTrendAND">
+                <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
+                <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
+                <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+                <ScalarProperty Name="AGE" ColumnName="AGE" />
+                <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
+                <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
+                <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
+                <ScalarProperty Name="DETECTED_BY" ColumnName="DETECTED_BY" />
+                <ScalarProperty Name="SUSPECTFRAUD" ColumnName="SUSPECTFRAUD" />
+                <ScalarProperty Name="TOTAL_TNX" ColumnName="TOTAL_TNX" />
+                <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FraudDetectedTrendFifteens">
+            <EntityTypeMapping TypeName="AntiLaunderingModel.FraudDetectedTrendFifteen">
+              <MappingFragment StoreEntitySet="FraudDetectedTrendFifteen">
+                <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
+                <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
+                <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+                <ScalarProperty Name="AGE" ColumnName="AGE" />
+                <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
+                <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
+                <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
+                <ScalarProperty Name="DETECTED_BY" ColumnName="DETECTED_BY" />
+                <ScalarProperty Name="SUSPECTFRAUD" ColumnName="SUSPECTFRAUD" />
+                <ScalarProperty Name="TOTAL_TNX" ColumnName="TOTAL_TNX" />
+                <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RowDatas">
+            <EntityTypeMapping TypeName="AntiLaunderingModel.RowData">
+              <MappingFragment StoreEntitySet="RowData">
+                <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
+                <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
+                <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+                <ScalarProperty Name="AGE" ColumnName="AGE" />
+                <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
+                <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
+                <ScalarProperty Name="DEBIT_CURRENCY" ColumnName="DEBIT_CURRENCY" />
+                <ScalarProperty Name="TRANSACTION_BY" ColumnName="TRANSACTION_BY" />
+                <ScalarProperty Name="BUSINESS_DATE" ColumnName="BUSINESS_DATE" />
+                <ScalarProperty Name="CREDIT_ACCT_NO" ColumnName="CREDIT_ACCT_NO" />
+                <ScalarProperty Name="DEBIT_ACCT_NO" ColumnName="DEBIT_ACCT_NO" />
+                <ScalarProperty Name="CREDIT_CUSTOMER" ColumnName="CREDIT_CUSTOMER" />
+                <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
+                <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RowDataSeps">
+            <EntityTypeMapping TypeName="AntiLaunderingModel.RowDataSep">
+              <MappingFragment StoreEntitySet="RowDataSep">
+                <ScalarProperty Name="DISTRICTNAME" ColumnName="DISTRICTNAME" />
+                <ScalarProperty Name="REGIONNAME" ColumnName="REGIONNAME" />
+                <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+                <ScalarProperty Name="AGE" ColumnName="AGE" />
+                <ScalarProperty Name="CREDIT_AMOUNT" ColumnName="CREDIT_AMOUNT" />
+                <ScalarProperty Name="USD_EQUIV_BALANCE" ColumnName="USD_EQUIV_BALANCE" />
+                <ScalarProperty Name="DEBIT_CURRENCY" ColumnName="DEBIT_CURRENCY" />
+                <ScalarProperty Name="TRANSACTION_BY" ColumnName="TRANSACTION_BY" />
+                <ScalarProperty Name="BUSINESS_DATE" ColumnName="BUSINESS_DATE" />
+                <ScalarProperty Name="CREDIT_ACCT_NO" ColumnName="CREDIT_ACCT_NO" />
+                <ScalarProperty Name="DEBIT_ACCT_NO" ColumnName="DEBIT_ACCT_NO" />
+                <ScalarProperty Name="CREDIT_CUSTOMER" ColumnName="CREDIT_CUSTOMER" />
+                <ScalarProperty Name="DEBIT_CUSTOMER" ColumnName="DEBIT_CUSTOMER" />
                 <ScalarProperty Name="TXN_ID" ColumnName="TXN_ID" />
               </MappingFragment>
             </EntityTypeMapping>
