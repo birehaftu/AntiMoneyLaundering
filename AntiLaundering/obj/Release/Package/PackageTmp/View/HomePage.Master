@@ -75,7 +75,7 @@ height: 30px;
         </asp:ContentPlaceHolder>
     <div id="footer" style="background-color:#6497b1;color:#ffffff;border:none;text-align:center;margin-top:2px;vertical-align:middle" class="auto-style2">
         
-                   &copy; <%: DateTime.Now.Year %> - <a style="color:white" href="http://www.infonans.com">ACT American College of Technology and Commercial Bank of Ethiopia</a>
+                   &copy; <%: DateTime.Now.Year %> - <a style="color:white" href="http://www.infonans.com">ACT American College of Technology</a>
     </div>
     </form>
 </body>

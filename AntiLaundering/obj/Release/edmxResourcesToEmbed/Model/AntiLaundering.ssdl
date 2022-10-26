@@ -52,7 +52,87 @@
     <Property Name="REGIONNAME" Type="nvarchar" MaxLength="500" />
     <Property Name="DISTRICTNAME" Type="nvarchar" MaxLength="500" />
   </EntityType>
-  <EntityType Name="FraudDetectedBlackCountFiltered">
+  <EntityType Name="FraudDetectedBlackCountAND">
+    <Key>
+      <PropertyRef Name="TXN_ID" />
+    </Key>
+    <Property Name="TXN_ID" Type="int" Nullable="false" />
+    <Property Name="TOTAL_TNX" Type="int" />
+    <Property Name="SUSPECTFRAUD" Type="int" />
+    <Property Name="DETECTED_BY" Type="nvarchar" MaxLength="50" />
+    <Property Name="DEBIT_CUSTOMER" Type="int" />
+    <Property Name="USD_EQUIV_BALANCE" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="CREDIT_AMOUNT" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="AGE" Type="int" />
+    <Property Name="GENDER" Type="nvarchar" MaxLength="50" />
+    <Property Name="REGIONNAME" Type="nvarchar" MaxLength="500" />
+    <Property Name="DISTRICTNAME" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="FraudDetectedBlackCountSep">
+    <Key>
+      <PropertyRef Name="TXN_ID" />
+    </Key>
+    <Property Name="TXN_ID" Type="int" Nullable="false" />
+    <Property Name="TOTAL_TNX" Type="int" />
+    <Property Name="SUSPECTFRAUD" Type="int" />
+    <Property Name="DETECTED_BY" Type="nvarchar" MaxLength="50" />
+    <Property Name="DEBIT_CUSTOMER" Type="int" />
+    <Property Name="USD_EQUIV_BALANCE" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="CREDIT_AMOUNT" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="AGE" Type="int" />
+    <Property Name="GENDER" Type="nvarchar" MaxLength="50" />
+    <Property Name="REGIONNAME" Type="nvarchar" MaxLength="500" />
+    <Property Name="DISTRICTNAME" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="FraudDetectedBlackCountSepAND">
+    <Key>
+      <PropertyRef Name="TXN_ID" />
+    </Key>
+    <Property Name="TXN_ID" Type="int" Nullable="false" />
+    <Property Name="TOTAL_TNX" Type="int" />
+    <Property Name="SUSPECTFRAUD" Type="int" />
+    <Property Name="DETECTED_BY" Type="nvarchar" MaxLength="50" />
+    <Property Name="DEBIT_CUSTOMER" Type="int" />
+    <Property Name="USD_EQUIV_BALANCE" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="CREDIT_AMOUNT" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="AGE" Type="int" />
+    <Property Name="GENDER" Type="nvarchar" MaxLength="50" />
+    <Property Name="REGIONNAME" Type="nvarchar" MaxLength="500" />
+    <Property Name="DISTRICTNAME" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="FraudDetectedTrend">
+    <Key>
+      <PropertyRef Name="TXN_ID" />
+    </Key>
+    <Property Name="TXN_ID" Type="int" Nullable="false" />
+    <Property Name="TOTAL_TNX" Type="int" />
+    <Property Name="SUSPECTFRAUD" Type="int" />
+    <Property Name="DETECTED_BY" Type="nvarchar" MaxLength="50" />
+    <Property Name="DEBIT_CUSTOMER" Type="int" />
+    <Property Name="USD_EQUIV_BALANCE" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="CREDIT_AMOUNT" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="AGE" Type="int" />
+    <Property Name="GENDER" Type="nvarchar" MaxLength="50" />
+    <Property Name="REGIONNAME" Type="nvarchar" MaxLength="500" />
+    <Property Name="DISTRICTNAME" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="FraudDetectedTrendAND">
+    <Key>
+      <PropertyRef Name="TXN_ID" />
+    </Key>
+    <Property Name="TXN_ID" Type="int" Nullable="false" />
+    <Property Name="TOTAL_TNX" Type="int" />
+    <Property Name="SUSPECTFRAUD" Type="int" />
+    <Property Name="DETECTED_BY" Type="nvarchar" MaxLength="50" />
+    <Property Name="DEBIT_CUSTOMER" Type="int" />
+    <Property Name="USD_EQUIV_BALANCE" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="CREDIT_AMOUNT" Type="decimal" Precision="18" Scale="4" />
+    <Property Name="AGE" Type="int" />
+    <Property Name="GENDER" Type="nvarchar" MaxLength="50" />
+    <Property Name="REGIONNAME" Type="nvarchar" MaxLength="500" />
+    <Property Name="DISTRICTNAME" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="FraudDetectedTrendFifteen">
     <Key>
       <PropertyRef Name="TXN_ID" />
     </Key>
@@ -72,7 +152,26 @@
     <Key>
       <PropertyRef Name="TXN_ID" />
     </Key>
-    <Property Name="TXN_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TXN_ID" Type="int" Nullable="false" />
+    <Property Name="DEBIT_CUSTOMER" Type="int" />
+    <Property Name="CREDIT_CUSTOMER" Type="int" />
+    <Property Name="DEBIT_ACCT_NO" Type="int" />
+    <Property Name="CREDIT_ACCT_NO" Type="int" />
+    <Property Name="BUSINESS_DATE" Type="date" />
+    <Property Name="TRANSACTION_BY" Type="nvarchar" MaxLength="250" />
+    <Property Name="DEBIT_CURRENCY" Type="nvarchar" MaxLength="10" />
+    <Property Name="USD_EQUIV_BALANCE" Type="decimal" Precision="35" Scale="4" />
+    <Property Name="CREDIT_AMOUNT" Type="decimal" Precision="35" Scale="4" />
+    <Property Name="AGE" Type="int" />
+    <Property Name="GENDER" Type="nvarchar" MaxLength="50" />
+    <Property Name="REGIONNAME" Type="nvarchar" MaxLength="500" />
+    <Property Name="DISTRICTNAME" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="RowDataSep">
+    <Key>
+      <PropertyRef Name="TXN_ID" />
+    </Key>
+    <Property Name="TXN_ID" Type="int" Nullable="false" />
     <Property Name="DEBIT_CUSTOMER" Type="int" />
     <Property Name="CREDIT_CUSTOMER" Type="int" />
     <Property Name="DEBIT_ACCT_NO" Type="int" />
@@ -91,7 +190,13 @@
     <EntitySet Name="BlackMarketRate" EntityType="Self.BlackMarketRate" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="FraudDetectedBlack" EntityType="Self.FraudDetectedBlack" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="FraudDetectedBlackCount" EntityType="Self.FraudDetectedBlackCount" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="FraudDetectedBlackCountFiltered" EntityType="Self.FraudDetectedBlackCountFiltered" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FraudDetectedBlackCountAND" EntityType="Self.FraudDetectedBlackCountAND" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FraudDetectedBlackCountSep" EntityType="Self.FraudDetectedBlackCountSep" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FraudDetectedBlackCountSepAND" EntityType="Self.FraudDetectedBlackCountSepAND" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FraudDetectedTrend" EntityType="Self.FraudDetectedTrend" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FraudDetectedTrendAND" EntityType="Self.FraudDetectedTrendAND" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FraudDetectedTrendFifteen" EntityType="Self.FraudDetectedTrendFifteen" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="RowData" EntityType="Self.RowData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RowDataSep" EntityType="Self.RowDataSep" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

@@ -14,7 +14,7 @@
         
         <telerik:RadWindowManager ID="RadWindowManager1" VisibleRecordedDatebar="false"  VisibleOnPageLoad="true" runat="server"></telerik:RadWindowManager>
         <fieldset id="Fieldset1">    
-                <asp:Label ID="lbltext" Text=" Customers Classified By black market rate, maximum limit and Filtered" runat="server"></asp:Label>
+                <asp:Label ID="lbltext" Text=" September Customers Classified By black market rate, maximum limit and Filtered" runat="server"></asp:Label>
         </fieldset>
     </div>
     <div class="InputPanel" >
@@ -29,14 +29,10 @@
             EnableHeaderContextAggregatesMenu="false" OnNeedDataSource="grdCustomerTransactInfo_NeedDataSource" EnableHeaderContextFilterMenu="false"
             EnableHeaderContextMenu="false" PageSize="20" OnPreRender="grdCustomerTransactInfo_PreRender" >
             <GroupingSettings CaseSensitive="false" />
-            <MasterTableView CommandItemDisplay="Top" EnableHeaderContextAggregatesMenu="False"
+            <MasterTableView  CommandItemDisplay="Top"  EnableHeaderContextAggregatesMenu="False"
                   ClientDataKeyNames="TXN_ID" DataKeyNames="TXN_ID">
                 <CommandItemSettings ExportToPdfText="Export to Pdf" ShowAddNewRecordButton="false"></CommandItemSettings>
-                <CommandItemTemplate>
-                            <telerik:RadButton ID="btnRegister" ButtonType="LinkButton" BackColor="#a4bbc1" OnClientClicked="RegisterCustomerTransact" runat="server" Text="New CustomerTransact" AutoPostBack="false"
-                            Enabled="true">
-                            </telerik:RadButton>
-                </CommandItemTemplate>
+               
                 <Columns>
                     <telerik:GridTemplateColumn UniqueName="Numbers" HeaderText="No" Resizable="False"
                         Groupable="False" AllowFiltering="false" ReadOnly="True" ShowFilterIcon="false">

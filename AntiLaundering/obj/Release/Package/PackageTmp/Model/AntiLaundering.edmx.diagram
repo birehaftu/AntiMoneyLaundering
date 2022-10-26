@@ -5,11 +5,17 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="a2b3d4f160aa4690a1a70f835bdfeccc" Name="Diagram1">
-        <EntityTypeShape EntityType="AntiLaunderingModel.BlackMarketRate" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="AntiLaunderingModel.RowData" Width="1.5" PointX="0.75" PointY="4.75" />
-        <EntityTypeShape EntityType="AntiLaunderingModel.FraudDetectedBlack" Width="1.5" PointX="3.375" PointY="0.75" />
-        <EntityTypeShape EntityType="AntiLaunderingModel.FraudDetectedBlackCount" Width="1.5" PointX="5.375" PointY="0.75" />
-        <EntityTypeShape EntityType="AntiLaunderingModel.FraudDetectedBlackCountFiltered" Width="1.5" PointX="5.375" PointY="4.75" />
+        <EntityTypeShape EntityType="AntiLaunderingModel.BlackMarketRate" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AntiLaunderingModel.FraudDetectedBlack" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AntiLaunderingModel.FraudDetectedBlackCount" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AntiLaunderingModel.FraudDetectedBlackCountAND" Width="1.5" PointX="4.75" PointY="4.75" />
+        <EntityTypeShape EntityType="AntiLaunderingModel.FraudDetectedBlackCountSep" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AntiLaunderingModel.FraudDetectedBlackCountSepAND" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="AntiLaunderingModel.FraudDetectedTrend" Width="1.5" PointX="6.75" PointY="4.75" />
+        <EntityTypeShape EntityType="AntiLaunderingModel.FraudDetectedTrendAND" Width="1.5" PointX="8.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AntiLaunderingModel.FraudDetectedTrendFifteen" Width="1.5" PointX="2.75" PointY="8.75" />
+        <EntityTypeShape EntityType="AntiLaunderingModel.RowData" Width="1.5" PointX="8.75" PointY="4.75" />
+        <EntityTypeShape EntityType="AntiLaunderingModel.RowDataSep" Width="1.5" PointX="4.75" PointY="8.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

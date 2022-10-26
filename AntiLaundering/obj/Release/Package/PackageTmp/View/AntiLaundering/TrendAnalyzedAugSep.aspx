@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/View/Site.Master" CodeBehind="CustomerTransactionBalckCountClassification.aspx.cs" Inherits="AntiLaundering.View.AntiLaundering.CustomerTransactionBalckCountClassification" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/View/Site.Master" CodeBehind="TrendAnalyzedAugSep.aspx.cs" Inherits="AntiLaundering.View.AntiLaundering.TrendAnalyzedAugSep" %>
 
 <%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
 <%@ Register Src="~/View/um/UserControls/MessageBox.ascx" TagName="MessageBox" TagPrefix="uc2" %>
@@ -14,7 +14,7 @@
         
         <telerik:RadWindowManager ID="RadWindowManager1" VisibleRecordedDatebar="false"  VisibleOnPageLoad="true" runat="server"></telerik:RadWindowManager>
         <fieldset id="Fieldset1">    
-                <asp:Label ID="lbltext" Text=" August Customer Classified By black market rate and maximum limit" runat="server"></asp:Label>
+                <asp:Label ID="lbltext" Text=" Customers Classified By black market rate, maximum limit and Filtered" runat="server"></asp:Label>
         </fieldset>
     </div>
     <div class="InputPanel" >
@@ -29,7 +29,7 @@
             EnableHeaderContextAggregatesMenu="false" OnNeedDataSource="grdCustomerTransactInfo_NeedDataSource" EnableHeaderContextFilterMenu="false"
             EnableHeaderContextMenu="false" PageSize="20" OnPreRender="grdCustomerTransactInfo_PreRender" >
             <GroupingSettings CaseSensitive="false" />
-            <MasterTableView CommandItemDisplay="Top" EnableHeaderContextAggregatesMenu="False"
+            <MasterTableView CommandItemDisplay="Top"   EnableHeaderContextAggregatesMenu="False"
                   ClientDataKeyNames="TXN_ID" DataKeyNames="TXN_ID">
                 <CommandItemSettings ExportToPdfText="Export to Pdf" ShowAddNewRecordButton="false"></CommandItemSettings>
                 
