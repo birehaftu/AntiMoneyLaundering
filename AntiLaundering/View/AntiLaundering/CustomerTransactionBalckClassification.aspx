@@ -49,7 +49,7 @@
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="SUSPECTFRAUD" HeaderText="SUSPECT FRAUD" SortExpression="SUSPECTFRAUD"
-                        DataField="SUSPECTFRAUD" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
+                        DataField="SUSPECTFRAUD" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("SUSPECTFRAUD")%>
                         </ItemTemplate>
@@ -63,35 +63,35 @@
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="EXCHANGERATE" HeaderText="EXCHANGE RATE" SortExpression="EXCHANGERATE"
-                        DataField="EXCHANGERATE" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
+                        DataField="EXCHANGERATE" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("EXCHANGERATE")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="DEBIT_CUSTOMER" HeaderText="DEBIT_CUSTOMER" SortExpression="DEBIT_CUSTOMER"
-                        DataField="DEBIT_CUSTOMER" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
+                        DataField="DEBIT_CUSTOMER" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("DEBIT_CUSTOMER")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="CREDIT_CUSTOMER" HeaderText="CREDIT_CUSTOMER" SortExpression="CREDIT_CUSTOMER"
-                        AllowFiltering="true" DataField="CREDIT_CUSTOMER" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
+                        AllowFiltering="true" DataField="CREDIT_CUSTOMER" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("CREDIT_CUSTOMER")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="DEBIT_ACCT_NO" HeaderText="DEBIT_ACCT_NO" SortExpression="DEBIT_ACCT_NO"
-                        AllowFiltering="true" DataField="DEBIT_ACCT_NO" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
+                        AllowFiltering="true" DataField="DEBIT_ACCT_NO" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("DEBIT_ACCT_NO")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="CREDIT_ACCT_NO" HeaderText="CREDIT_ACCT_NO" SortExpression="CREDIT_ACCT_NO"
-                        AllowFiltering="true" DataField="CREDIT_ACCT_NO" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
+                        AllowFiltering="true" DataField="CREDIT_ACCT_NO" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("CREDIT_ACCT_NO")%>
                         </ItemTemplate>
@@ -110,7 +110,7 @@
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="DEBIT_CURRENCY" HeaderText="DEBIT_CURRENCY" SortExpression="DEBIT_CURRENCY"
-                        AllowFiltering="true" DataField="DEBIT_CURRENCY" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
+                        AllowFiltering="true" DataField="DEBIT_CURRENCY" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("DEBIT_CURRENCY")%>
                         </ItemTemplate>

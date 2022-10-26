@@ -49,7 +49,7 @@
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="SUSPECTFRAUD" HeaderText="SUSPECT FRAUD" SortExpression="SUSPECTFRAUD"
-                        DataField="SUSPECTFRAUD" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
+                        DataField="SUSPECTFRAUD" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("SUSPECTFRAUD")%>
                         </ItemTemplate>
@@ -63,14 +63,14 @@
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="TOTAL_TNX" HeaderText="TOTAL_TNX" SortExpression="TOTAL_TNX"
-                        DataField="TOTAL_TNX" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
+                        DataField="TOTAL_TNX" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("TOTAL_TNX")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="DEBIT_CUSTOMER" HeaderText="DEBIT_CUSTOMER" SortExpression="DEBIT_CUSTOMER"
-                        DataField="DEBIT_CUSTOMER" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="Contains" ShowFilterIcon="false">
+                        DataField="DEBIT_CUSTOMER" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("DEBIT_CUSTOMER")%>
                         </ItemTemplate>
@@ -98,21 +98,21 @@
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="GENDER" HeaderText="GENDER" SortExpression="GENDER"
-                        AllowFiltering="false" DataField="GENDER" FilterControlAltText="">
+                        DataField="GENDER" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("GENDER")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="REGIONNAME" HeaderText="REGION NAME" SortExpression="REGIONNAME"
-                        AllowFiltering="false" DataField="REGIONNAME" FilterControlAltText="">
+                        DataField="REGIONNAME" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("REGIONNAME")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="DISTRICTNAME" HeaderText="DISTRICT NAME" SortExpression="DISTRICTNAME"
-                        AllowFiltering="false" DataField="DISTRICTNAME" FilterControlAltText="">
+                        DataField="REGIONNAME" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("DISTRICTNAME")%>
                         </ItemTemplate>
