@@ -32,11 +32,7 @@
             <MasterTableView CommandItemDisplay="Top" EnableHeaderContextAggregatesMenu="False"
                   ClientDataKeyNames="TXN_ID" DataKeyNames="TXN_ID">
                 <CommandItemSettings ExportToPdfText="Export to Pdf" ShowAddNewRecordButton="false"></CommandItemSettings>
-                <CommandItemTemplate>
-                            <telerik:RadButton ID="btnRegister" ButtonType="LinkButton" BackColor="#a4bbc1" OnClientClicked="RegisterCustomerTransact" runat="server" Text="New CustomerTransact" AutoPostBack="false"
-                            Enabled="true">
-                            </telerik:RadButton>
-                </CommandItemTemplate>
+                
                 <Columns>
                     <telerik:GridTemplateColumn UniqueName="Numbers" HeaderText="No" Resizable="False"
                         Groupable="False" AllowFiltering="false" ReadOnly="True" ShowFilterIcon="false">

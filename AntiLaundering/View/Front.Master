@@ -52,7 +52,7 @@
                 
             </div>
             <div id="templatemo_menu_section1" style="padding-top:80px;color:#000;border: 0px 0px 0px 0px;text-align:center">
-                &copy;  <%: DateTime.Now.Year %> - <a target="_blank" href="http://infonans.com">ACT American College of Technology and Commercial Bank of Ethiopia</a>
+                &copy;  <%: DateTime.Now.Year %> - <a target="_blank" href="http://infonans.com">ACT American College of Technology</a>
             </div>
         </div>
     </form>
