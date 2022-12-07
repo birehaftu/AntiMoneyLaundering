@@ -90,8 +90,9 @@
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
+                   
                     <telerik:GridTemplateColumn UniqueName="AGE" HeaderText="AGE" SortExpression="AGE"
-                        AllowFiltering="false" DataField="AGE" FilterControlAltText="">
+                        DataField="AGE" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="Between" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("AGE")%>
                         </ItemTemplate>

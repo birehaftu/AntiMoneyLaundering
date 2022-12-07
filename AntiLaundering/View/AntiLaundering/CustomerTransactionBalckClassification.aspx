@@ -129,30 +129,30 @@
                             <%#Eval("CREDIT_AMOUNT")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
-                    </telerik:GridTemplateColumn>
+                    </telerik:GridTemplateColumn>                   
                     <telerik:GridTemplateColumn UniqueName="AGE" HeaderText="AGE" SortExpression="AGE"
-                        AllowFiltering="false" DataField="AGE" FilterControlAltText="">
+                        DataField="AGE" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="Between" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("AGE")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="GENDER" HeaderText="GENDER" SortExpression="GENDER"
-                        AllowFiltering="false" DataField="GENDER" FilterControlAltText="">
+                        DataField="GENDER" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("GENDER")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="REGIONNAME" HeaderText="REGION NAME" SortExpression="REGIONNAME"
-                        AllowFiltering="false" DataField="REGIONNAME" FilterControlAltText="">
+                        DataField="REGIONNAME" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("REGIONNAME")%>
                         </ItemTemplate>
                         <HeaderStyle Width="184px" />
                     </telerik:GridTemplateColumn>
                     <telerik:GridTemplateColumn UniqueName="DISTRICTNAME" HeaderText="DISTRICT NAME" SortExpression="DISTRICTNAME"
-                        AllowFiltering="false" DataField="DISTRICTNAME" FilterControlAltText="">
+                        DataField="REGIONNAME" AllowFiltering="true" AutoPostBackOnFilter="true" CurrentFilterFunction="EqualTo" ShowFilterIcon="false">
                         <ItemTemplate>
                             <%#Eval("DISTRICTNAME")%>
                         </ItemTemplate>

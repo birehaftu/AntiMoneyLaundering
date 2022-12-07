@@ -138,7 +138,6 @@ D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyL
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\bin\Microsoft.AnalysisServices.AdomdClient.dll
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\bin\stdole.dll
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\bin\MyUserManagement.pdb
-D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\bin\MyUserManagement.dll.config
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\bin\MySql.Data.xml
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\bin\Telerik.Web.Device.Detection.xml
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\bin\Telerik.Web.Spreadsheet.xml
@@ -152,14 +151,12 @@ D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyL
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\bin\Telerik.Reporting.xml
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\bin\Telerik.ReportViewer.WebForms.pdb
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\bin\Telerik.ReportViewer.WebForms.xml
-D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\obj\Release\AntiLaundering.csprojAssemblyReference.cache
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\obj\Release\Interop.Scripting.dll
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\obj\Release\AntiLaundering.csproj.ResolveComReference.cache
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\obj\Release\AntiLaundering.Control.Report.ReportLib.UserActionReport.resources
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\obj\Release\AntiLaundering.Control.Report.ReportLib.UserLogInReport.resources
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\obj\Release\AntiLaundering.csproj.GenerateResource.cache
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\obj\Release\AntiLaundering.dll.licenses
-D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\obj\Release\AntiLaundering.csproj.CoreCompileInputs.cache
-D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\obj\Release\AntiLaundering.csproj.CopyComplete
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\obj\Release\AntiLaundering.dll
 D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\obj\Release\AntiLaundering.pdb
+D:\Data\ACT_Masters\Thesis_MS_MSC632\_Capstone_Project\DataCollection\AntiMoneyLaundering\AntiLaundering\obj\Release\AntiLaundering.csprojResolveAssemblyReference.cache
